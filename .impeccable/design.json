@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T20:46:39.692Z",
+  "title": "Design System: PIAUIGRAPH",
+  "extensions": {
+    "colorMeta": {
+      "wine": {
+        "role": "primary",
+        "displayName": "Wine",
+        "canonical": "#73030D",
+        "tonalRamp": [
+          "oklch(15% 0.030 22)",
+          "oklch(27% 0.060 22)",
+          "oklch(38% 0.085 22)",
+          "oklch(49% 0.100 22)",
+          "oklch(61% 0.100 22)",
+          "oklch(73% 0.080 22)",
+          "oklch(85% 0.050 22)",
+          "oklch(95% 0.015 22)"
+        ]
+      },
+      "wine-soft": {
+        "role": "primary",
+        "displayName": "Soft Wine",
+        "canonical": "#732F3B",
+        "tonalRamp": [
+          "oklch(15% 0.021 8)",
+          "oklch(27% 0.042 8)",
+          "oklch(38% 0.060 8)",
+          "oklch(49% 0.070 8)",
+          "oklch(61% 0.070 8)",
+          "oklch(73% 0.056 8)",
+          "oklch(85% 0.035 8)",
+          "oklch(95% 0.011 8)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#F2F2F2",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(38% 0.000 0)",
+          "oklch(49% 0.000 0)",
+          "oklch(61% 0.000 0)",
+          "oklch(73% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0D0D0D",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(38% 0.000 0)",
+          "oklch(49% 0.000 0)",
+          "oklch(61% 0.000 0)",
+          "oklch(73% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#675C5F",
+        "tonalRamp": [
+          "oklch(15% 0.004 2)",
+          "oklch(27% 0.007 2)",
+          "oklch(38% 0.010 2)",
+          "oklch(49% 0.012 2)",
+          "oklch(61% 0.012 2)",
+          "oklch(73% 0.010 2)",
+          "oklch(85% 0.006 2)",
+          "oklch(95% 0.002 2)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#DCD3D5",
+        "tonalRamp": [
+          "oklch(15% 0.004 0)",
+          "oklch(27% 0.007 0)",
+          "oklch(38% 0.010 0)",
+          "oklch(49% 0.012 0)",
+          "oklch(61% 0.012 0)",
+          "oklch(73% 0.010 0)",
+          "oklch(85% 0.006 0)",
+          "oklch(95% 0.002 0)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(27% 0.000 0)",
+          "oklch(38% 0.000 0)",
+          "oklch(49% 0.000 0)",
+          "oklch(61% 0.000 0)",
+          "oklch(73% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "tint": {
+        "role": "neutral",
+        "displayName": "Tint",
+        "canonical": "#F6F0F1",
+        "tonalRamp": [
+          "oklch(15% 0.004 0)",
+          "oklch(27% 0.007 0)",
+          "oklch(38% 0.010 0)",
+          "oklch(49% 0.012 0)",
+          "oklch(61% 0.012 0)",
+          "oklch(73% 0.010 0)",
+          "oklch(85% 0.006 0)",
+          "oklch(95% 0.002 0)"
+        ]
+      },
+      "map-canvas": {
+        "role": "neutral",
+        "displayName": "Map Canvas",
+        "canonical": "#F0EDED",
+        "tonalRamp": [
+          "oklch(15% 0.002 0)",
+          "oklch(27% 0.004 0)",
+          "oklch(38% 0.005 0)",
+          "oklch(49% 0.006 0)",
+          "oklch(61% 0.006 0)",
+          "oklch(73% 0.005 0)",
+          "oklch(85% 0.003 0)",
+          "oklch(95% 0.001 0)"
+        ]
+      },
+      "map-data": {
+        "role": "neutral",
+        "displayName": "Map Data",
+        "canonical": "#AC727D",
+        "tonalRamp": [
+          "oklch(15% 0.019 7)",
+          "oklch(27% 0.039 7)",
+          "oklch(38% 0.055 7)",
+          "oklch(49% 0.065 7)",
+          "oklch(61% 0.065 7)",
+          "oklch(73% 0.052 7)",
+          "oklch(85% 0.033 7)",
+          "oklch(95% 0.010 7)"
+        ]
+      },
+      "map-empty": {
+        "role": "neutral",
+        "displayName": "Map Empty",
+        "canonical": "#DED7D8",
+        "tonalRamp": [
+          "oklch(15% 0.003 0)",
+          "oklch(27% 0.006 0)",
+          "oklch(38% 0.009 0)",
+          "oklch(49% 0.010 0)",
+          "oklch(61% 0.010 0)",
+          "oklch(73% 0.008 0)",
+          "oklch(85% 0.005 0)",
+          "oklch(95% 0.002 0)"
+        ]
+      },
+      "map-region": {
+        "role": "neutral",
+        "displayName": "Map Region",
+        "canonical": "#D0AEB4",
+        "tonalRamp": [
+          "oklch(15% 0.011 5)",
+          "oklch(27% 0.021 5)",
+          "oklch(38% 0.030 5)",
+          "oklch(49% 0.035 5)",
+          "oklch(61% 0.035 5)",
+          "oklch(73% 0.028 5)",
+          "oklch(85% 0.018 5)",
+          "oklch(95% 0.005 5)"
+        ]
+      },
+      "graph-edge": {
+        "role": "neutral",
+        "displayName": "Graph Edge",
+        "canonical": "#C3A7AD",
+        "tonalRamp": [
+          "oklch(15% 0.011 3)",
+          "oklch(27% 0.021 3)",
+          "oklch(38% 0.030 3)",
+          "oklch(49% 0.035 3)",
+          "oklch(61% 0.035 3)",
+          "oklch(73% 0.028 3)",
+          "oklch(85% 0.018 3)",
+          "oklch(95% 0.005 3)"
+        ]
+      },
+      "graph-context": {
+        "role": "neutral",
+        "displayName": "Graph Context",
+        "canonical": "#A87D85",
+        "tonalRamp": [
+          "oklch(15% 0.013 4)",
+          "oklch(27% 0.027 4)",
+          "oklch(38% 0.038 4)",
+          "oklch(49% 0.045 4)",
+          "oklch(61% 0.045 4)",
+          "oklch(73% 0.036 4)",
+          "oklch(85% 0.022 4)",
+          "oklch(95% 0.007 4)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Document-page titles; 37px mobile override."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Current territory heading; 32px mobile override."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings, with local source variants."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Arial interface text; reading pages use 1.8 line height and a 75ch maximum."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Bold panel tab labels; local controls use regular weights."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Regular Tinos summary figures with tabular numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "search-overlay",
+        "value": "0 8px 24px rgb(47 12 21 / 10%)",
+        "purpose": "Floating search results only; CSS custom property --shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "map-selection",
+        "value": "450ms",
+        "purpose": "Selected boundary fit; 0ms with reduced motion."
+      },
+      {
+        "name": "map-reset",
+        "value": "0ms",
+        "purpose": "Return to statewide bounds."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "CSS animation and transition duration under prefers-reduced-motion: reduce; smooth scrolling becomes auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile",
+        "value": "800px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Official-source action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled link used to open the official PNCP record.",
+      "html": "<a class=\"ds-primary\" href=\"#pncp\">Abrir no PNCP <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5\"/></svg></a>",
+      "css": ".ds-primary{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:inline-flex;align-items:center;gap:7px;background:var(--wine,#73030d);color:var(--surface,#fff);padding:9px 12px;border:0;border-radius:3px;text-decoration:none}.ds-primary:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-primary:focus-visible{outline-offset:3px}"
+    },
+    {
+      "name": "Export action",
+      "kind": "button",
+      "refersTo": "button-export",
+      "description": "Outlined evidence export link with a trailing arrow.",
+      "html": "<a class=\"ds-export\" href=\"#csv\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3\"/></svg> Exportar evidências do recorte <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-export{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:flex;align-items:center;gap:9px;border:1px solid #c8b3b9;border-radius:4px;padding:12px 13px;color:var(--wine,#73030d);text-decoration:none}.ds-export svg:last-child{margin-left:auto}.ds-export:hover{background:var(--tint,#f6f0f1)}.ds-export:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}"
+    },
+    {
+      "name": "Icon action",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Compact bordered action used for copying the current scope link.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Copiar link deste recorte\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5\"/></svg></button>",
+      "css": ".ds-icon{height:35px;width:35px;display:grid;place-items:center;border:1px solid var(--line,#dcd3d5);border-radius:4px;background:none;color:var(--wine-soft,#732f3b);cursor:pointer}.ds-icon:hover{background:var(--tint,#f6f0f1)}.ds-icon:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-icon:disabled{cursor:default;opacity:.45}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Labelled scope search with its focus ring on the outer control.",
+      "html": "<div class=\"ds-search\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Buscar município\" placeholder=\"Município, fornecedor ou contratação\"/></div>",
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;border:1px solid #c8b7bb;border-radius:4px;height:48px;padding:0 13px;background:var(--surface,#fff);color:var(--wine-soft,#732f3b)}.ds-search input{font:13px/1.5 var(--ui,Arial,Helvetica,sans-serif);border:0;background:transparent;outline:none;width:100%;min-width:0;color:var(--ink,#0d0d0d);caret-color:var(--wine,#73030d)}.ds-search input::placeholder{color:#73666a}.ds-search:focus-within{outline:2px solid var(--wine,#73030d);outline-offset:2px}.ds-search input:focus-visible{outline:0}@media(max-width:800px){.ds-search{height:45px}}"
+    },
+    {
+      "name": "Evidence tabs",
+      "kind": "nav",
+      "refersTo": "nav-panel",
+      "description": "White tab navigation with a wine underline for the selected evidence view.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Evidências\"><button role=\"tab\" aria-selected=\"true\">Compras</button><button role=\"tab\" aria-selected=\"false\">Comparações</button><button role=\"tab\" aria-selected=\"false\">Municípios</button></div>",
+      "css": ".ds-tabs{display:flex;gap:23px;border-bottom:1px solid var(--line,#dcd3d5);background:var(--surface,#fff)}.ds-tabs button{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;font-weight:700;padding:13px 0;border:0;border-bottom:2px solid transparent;background:none;color:#79686e;cursor:pointer}.ds-tabs button[aria-selected=true]{color:var(--wine,#73030d);border-bottom-color:var(--wine,#73030d)}.ds-tabs button:hover{color:var(--wine,#73030d)}.ds-tabs button:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}@media(max-width:800px){.ds-tabs{gap:26px}}"
+    },
+    {
+      "name": "Count badge",
+      "kind": "chip",
+      "refersTo": "chip-count",
+      "description": "Noninteractive count attached to a list heading; it is not a filter.",
+      "html": "<span class=\"ds-count\">3</span>",
+      "css": ".ds-count{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:inline-block;padding:0 7px;background:var(--tint,#f6f0f1);color:var(--wine,#73030d);border-radius:3px}"
+    },
+    {
+      "name": "Procedure row",
+      "kind": "custom",
+      "refersTo": "row-procedure",
+      "description": "Divided full-width record row with a serif title and compact metadata.",
+      "html": "<button class=\"ds-procedure\"><span class=\"ds-row-top\"><span>Gilbués</span><span>2025 · Registro de preços</span></span><strong>Registro de preços para aquisição futura e parcelada de medicamentos</strong><span class=\"ds-row-bottom\"><span>4 itens padronizados · 27/01/2025</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></button>",
+      "css": ".ds-procedure{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line,#dcd3d5);padding:19px 0;background:none;color:var(--ink,#0d0d0d);cursor:pointer}.ds-procedure:hover{background:#fcf8f9}.ds-procedure:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-row-top,.ds-row-bottom{display:flex;justify-content:space-between;align-items:center;gap:7px;font:9px/1.5 var(--ui,Arial,Helvetica,sans-serif);color:var(--muted,#675c5f)}.ds-row-top>span:first-child{color:var(--wine-soft,#732f3b);font-weight:700}.ds-procedure>strong{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font:700 18px/1.25 var(--serif,\"Tinos\",\"Times New Roman\",serif);margin:10px 0 12px}.ds-row-bottom svg{color:var(--wine,#73030d)}@media(max-width:800px){.ds-procedure>strong{font-size:20px}.ds-row-top,.ds-row-bottom{font-size:10px}}"
+    },
+    {
+      "name": "Territory row",
+      "kind": "custom",
+      "refersTo": "row-territory",
+      "description": "Keyboard-accessible equivalent of selecting a municipality on the map.",
+      "html": "<button class=\"ds-territory\"><span>Pimenteiras<small>Região geográfica imediata</small></span><span>1 <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></span></button>",
+      "css": ".ds-territory{font:13px/1.5 var(--ui,Arial,Helvetica,sans-serif);display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;text-align:left;padding:13px 0;border:0;border-bottom:1px solid var(--line,#dcd3d5);background:none;color:var(--ink,#0d0d0d);cursor:pointer}.ds-territory small{display:block;font-size:9px;color:var(--muted,#675c5f);margin-top:2px}.ds-territory>span:last-child{display:flex;align-items:center;gap:12px;font-size:11px}.ds-territory:hover{color:var(--wine,#73030d);background:var(--tint,#f6f0f1)}.ds-territory:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}"
+    },
+    {
+      "name": "Insufficient-data inset",
+      "kind": "card",
+      "refersTo": "card-sample",
+      "description": "Flat contextual container explaining sample limitations without inventing an alert.",
+      "html": "<div class=\"ds-sample\"><span>Dados insuficientes para alerta</span><p>0 observações de referência · 0 compradores · 0 fornecedores</p><p>O mínimo é 5 referências, de 3 compradores e 2 fornecedores. A comparação abaixo é descritiva.</p></div>",
+      "css": ".ds-sample{margin:18px 0 14px;padding:13px;background:#f5f1f2;border-radius:3px;font-family:var(--ui,Arial,Helvetica,sans-serif)}.ds-sample>span{font-size:11px;line-height:1.5;font-weight:700;color:#60414b}.ds-sample p{font-size:10px;line-height:1.5;margin:5px 0 0;color:#65515a}"
+    },
+    {
+      "name": "Map legend",
+      "kind": "custom",
+      "refersTo": "map-legend",
+      "description": "Three explicit coverage/selection keys on translucent white.",
+      "html": "<div class=\"ds-legend\"><span><i class=\"ds-data\"></i>Com procedimentos no recorte</span><span><i class=\"ds-empty\"></i>Sem registros nesta carga</span><span><i class=\"ds-selected\"></i>Selecionado</span></div>",
+      "css": ".ds-legend{display:inline-flex;flex-direction:column;gap:7px;padding:12px 14px;border-radius:3px;background:#ffffffeb;font:10px/1.5 var(--ui,Arial,Helvetica,sans-serif);color:#503e44}.ds-legend span{display:flex;align-items:center;gap:8px}.ds-legend i{width:10px;height:10px;border:1px solid #98717a;border-radius:2px}.ds-data{background:#ac727d}.ds-empty{background:#ded7d8}.ds-selected{background:var(--wine,#73030d)}@media(max-width:800px){.ds-legend{font-size:9px;padding:9px 11px;gap:5px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A precise geographic investigation workspace",
+    "overview": "The implemented world follows the user-pinned direction: a wine masthead, paper-light workspace, Times-like titles and a map that opens directly into public records. Territory selection connects the geographic view to the contextual evidence panel. Portuguese labels, source links and coverage statements are part of the working interface.\n\nThe character is compact, restrained and documentary. Tinos gives names, headings and figures an editorial voice; Arial carries controls and dense supporting text. Thin separators and pale tonal surfaces organize information with little visual elevation. Red marks selection and action, never guilt.",
+    "keyCharacteristics": [
+      "Map-first navigation with a contextual evidence panel.",
+      "Wine accents on paper and white surfaces.",
+      "Tinos headings and figures paired with Arial controls and supporting text.",
+      "Compact controls, thin rules and small corner radii.",
+      "Visible coverage, limitations and official evidence."
+    ],
+    "rules": [
+      {
+        "name": "The Selection Rule",
+        "body": "Wine denotes selected scope and available actions; it never asserts fraud or irregularity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Hierarchy Rule",
+        "body": "Use Tinos for headings, record titles and prominent figures; keep dense controls and supporting text in the implemented sans-serif stack.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Workspace Rule",
+        "body": "Keep permanent map and evidence surfaces flat; use the existing shadow to distinguish the floating search results.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do open directly into the geographic workspace and retain equivalent list access.",
+      "Do use the implemented wine, paper and white roles, with Tinos headings and visible focus.",
+      "Do keep coverage, insufficient data and official-source actions in the evidence flow.",
+      "Do preserve complete period labels and the mobile panel's normal document flow.",
+      "Do respect reduced motion when moving the map or scrolling to a record."
+    ],
+    "donts": [
+      "Don't use red selection or graph relationships as visual accusations.",
+      "Don't replace thin evidence rows with elevated card grids.",
+      "Don't treat a municipality without records in this load as proof of zero procurement.",
+      "Don't assume the entire user-requested palette or a serif body has been implemented.",
+      "Don't reproduce the smallest provenance text as a default size for new interface content."
+    ]
+  }
+}

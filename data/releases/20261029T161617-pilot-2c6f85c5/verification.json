@@ -1,0 +1,17 @@
+{
+  "scope": "pilot",
+  "version": "20261029T161617-pilot-2c6f85c5",
+  "passed": true,
+  "checkedAt": "2026-10-29T16:17:30.568Z",
+  "municipalities": 224,
+  "procedures": 3,
+  "observations": 10,
+  "comparableProducts": 2,
+  "neo4j": {
+    "verified": true,
+    "version": "5.26.32",
+    "nodes": 257,
+    "edges": 244,
+    "verifiedAt": "2026-10-29T16:16:46.096Z"
+  }
+}

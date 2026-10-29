@@ -1,0 +1,9 @@
+.cache/
+.env*
+.impeccable/
+data/raw/
+data/staging/
+test-results/
+playwright-report/
+.next/
+node_modules/
