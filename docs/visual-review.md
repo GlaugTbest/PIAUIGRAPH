@@ -9,3 +9,7 @@ Foram solicitadas e executadas duas correções: estado recuperável quando a re
 Veredito final: `ship`, no escopo das duas correções pontuadas. O detector mecânico foi executado uma vez e retornou lista vazia. A documentação do sistema visual descreve a implementação entregue.
 
 As capturas de revisão são artefatos locais de teste, não imagens ilustrativas ou fontes de dados publicadas. A exatidão dos registros e a execução do Neo4j são verificadas separadamente pelos scripts e testes de dados.
+
+## Complemento estadual
+
+A revisão final das quatro capturas da carga estadual confirmou geometria municipal renderizada, ausência de transbordamento horizontal, controles de período completos e distinção entre procedimentos e resultados elegíveis. O sinal de prontidão do mapa passou a esperar o evento `idle`, corrigindo uma seleção antecipada detectada no GitHub. Busca global de procedimento seleciona seu município e busca de fornecedor abre o painel móvel. Disposição final do revisor: **ship**, sem regressão material nos estados inspecionados.

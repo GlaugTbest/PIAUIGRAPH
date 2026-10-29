@@ -18,6 +18,16 @@ assert.equal(
   d.observations.length,
 );
 assert.equal(d.manifest.sourceFailures, 0);
+assert.equal(new Set(d.procedures.map((p) => p.id)).size, d.procedures.length);
+for (const p of d.procedures) {
+  assert.equal(
+    p.id,
+    `${p.cnpj}-1-${String(p.sequence).padStart(6, "0")}/${p.year}`,
+  );
+  assert.ok(d.municipalities.some((m) => m.id === p.municipalityId));
+  assert.ok(p.agency && p.unit && p.unitCode);
+  assert.ok(![p.agency, p.unit, p.unitCode].includes("undefined"));
+}
 assert.ok(d.manifest.neo4j.verified);
 assert.ok(g.verified);
 const sha = createHash("sha256")
@@ -35,6 +45,9 @@ assert.equal(sha, d.manifest.datasetSha256);
 for (const o of d.observations) {
   assert.ok(/^\d{14}$/.test(o.supplierId));
   assert.ok(o.quantity > 0 && o.unitPrice > 0);
+  assert.ok(o.supplier.trim() && o.supplier !== "undefined");
+  assert.ok(Number.isFinite(Date.parse(o.date)));
+  assert.ok(o.source.url.startsWith("https://pncp.gov.br/api/pncp/v1/orgaos/"));
   assert.ok(d.procedures.some((p) => p.id === o.procedureId));
   assert.ok([2024, 2025].includes(o.year));
   assert.ok(o.source.sha256.length === 64 && o.itemSource.sha256.length === 64);

@@ -34,10 +34,12 @@ export default async function Methodology() {
       </p>
       <p>
         Esta versão contém {m.procedures.toLocaleString("pt-BR")} procedimentos
-        com {m.observations.toLocaleString("pt-BR")} resultados de itens
-        elegíveis, em {m.municipalitiesWithData} municípios. A existência de um
-        município no mapa não significa que todas as suas compras tenham sido
-        analisadas.
+        com itens identificados, em {m.municipalitiesWithData} municípios.
+        Desses, {new Set(data.observations.map((o) => o.procedureId)).size}
+        {" "}procedimentos em {new Set(data.observations.map((o) => o.municipalityId)).size}
+        {" "}municípios possuem os {m.observations.toLocaleString("pt-BR")}
+        {" "}resultados homologados elegíveis. A existência de um município no
+        mapa não significa que todas as suas compras tenham sido analisadas.
       </p>
       <p>
         A coleta estadual percorre as páginas de publicações de pregão
@@ -76,6 +78,9 @@ export default async function Methodology() {
         mg. A identificação exige substância, dosagem e unidade de comprimido
         explicitamente publicadas. Apresentações ambíguas, associações,
         liberação modificada e embalagens sem unidade comprovada são excluídas.
+        Menções explícitas a caixa, cartela ou frasco também são excluídas,
+        mesmo quando o campo de unidade diz comprimido, para não resolver uma
+        apresentação contraditória por suposição. Não há conversão de embalagens.
         A descrição original fica disponível; similaridade textual sozinha não
         cria uma equivalência.
       </p>

@@ -216,15 +216,16 @@ await pool(unique, async ({ raw: r, source }, index) => {
   if (
     !/^\d{14}$/.test(cnpj) ||
     !r.numeroControlePNCP ||
-    ![2024, 2025].includes(r.anoCompra)
+    ![2024, 2025].includes(r.anoCompra) ||
+    r.unidadeOrgao.codigoUnidade == null
   )
     throw new Error("Invalid official procedure identity");
   const id = r.numeroControlePNCP;
   const p: Procedure = {
     id,
     cnpj,
-    agency: String(r.orgaoEntidade.razaoSocial),
-    unit: String(r.unidadeOrgao.nomeUnidade),
+    agency: String(r.orgaoEntidade.razaoSocial ?? "Órgão não informado"),
+    unit: String(r.unidadeOrgao.nomeUnidade ?? "Unidade não informada"),
     unitCode: String(r.unidadeOrgao.codigoUnidade),
     municipalityId: municipality.id,
     municipality: municipality.name,
@@ -331,7 +332,9 @@ await pool(unique, async ({ raw: r, source }, index) => {
           item: item.numeroItem,
           result: award.sequencialResultado,
           supplierId: supplier,
-          supplier: String(award.nomeRazaoSocialFornecedor).slice(0, 300),
+          supplier:
+            String(award.nomeRazaoSocialFornecedor ?? "").trim().slice(0, 300) ||
+            "Razão social não informada",
           date,
           year: Number(date.slice(0, 4)),
           quantity: quantity!,

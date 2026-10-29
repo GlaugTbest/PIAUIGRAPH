@@ -148,7 +148,7 @@ export function identifyProduct(description: string, unit: string) {
   const u = normalize(unit).replace(/[.\s]/g, "");
   if (
     /^(cmp|cpr|cp|comp|comprimido|comprimidos)$/.test(u) &&
-    !/subling|libera[çc]ao|retard|associa|\+/.test(text)
+    !/subling|libera[çc]ao|retard|associa|\+|\b(cx|caixas?|cartelas?|frascos?)\b/.test(text)
   )
     return { product, conversion: 1, reason: null };
   return {

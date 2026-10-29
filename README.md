@@ -2,6 +2,8 @@
 
 Exploração de compras públicas do Piauí com mapa municipal, comparação de medicamentos e rede de relações verificadas. Projeto pessoal de portfólio, público e não comercial.
 
+**Acessar:** https://piauigraph.vercel.app · [Validação estadual](docs/state-validation.md) · [Publicação e orçamento](docs/deployment.md)
+
 ## Executar
 
 Node.js 24 e npm. Os dados publicados já estão incluídos; as APIs oficiais e o banco não são consultados no carregamento de páginas.
@@ -20,6 +22,7 @@ Abra http://localhost:3000. Produção local: `npm run build` e `npm start`.
 - Quatro especificações: ivermectina 6 mg, espironolactona 25 mg, ácido fólico 5 mg e ácido acetilsalicílico 100 mg, comprimidos simples.
 - Ampliação estadual: paginação de pregões eletrônicos publicados em 2024/2025, ano do procedimento 2024/2025, unidade compradora no Piauí e objeto mencionando medicamento/farmácia.
 - Cobertura parcial: não representa todas as modalidades ou todas as compras de todos os municípios. A ausência de registros é informada na interface.
+- Carga inicial estadual de 29/10/2026: 87 procedimentos em 56 municípios. Desses, 22 procedimentos em 21 municípios têm 58 resultados elegíveis, de 23 fornecedores. Os demais procedimentos mantêm as limitações e exclusões visíveis.
 - Preços são homologados, não pagamentos ou gastos efetivos. Totais de procedimentos não são somados aos itens.
 - TCE-PI, BPS, PI Digital, sócios e sanções não integram os indicadores desta publicação.
 

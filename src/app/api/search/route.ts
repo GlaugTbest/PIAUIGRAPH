@@ -17,6 +17,7 @@ export async function GET(req: NextRequest) {
     .slice(0, 4)
     .map((p) => ({
       id: p.id,
+      municipalityId: p.municipalityId,
       name: `${p.municipality} · ${p.sequence}/${p.year}`,
     }));
   return NextResponse.json(

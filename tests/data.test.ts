@@ -35,7 +35,7 @@ test("same filters scope list and aggregates; missing values never become proced
     );
   }
 });
-test("real ivermectin pair, exclusion of own procedure and small-sample state", async () => {
+test("real ivermectin pair and exclusion of own procedure", async () => {
   const { data } = await getData();
   const o = data.observations.find(
     (o) => o.id === "06554893000101-1-000001/2025:1630042:1",

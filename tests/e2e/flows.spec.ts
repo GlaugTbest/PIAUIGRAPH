@@ -24,7 +24,7 @@ test("pilot: three municipalities, filters, case, evidence, supplier, network, e
     await expect(page).toHaveURL(new RegExp(`m=${id}`));
     await expect(page.locator(".procedure-row").first()).toBeVisible();
   }
-  await page.goto("/?m=2208106");
+  await page.goto("/?m=2208106&q=06554893000101-1-000001%2F2025");
   await page
     .locator(".procedure-row")
     .filter({ hasText: "2025" })
@@ -171,6 +171,37 @@ test("methodology, source provenance, keyboard and accessibility", async ({
     () => document.documentElement.scrollWidth > window.innerWidth + 1,
   );
   expect(overflow).toBeFalsy();
+});
+
+test("regional browsing, pagination and global evidence searches preserve the selected territory", async ({ page, isMobile }) => {
+  await page.goto("/");
+  const all = await (await page.request.get("/api/explore")).json();
+  if (all.totalPages > 1) {
+    await page.getByRole("button", { name: "Próxima", exact: true }).click();
+    await expect(page).toHaveURL(/page=2/);
+    await expect(page.locator(".pagination span")).toHaveText(`2 de ${all.totalPages}`);
+    await page.getByRole("button", { name: "Anterior", exact: true }).click();
+    await expect(page.locator(".pagination span")).toHaveText(`1 de ${all.totalPages}`);
+  }
+  await page.getByLabel("Filtrar região").selectOption({ label: "Teresina" });
+  await expect(page).toHaveURL(/r=22\d{4}/);
+  await expect(page.getByRole("heading", { name: "Teresina", exact: true })).toBeVisible();
+  await page.goto("/?m=2200053");
+  await page.getByRole("textbox", { name: "Buscar município" }).fill("06554893000101-1-000001/2025");
+  await page.locator(".search-results button").filter({ hasText: "06554893000101-1-000001/2025" }).click();
+  await expect(page).toHaveURL(/m=2208106/);
+  await expect(page.getByRole("heading", { name: "Pimenteiras", exact: true })).toBeVisible();
+  await expect(page.locator(".item-evidence").first()).toBeVisible();
+  if (isMobile) await page.getByRole("button", { name: "Recolher resultados" }).click();
+  await page.getByRole("textbox", { name: "Buscar município" }).fill("12973088000107");
+  await page.locator(".search-results button").filter({ hasText: "12.973.088/0001-07" }).click();
+  await expect(page).toHaveURL(/supplier=12973088000107/);
+  await expect(page.locator(".supplier-section h2")).toBeVisible();
+  await page.getByLabel("Filtrar período").selectOption("2025");
+  await expect(page).toHaveURL(/supplier=12973088000107/);
+  await expect(page.locator(".network-visual")).toBeVisible();
+  await page.getByLabel("Profundidade da rede").selectOption("1");
+  await expect(page).toHaveURL(/depth=1/);
 });
 
 test("bounded APIs, safe export and response performance budget", async ({

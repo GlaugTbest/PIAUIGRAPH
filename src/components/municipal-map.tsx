@@ -142,8 +142,11 @@ export default function MunicipalMap({
             setHover("");
             map!.getCanvas().style.cursor = "";
           });
-          setError(false);
-          setReady(true);
+          map.once("idle", () => {
+            if (disposed) return;
+            setError(false);
+            setReady(true);
+          });
         });
         map.on("error", () => {
           if (!map?.loaded()) setError(true);

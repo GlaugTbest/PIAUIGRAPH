@@ -104,6 +104,8 @@ export default async function Sources() {
             "Resultados de itens": m.observations,
             Fornecedores: m.suppliers,
             "Municípios com procedimentos": m.municipalitiesWithData,
+            "Municípios com resultados elegíveis": new Set(data.observations.map((o) => o.municipalityId)).size,
+            "Procedimentos com resultados elegíveis": new Set(data.observations.map((o) => o.procedureId)).size,
             "Metadados consultados": m.metadataScanned,
             "Falhas na carga ativada": m.sourceFailures,
             "SHA-256 dos dados": m.datasetSha256,

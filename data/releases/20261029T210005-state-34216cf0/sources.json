@@ -1,0 +1,3377 @@
+[
+  {
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/22/municipios",
+    "capturedAt": "2026-10-29T16:01:07.743Z",
+    "sha256": "f485605d2fd236462fb59f1c61dceed09aa105dc6b0c9224a60745277a3db8bb"
+  },
+  {
+    "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/22?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio",
+    "capturedAt": "2026-10-29T16:01:07.887Z",
+    "sha256": "c2c97227ee35bea48e7449f4f549273da6055e1400c587a0eab320e6517dc9b4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:30.574Z",
+    "sha256": "557fa8e646dab0f0216117a9a8d631262d48d76473d5cd6272a0199986b93a9e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:31.501Z",
+    "sha256": "0fe255a4ed05825e14bd786185010bb8c554aff530f5cecfab2a89e680c950fa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:31.288Z",
+    "sha256": "f1939e8a9348992dc738bfa397ed0ce76d907c629c4f75dfef1eac89f9557262"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:32.218Z",
+    "sha256": "aabf96634c87f2888c9dcdef2af00b36d5b2f58442a0dfbbb8d71266fce01ee3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:31.714Z",
+    "sha256": "82badd9dfb7b0df1cfb5a84bd0edd3e83cdc8c7587a24b694a7a209a3fb138b7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:31.902Z",
+    "sha256": "3a8921cdfb0a4cfa0911b76cb30b53c9a12f83b39978e04b73cb84cf63326170"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:32.862Z",
+    "sha256": "42113145431a99ecf9136a6dc1485a1c137646c6ebbf70202bb2fbcec9aff4ec"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:32.869Z",
+    "sha256": "7082cd10688c537fafdfe0558b164e8184faf6f87df91f3bbfea5cfc471c3b3d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:32.813Z",
+    "sha256": "14dedf781f47c7b0af63226ae13b4ea7f3e89f823cb607db59548154c67cda68"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:33.851Z",
+    "sha256": "a3060c60263ca4841ec49ae2dfcdcacac7911a2368f2188f788d23e9534d949d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:34.446Z",
+    "sha256": "df7a39d696ace11cf9b95a8057e02891cb0a5d70bd6d922ae3e606e3bd443eac"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:34.452Z",
+    "sha256": "3d15cbd3072879f228bc9f9fc855ce38b3a3ade87f0f560fd3f4a2a5af9fbce3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:35.443Z",
+    "sha256": "26a7c74de525dc4207c758be16ccdcc5c0277ddd4e27ffc820878b7ac7d2bea2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:36.629Z",
+    "sha256": "b38ef1e3a0824127fcc7fcaf98f6c89009805891e921bb8a6dd8f47dd72f0436"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:12:35.506Z",
+    "sha256": "255a1a4348ccd3e889d2da3b608fe0bd27a0570d5ce169e1c19ef1322e91b6ea"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240101&dataFinal=20240131&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:53.322Z",
+    "sha256": "614c36b9aed1a38f60f522d25456d1abbe56efd36085764dade477a25b6ab3cb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:52.145Z",
+    "sha256": "fbc18b5516770e9fa9871ceba7efc0c5b3e699ffae3845337dc2fec7539cef26"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:55.081Z",
+    "sha256": "04125ff4922ddd354fc88af159dc5be46e17eeaea8c7d7cd32593005849976cd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:55.223Z",
+    "sha256": "6cd1a38e02a2c55f394ce569f5fd9bf47c87e572570755f6a483f092e9bb7dfe"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:54.441Z",
+    "sha256": "00604554f1c6e658bd3ca99812dbebb5e3e53c655566724fa594be33d6cfad94"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:56.240Z",
+    "sha256": "52d3b0df8b3dfbfcb4c40e703d460a45bdc3a50c688465eef9cc7666c20d8694"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:33.851Z",
+    "sha256": "053815b47bd5fe880689038a7f8593f7edf77062bcca7b5e1376aac22f57ee3a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:14:56.885Z",
+    "sha256": "b75cc60cda19b782a4b9132da639e22b7512983b1546fd5219d3580e5021a609"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:29.014Z",
+    "sha256": "6a867ab425f77c07951499f8e2bed135eb9956c574ffd728bbf88b15c02a0ed7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:38.982Z",
+    "sha256": "f6d7c4c49baed1741a869558fdc3af86acbaef0fae8d761348e7c89b67acd70d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:34.166Z",
+    "sha256": "6e2d7a2eaff1f3a74a3e3afdbdc1d1d9a2ebb30a9d85c7f6e458be92276b85df"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:34.051Z",
+    "sha256": "28a24b7f10ad49091049f6df50831979de8b21b6622e94081e0c07fbd4490e11"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:41.829Z",
+    "sha256": "2603864bcebc8e461b5cae9b7da804750ab29bcfaa002823bbbbc122a49d9490"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240201&dataFinal=20240229&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:43.970Z",
+    "sha256": "333ba223abe600016479d0300fab135fa957e241b81ec87312564e0dd76f6e9a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:41.818Z",
+    "sha256": "ed9eb691cda8dc2a9cbb481a6ea8a69fafc20f778763ac1fee175cb5851a7a1f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:47.472Z",
+    "sha256": "23d0f36072e0806915cd0779c59079eaa83f4fc086be39abae84274b44dd8074"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:48.663Z",
+    "sha256": "d4ed98e6dda2377a8b01023f5d15bab1a83b54c808b5b827a840d900477681da"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:53.314Z",
+    "sha256": "70073467c2d08d64b79f20be05792e956d97d35e57bb13aebf2d791d35e49a63"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:47.494Z",
+    "sha256": "de3b35124673be5873276f10d9690f24110da7b88499578eab02606ed462c519"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:51.489Z",
+    "sha256": "d3b0586bc3c36aa615164ec89308382d57b227464cf1486549e43ad1bb5f6952"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:27.461Z",
+    "sha256": "454b1f65c2fd0694a8cc7a83ae5773aabd4cedff79bfccccad4584260d235b59"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240301&dataFinal=20240331&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:15:52.989Z",
+    "sha256": "f031125b5054e201d197df876de518837680b0c9d591cde7e8c13b046f0cac2a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:30.547Z",
+    "sha256": "bb3e65ad385daef4e2b71c8aaa0e3d60f5ec0766be6d74f8c34431a8a411aab3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:32.131Z",
+    "sha256": "3676c103cedb4ae24d85152b2f3d2a02c8a3769bc275b0afd670e7bd207ecb69"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:29.901Z",
+    "sha256": "258c2c48aef6f374b36f79a5f30178d5466b519eb59854bed8a715c8abc54e2a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:35.151Z",
+    "sha256": "9d7c5d5595399275d4b32f681e81efedb94834bcd8e47a40bbb796cc87c7eefd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:41.351Z",
+    "sha256": "9601df4c032717f1111bb0807f1f33e9dbc78fca49ea9260b48ecf3f818ff8b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:33.803Z",
+    "sha256": "785c9980173a643832a3848a1afcab45d4dd891dc79581c0889033951f40c9d0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:40.102Z",
+    "sha256": "522e4348256b78628c8497d73eb1313d20f9b3b49a3231ddd0361851efac5d78"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:12.689Z",
+    "sha256": "3d4998bb141b6f1293f461af95323489d0bdb9a7e2a38c47984d7e9a79d1b375"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:36.116Z",
+    "sha256": "c48ce49fa430672347701bb3a4d9cfbb2bdff100d189c12e1bed0439a9e68731"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:17.247Z",
+    "sha256": "e0c85e1feeffcfaa2e6a4d3c44e0579807bd43a9a611f747193e53adf4e4f8ba"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240401&dataFinal=20240430&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:15.827Z",
+    "sha256": "734db37dc31f5b81b87afd7257192a51b5ecb85ad0431996b0a407dfa30188a8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:16:41.654Z",
+    "sha256": "0e375223fa9ed5c5be8493b7ce93cc890650a18bc412e3ba8e4d282a296a9c1d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:21.499Z",
+    "sha256": "4b7d0cb9c21bc2650c1cd91025d883309c6b87c5e25d61489765e5167a04e6da"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:20.690Z",
+    "sha256": "da09d2eedec495d6d0d22800488f90aaf73f6040cd010e5d4e1353096f272782"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:53.750Z",
+    "sha256": "bd216fdc16148d34c88535b84b6b1507caf20e9e7e8bc0eb0056e53bf17bbed2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:14.415Z",
+    "sha256": "01afc555094dd9d409e677555896c92ae4c8d90ec580cab4611ffa15748178ae"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:52.456Z",
+    "sha256": "33bf07841c667d8d193436c0ee577baf90890f3349482a3346ddcc0198e0292a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:55.244Z",
+    "sha256": "c0a7a1e689f73808fd3bff0c9a458f4108085ebb2955dfd4e944daff13d4a2e3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:18.134Z",
+    "sha256": "e9f4e086e1750028924a43e13f3d1db78045bf41384c15882e579e8446599471"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:54.373Z",
+    "sha256": "48609f87db4aecb00d9ca0229c1b9469df3042d089dd6e90f7f74deac90c383f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:59.412Z",
+    "sha256": "e850f174442fca8b74df1008816806bafb3ed326e3d389b83a5663015aca3f3a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:21.378Z",
+    "sha256": "4c950ef056d040a60298a046ebdf988c8df772b91a543f8c6f6cc3b066959b0e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:55.552Z",
+    "sha256": "809f7551bacf57d83c41eff71b061d04359fdb7e54be8d963025e2acad4b53d0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:55.409Z",
+    "sha256": "8b7bb319c4afa872350326453df7aef30323290cf81ee009d009d08ac21dfdac"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:55.126Z",
+    "sha256": "ebee19d2c01bec0292f63b3d3000e1cbdba7c9c7a638ed9a06fd279efd26bb32"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240501&dataFinal=20240531&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:02.891Z",
+    "sha256": "623ff10a7964df570d893cabef25b61e154bb47263d512b768f5994c8f6eadb7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:19:39.619Z",
+    "sha256": "6c7f86957b9ce5931d193575d770021cbfec83e975367eb1dfaa2a92f1112ce6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:17:59.344Z",
+    "sha256": "bbbc5e938c3b648b4179277fd6c35d1bd0ede7f19327d808c77e14fb06c4bf63"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:51.846Z",
+    "sha256": "d71fcadb068a891bd0825642189c655d39ddc1cf72a58c8a27fb7d14c3742d78"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:36:54.989Z",
+    "sha256": "6dc087750afee2f2d88b8576ce18c6303f095b67220537f13cae3ec6835844e0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:52.646Z",
+    "sha256": "83867c8b49e5a04813ccc92dc50c097d9ea1014ed6b09fbfbc6074546e60d390"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:53.090Z",
+    "sha256": "0ec5eb83fe01c56329dcfcd128a499236482e6a003c97bad130132cd93bc8a74"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:05.667Z",
+    "sha256": "2950f992969e9601c0d3931a426a1c6d5a7cd0ebd5fb943f25fa2882d76e2246"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240601&dataFinal=20240630&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:18:54.930Z",
+    "sha256": "14ff8392c31ea07b5bedd5aed1987fc73634ef86eccaf56418b334bd11747232"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:19:40.377Z",
+    "sha256": "01af1a75651f5b3dd5dbe8c410ec7592645fde0c2f1dcf368f458983b698a025"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240701&dataFinal=20240731&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:20.983Z",
+    "sha256": "eedd05d9b1b5262a047d8bee202c047eaefcfa3e622bdcc184e740e3c541311c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T16:19:56.043Z",
+    "sha256": "30f9bc19d5d97d5b870b1f4c713a12eecb6868bafc0209cc8f123be8a00ee150"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:36:48.246Z",
+    "sha256": "1163a7cd0680c197136ab0f8eb70176ecf5d2604ecce807832567a1ecbfc28e1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:34.277Z",
+    "sha256": "2d490d3443ebb993985dc59d2be79159619724a17bb0502cb027c2249bebdd82"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:00.415Z",
+    "sha256": "8f75aa0d87669e44684d0c86e5e4dee39b606e13902d8e6ff628f865e931952c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:04.674Z",
+    "sha256": "dc4c858077615de7840557a959f3d98be647a1fd8becf8a5ca60f11b2c5a9b34"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:48.526Z",
+    "sha256": "a782a08e204c965021edaded5b55fe15d3878b5ca1bd1c2a8bb14006521742f2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:14.351Z",
+    "sha256": "70a9cec124112c8e09af582878e90bc894a33d880a1785034c0be6f891b4866f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:22.135Z",
+    "sha256": "0f7b8e2799f2728a464819138e4108c602eaa4889f5112a8bb82da17aaca6c5e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:02.119Z",
+    "sha256": "fb562d7a7bc86c9fc262529398e0d5d1697e6d7593d6e0dfd7e569fe2a31b986"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:32.425Z",
+    "sha256": "76e352829732fab4606e113faf00ae1f81f4f3bd3e3cc8220db5a041cdf9930a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:25.213Z",
+    "sha256": "489bb5ce915df1bf8759ba2c41376a376eaf5d140e56383db69225543182bf59"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:15.452Z",
+    "sha256": "e666b590fd206acb2c056554853fe6e608fd6a911332a4d8256d18294d7816d6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:47.040Z",
+    "sha256": "820eb88fc5c1505050851499a6026c641c7ef82116f78ee54a332a29d6a5b187"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:33.284Z",
+    "sha256": "e7d07b5c3e7aecd6b38ad89574cba82ec04f149c9a2d649f6004a3eb7fde2028"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:27.459Z",
+    "sha256": "74482f61af601d607637a94fc75003f5ef6308917caf4333182aef2ef930ff60"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240901&dataFinal=20240930&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:00.120Z",
+    "sha256": "05f2c5e78f3c272192e8ea0ace971453888abd5593f3f544890215308902ef37"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20240801&dataFinal=20240831&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:41.044Z",
+    "sha256": "06272c589b5f0a53437f0fc654b2d36d60576de55b0b04131ab6976f3361c77b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241001&dataFinal=20241031&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:42.243Z",
+    "sha256": "aa8961089ebfc6d25f262858b61f2de8beed666eeab68eb50921d934645139db"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:37:54.289Z",
+    "sha256": "166d27fc9862a3011267d7070ee960f043668cae2a4edaaf0cf195a39b12a3fa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:10.430Z",
+    "sha256": "f54a60782c9c4878129ac805d5e4f47c62c9937cc922a6c7c821969fd2253bda"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:57.397Z",
+    "sha256": "9034854423598610ff368321b0eee3af2cfc3d26fc107ea25d30f33746753676"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:17.905Z",
+    "sha256": "7c8516dd21d1c0581c8483dfd36fae9fe5304dfb609e620fb317f46977434d82"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:03.527Z",
+    "sha256": "80c633043044d36e401c7ce3c04ee4eb5a4b3b9076cee2914877b1b4f6a7ebf4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:08.540Z",
+    "sha256": "05029843d726f120fbd2dabb87df99b34febb76526bab0a7694c350c4b788847"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:28.762Z",
+    "sha256": "f7d3d22263c2ef8df85c387cd6318730da144d56dcbefe5612cfad4432de6309"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:20.448Z",
+    "sha256": "4f48f16e9664b7266d2ecf1dcc26069d8f9e9317226a368700a84ad9c4889800"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:12.271Z",
+    "sha256": "cafa115c5ffb72d547d6721f58734b93b3151c50939622ec9519d5ecd340480b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:37.377Z",
+    "sha256": "7a079d87216d75ca814f5d571a897b1c05fbacf83c8b7efe22f02b39ab975041"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:24.157Z",
+    "sha256": "ff3b23589c3107f016d7395fd91c56a440cfe6aa63916fa33e1a8b278c7a8e3f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:21.453Z",
+    "sha256": "0208c3e6a2a30cbe888f8d17558200f62e88458c1f3c2dcf6a64d909bfd906b6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:47.061Z",
+    "sha256": "2dc2fe82475684a45fad9a418763017937a94cb2295a8e15226e894bd68b7efa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:38.403Z",
+    "sha256": "ce65b2810bc19e204cd71ad882357b20e8e0cc47235b4d7af1ef0a107f17358e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:30.371Z",
+    "sha256": "7cbf3b4cfd0810d33702f3207726d9705e8916d34cdf49b495199d7603890d57"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241201&dataFinal=20241231&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:57.891Z",
+    "sha256": "9e83239073500569092e16f65deb56bb424a74b79cfcf679a7a4bbffa4cc9155"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:47.939Z",
+    "sha256": "f91d69c9d947a9949f67ab451cd7a4ba607d2008013831e6b916026b184b576c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:36.536Z",
+    "sha256": "8987254a40b09c21fc2c7c6d231e2a8330bb87371c93a69a3cddd59507ae0ab9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:58.148Z",
+    "sha256": "55f02889e3a0d1d5c2cf9b46c6ff6a8c23e79e8659f909e548785b3b28bc33db"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:54.892Z",
+    "sha256": "95a91cc2bc9bde731066b9ecb549d4175c3fa52489db9a78c7500ced42a2cfb0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20241101&dataFinal=20241130&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:38:40.541Z",
+    "sha256": "b84b6b84b3e2aacbdccf826092ec7a5da2ee6ac9cb9fe79a8312ef9aee94b199"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:11.987Z",
+    "sha256": "aa99f2f41eda6b5efda242632d60dcf6e06ffd67526fdc441a11d7e7951795b3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250101&dataFinal=20250131&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:05.877Z",
+    "sha256": "8a621883f8a5729ddb9cb97b03a3e8fab345932e2290f5a2dc240a970adb41eb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:13.554Z",
+    "sha256": "2d35a0583c8effd95f2a01cef52b5d7d81b26dd73510cc6f3fb453eb54dc6512"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:19.011Z",
+    "sha256": "1582a6c576d50a80c52beae297401f133dc1543cdab53d5320110902df07e1b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:20.651Z",
+    "sha256": "8e6f366b0c3b3edf45757d27d565fc0d9cfd73a1512a73362d9b20ba99162ba3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:24.101Z",
+    "sha256": "a94741304f43546860015c0929744f3fa64de91b7c9e395f8e358ba2be0b93a2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:24.423Z",
+    "sha256": "e0a7e7f5bfad850cde08d9b575b849a9abb28d6df0f51c3c0e38a82e62d4f8ee"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:27.694Z",
+    "sha256": "35c19c57a18828adbe74587b56f976857f2e2609bf16c39455511cdede0e54b9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:29.136Z",
+    "sha256": "4396667d029ec4b42f1bfcb23982a0fcd9276cbffd97bd42bee5fbbd70359acd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:35.052Z",
+    "sha256": "6ca7cd6c09db1e2a6ad501125a1cf2b731f9e72a10ac55ff0419f889ed4028b2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:40.211Z",
+    "sha256": "08709ef891b3bfcedd28f286c561775de4678f95495b4ff02f8cad18b06de1b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:37.501Z",
+    "sha256": "d881d92e0a9df963ebb79561e9ca9ce53b877813174876cb08a1bff5a81d1695"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:48.208Z",
+    "sha256": "1bcc29282b2017a36f10cbf84ddf1c089fd068a6900aa72f285b4bd6c2b892d0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:44.972Z",
+    "sha256": "6ce603192d29b6a908684fa50c927bf17cfa5d0a8a885745ecf63676e667dd24"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:48.747Z",
+    "sha256": "e5503e82a02aadc352271bb72138ae0ec1ab3af3abe2a29201d268af818bb9b4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:54.096Z",
+    "sha256": "8111f17a38c51228a2a07cbb4e1bdc850ab7e061f6d496bd7357ef88965457dd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:54.174Z",
+    "sha256": "ab9dbbf6da33dc0568e9f1e7ccaf3d6d38ae1a632fbf6ef90aeef22e606c4531"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:56.397Z",
+    "sha256": "c4398a2a9fd9814ccfa9d04f52a156f6e7f40548f58388a42480be74a6cc79bf"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:39:59.245Z",
+    "sha256": "9207ac851a48d971704ef7adff0d183db7be82ea7389bb7a494ac8cba2c965ce"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:35.241Z",
+    "sha256": "56b7399553b6b89330f750b4a6ac02b41106aedb049b525f0f85c346c3113af9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:02.957Z",
+    "sha256": "afa4b6362062eddd8b04f70c01500463a8a16454dc6b79022dfc1102decdfdf9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:06.202Z",
+    "sha256": "27f1f12660cd9b08e17afb1164546c40b0dacfc095bfc291338737314b288eaf"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:47.003Z",
+    "sha256": "7d659fd6b73c44593d815cbc37430a351cb2e49ca1429097f038f08acbabeb90"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:11.637Z",
+    "sha256": "3d192d441f024a23624470f98371d424dc3ee7b774e764a3262e4f7b04a9fc5e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:18.456Z",
+    "sha256": "fafd403d03bc8afe702b00ae4ab78bcf5008fce759aefbade0055cf4fe1bd2f9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:55.165Z",
+    "sha256": "091ceae51fb5c2d31612fad23899b054caf13839da39a046f8a47943f75ebb61"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:24.115Z",
+    "sha256": "fdc342673d7423a3d4dbab811ddc94eea268f13ee46ae5dd44c63ea8e3bc58b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:02.333Z",
+    "sha256": "7e67f8548d79c3fd9d50b2903819b3b7b4968a3333ea74df5919d3b759bb7d12"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:30.569Z",
+    "sha256": "0e32ba2efdfba603730829404f26886934ac9f7854b82dfe43fe3598c9890bdd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:30.532Z",
+    "sha256": "2419b918be5870cca9aa671b6316c1c2066d55ae95caf2ed2ab9bc27d16b38eb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:10.571Z",
+    "sha256": "c024b1a6bde580c8f5950e064d8719e46052fa07ea744b89b73ef50bedd7f459"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:40.345Z",
+    "sha256": "c1820cb66ea4d501d8c2550054131650ad2b442fa6d3e7a2ec56a16b7358a618"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:40.974Z",
+    "sha256": "d24e0d1da705bfd1c7c4febc5f6ce79e8b169a84b4f8a5451d2602cf2f1e262d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:20.341Z",
+    "sha256": "f4791bb016122a6da6344ed4be71208e2883574bcf657c60571324916a85562c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=13&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:46.101Z",
+    "sha256": "5e9e1ac0c48dd77a6890415e16eeeb187bebfaefd95b9e987889208e22e0902e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:55.316Z",
+    "sha256": "ee9b9e38477d1feafc97525d75310167eaa1f064f749359df8974a6cd842d112"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:32.247Z",
+    "sha256": "4ff56fe4cd551d8c08b68bac8f874cb4815bd63ffd083f4d5ea2ba8af8db140b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=14&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:40:53.174Z",
+    "sha256": "242b5de77632f276026fbffa81c78b73898a0884ef9ff158f4c325f96dd743a4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=13&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:32.898Z",
+    "sha256": "9721e9ba3f7e9eaab4264dcbfb07a925a0f6683bab1918b41987d184b5777660"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250401&dataFinal=20250430&codigoModalidadeContratacao=6&uf=PI&pagina=13&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:46.169Z",
+    "sha256": "b85ebc3847ee99d2b0236dc0f39856e81e0a1ef92407ab7c73ada88cb6eca9d4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=15&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:32.213Z",
+    "sha256": "93ce635d9737133059921d7ea257429f0fad3e426eb55488c87f211f021ba513"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=14&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:43.952Z",
+    "sha256": "6d09feceb671fb0f51b7ffc089fa12126afff645ada10d985ff13f55d50eca5d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:02.736Z",
+    "sha256": "921230ff8c7515c7966320f68a5183219b995747deab920a804c3a4161717444"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250201&dataFinal=20250228&codigoModalidadeContratacao=6&uf=PI&pagina=16&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:46.175Z",
+    "sha256": "6507a68f457b3a41706385d4cdba42d59c5e430920dc3f9e0254c8a27bf71a4c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=15&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:41:52.489Z",
+    "sha256": "01bc66b529c4e62c3ed070531fe6fed42cb0ed320a416dd32f959d53c84507b6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:10.539Z",
+    "sha256": "e9f59c46f3a3013cc3a99ba787b26c79016b14553a473cc2cdec47c54af0cdde"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:12.138Z",
+    "sha256": "92aba6ab6ff87e200150426b9ddf213b9498d580b010f15095d5779aa8b8ce48"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250301&dataFinal=20250331&codigoModalidadeContratacao=6&uf=PI&pagina=16&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:00.119Z",
+    "sha256": "765b5cd01f6e362bb4bea1f6e5e826b5621150b12f4db7ee2dca02709699f71a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:25.329Z",
+    "sha256": "11e35f3d58989f15197564900ba3df54412de3d8009797aaf0ed54ebf1079290"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:16.376Z",
+    "sha256": "6a180ef3f4ac0670e27f07c150bba004b456834fbbd390c5e6e80c48bc048e43"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:01.143Z",
+    "sha256": "b778a9cec2ccd8707febe592951912346328207650804227c6d432338bfddaa3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:34.538Z",
+    "sha256": "2aa96e9dd5b4901ab2f203ead0f027909751eac29041f255f9dbf1928d26d267"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:29.286Z",
+    "sha256": "4f56a98edf0c9cb2be94f3c53260e6fd28b9e6f9860a435b42263e65c53f7710"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:07.518Z",
+    "sha256": "103364ed9786f8c00dd0238f5275757569ab6cfe326052358829ae30e4a44007"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:44.925Z",
+    "sha256": "16bec85f04f98728f0e6df073da211dc9c1b612ced68b6b4babc79c704f2442b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:43.106Z",
+    "sha256": "dd9d010fc3fc3bfcfe05c0e1b97185cf6267e30f22d13d62f569416835409f96"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:19.604Z",
+    "sha256": "d73eb7db4f7fc3784999bb85c4396ccc0834fac05ddb74dc50a88ce4f1ccd908"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:52.385Z",
+    "sha256": "f1e546e57865bb3cd12ffce8180b4cf765a1f7437f62b640e5f794e6f47367f9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:54.944Z",
+    "sha256": "6ed43420f27437ce982e94b1a2952b6c42bde18f1c10d40c200a73f11c6b1e69"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:29.881Z",
+    "sha256": "0aca8b27cdee171262dcd93a7c51c49cdc059757cca6e6eab56f2b9a03111403"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:42:59.515Z",
+    "sha256": "7feeb2f980a4f15ee004814a973dbbb848f563c40daba2736fb116e0a9433af5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:03.500Z",
+    "sha256": "59b4ffc3c8d07aa4e6dd8948033ee6bc46793544fb5d9fe2b66c626d0301aac7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:42.181Z",
+    "sha256": "50b2e29624079f2d2e9d351957f36e321223594c10ef79793e14d18952f44fae"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:05.398Z",
+    "sha256": "6e03a2fb067c4bcbe77de75cc14f3d70075f771bceb82daf70abe8e70b63efc1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:09.740Z",
+    "sha256": "942d853ca5fa427acfa5d6d02e72cd9c809404abfd0646c5e32b18a477337d87"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:19.962Z",
+    "sha256": "b827862471acf6ddcc138c2d8f6a9ac77736968e344c4540cd589af7d6edb5e8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:11.302Z",
+    "sha256": "13d2df9dcde338f11067a34f9d8503345dbeb1b2c86a2c43bcb57a64082782f3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:19.766Z",
+    "sha256": "74acd43a4c84f7580840bdf7228cdb9f3f1f19892fec4b8957294ea5dffb53c9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:26.990Z",
+    "sha256": "1823a99bc38564d048e14f616ac88eb6df82c97ec741273aa3e8cfcee23b206c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:22.527Z",
+    "sha256": "a330fadd3e1ebf399b3330d2ba24d92962e513d8be96c74fa189f70126c5ef93"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:29.754Z",
+    "sha256": "027ce81d8c4a14c06e415342f35624055921c87745450ecb2cafb17c13908392"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:39.253Z",
+    "sha256": "83cdf3a1bff0424d592f0c50e07a9a76453e4a16ba1b372b8c9f28111ec8cf32"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:30.606Z",
+    "sha256": "fe7c9ff2fe4059d92d0172a25443a08e801cb7c8bc0a046e5b2e715af5b84be1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:39.156Z",
+    "sha256": "407e8a5f01d2734ef93c78ebe8942703329d828da1d046ae321837d8e067b982"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:47.310Z",
+    "sha256": "c964bb607848215f2d7208baa4efcf20e45746d7ef66528983ae4d2947634eb0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:43:42.836Z",
+    "sha256": "bf5e482566e3bb222ef71aed4cce9baeadca4f0ed7ff8faa48c79ee8fe426cd3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:17.023Z",
+    "sha256": "093d6145b84c41fa6d1117edf8e9f60cfeb778244771e7fd1236b8ab98e4f012"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:53.264Z",
+    "sha256": "804782d882653490118bc570598f3f16a56d4ebb231086283b7723057b340c03"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250501&dataFinal=20250531&codigoModalidadeContratacao=6&uf=PI&pagina=13&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:21.374Z",
+    "sha256": "7b3384207c4fa61b9514cf685efe4634fb25e75d40eb7037b346938a1687b8ed"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250601&dataFinal=20250630&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:26.426Z",
+    "sha256": "81c691c139bc98752341d7991f600e6bc9d7107ee92d81b793ba2c69148b3d83"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:06.948Z",
+    "sha256": "1d984a573010b9757377cc32b237aaff27c8fbeb1f06886d81613b43258b77be"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:31.368Z",
+    "sha256": "f0b3e986bb1782b06dadb90beee525ecc3a09049bdb91915d8450e9c06506e13"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:42.287Z",
+    "sha256": "fd4efd98134b5c75807e4a45115506b21f8c07c4cff7398ee42fa4694bdfc2e0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=12&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:24.307Z",
+    "sha256": "b12345e5eaf1e9f4b27e9ff17be18ced179c30e45119237791eea67c897c14e7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:39.206Z",
+    "sha256": "95994f9199cb80f8deca18c1ad592c156ec75bd1ac4a024feabdaff6b93b0ffb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:49.303Z",
+    "sha256": "e81496f91fdfdb84236689c787c2feda81e381a5f05616a954582d2b3ad9fd46"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250701&dataFinal=20250731&codigoModalidadeContratacao=6&uf=PI&pagina=13&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:37.988Z",
+    "sha256": "5da8abab3e81ddd253a2928a4c9982af7880be8d02dcb5adfbfa58095b2a497a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:50.130Z",
+    "sha256": "542314bb5f6efa1a1a95afed8370c9351e6eeb669e9d8d0de805fca8afdf8c39"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:44:55.646Z",
+    "sha256": "b5fda0f72db695b4b024380172a43a7fa8086a755bc7c9868572fda9303d645f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:00.794Z",
+    "sha256": "80347e2ddfeab78da94e1ce7705f21d28ae3412381c138ef8dbf7077d8576f5d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:07.190Z",
+    "sha256": "4aeef206bf4980f90786bc1f8afc201c9984e1813d089731407d15873c8785e3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:13.223Z",
+    "sha256": "ffd8e6c50cc48242f6961fd7a9bfbc28453d12107420689c2e5231bf623d3196"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:25.240Z",
+    "sha256": "255dd4fd24482a481d01a1ec9770a7f2ca9171c68ca16ac847918ba87f1b86b3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:24.309Z",
+    "sha256": "5fdc2f1243b41376520d6d455262477391fc1d86c1b1b06512b6cf18bbe29618"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:25.518Z",
+    "sha256": "b67067d5e6655afccac391d5dfe5d70515b5df9784506dd006c834aebf813000"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:39.704Z",
+    "sha256": "3483da3c827ecf251de48f1a13684f53fab22e1ae620bb50190c87cd68bd4556"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:39.678Z",
+    "sha256": "cf300f594625718cdc507dc07bda2194f6fa8817d84c5d2308409f56d1fb9a20"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:44.251Z",
+    "sha256": "1d52bdb5be9dae21cf7e38d796ae9aad9f16f7c3dc9bd491361923350fcec2b2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:59.076Z",
+    "sha256": "2a78220a3291f00d83697d8d4636e9f675419cc9fec63fe601ef2105b104bd92"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:45:50.013Z",
+    "sha256": "aaa8ce9b2d7d12b9468effc66508e054f79e91c1bb904946766d9397bea90c0d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:00.408Z",
+    "sha256": "10781c05439dcbed8d6fd8cfbe26f73d225801549b6a988b0bd9b9fd2832600a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:11.661Z",
+    "sha256": "6741ddcfedf08208f6867a709a6f68742c81756c3e0110deab1176d3c9d91afa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:12.608Z",
+    "sha256": "7fc4222e88a05864fa40ae4d5d48bed4607f4aba020c7b957216de219185f020"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:18.420Z",
+    "sha256": "75bd33da61ca2bc726f98a1fb4dbf56fcddc291b85a00beaee208c6cc7750bf3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:26.730Z",
+    "sha256": "d2ce6ebfc62d93bf14a7cfd48065b1b6aa633c11c26a2c5d808eebc47b391204"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:33.396Z",
+    "sha256": "bbd3f28e81aa8c7db662850f0d4ba168e2be6e7ce6f22d83a74e5050ade9dd3c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:26.207Z",
+    "sha256": "561ea43fc14d6c7541a576929c3a6f89cc47f6edb8fa96876184e28964814034"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:33.524Z",
+    "sha256": "7c9a6f1633a0b5ba90904a96fc86761150cb9a9a50f39f4de5bdc7fa26980f14"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250801&dataFinal=20250831&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:44.191Z",
+    "sha256": "c5fed77fc44122a1d05c91c6f2f4bb2b56b8e2439d9ae316f8a2d963358c3bcd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:35.562Z",
+    "sha256": "a2a177e879e82e15a0386ab9cae2cd16bd81db6cbbb31cdfb8eaebb07a4a4e54"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:37.174Z",
+    "sha256": "8b091dcb7e14e8a5d940b4dd0ba87f5bbe3ce5da880f686afd7aebde39b6e09b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:58.448Z",
+    "sha256": "042cedf3756fbd4c835079429a6655e2f4007b6436e0792d6eac42a92d8979d0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20250901&dataFinal=20250930&codigoModalidadeContratacao=6&uf=PI&pagina=11&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:46:47.391Z",
+    "sha256": "fa4ffbf3e09ac732c17fc7e14f4e0e0b2dbb0986fbbc3ea04c93b06eb5698151"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:43.317Z",
+    "sha256": "f859d51dd22c6a40d8d47be8227e41f069ddf3e98f319e4d0524c3e4bbc24cb7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:08.404Z",
+    "sha256": "eb60359d210e42335625e8ddecf785863128eb895fe8ad97b33d43b485b69c4c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=1&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:05.580Z",
+    "sha256": "5420a6def7cd73ab9cd3705a9a2a2e369ea071c74e2b1283d3361824bacb8b91"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251001&dataFinal=20251031&codigoModalidadeContratacao=6&uf=PI&pagina=10&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:57.480Z",
+    "sha256": "57c7cabb249ee1d9d9ac329be4d8e0b3dfd2dbb610a0fe73ccffd7df25e1ce6c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:24.779Z",
+    "sha256": "4fe9065789b65a2d0a0977a7b521438f9315649367b316c01dd76f2c7097969a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=2&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:16.710Z",
+    "sha256": "8d0935d972e61ebb2c7b49531ac50087c8ae73f65e449d605899c590de6b58cc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:40.941Z",
+    "sha256": "4d8244e0fface651b163bbd99748d6fe04930ef3145d7b374e9d62112f84658b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=3&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:25.927Z",
+    "sha256": "e17124d1f31fc7c06e3b2d7e5dc05cf60d7e12db8afcd7c2884942ea0a847d8d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:55.947Z",
+    "sha256": "b4198b3f75c66a00e4af1ff0af53c8dd3fd83f102add35bed707b2f203ae16f0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=4&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:40.912Z",
+    "sha256": "8de06861dbd934ec5336d2f1e9ed8ca95e632de627184d7811c1c8c42855dbea"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:05.343Z",
+    "sha256": "4f027cd0b491b271e065df7a9675e166702cb30b7968bf14cb08192c9fd6e8c3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=5&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:47:52.927Z",
+    "sha256": "9478da1728f3d481adee931a9a831ce8cb7e2a044dddea4771c2379913eedf9c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:14.228Z",
+    "sha256": "e84c2c93a09eea34405aa5fafb65554961d7097d431745617a5731f860cffb90"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=6&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:07.170Z",
+    "sha256": "da51a86d4d26e754395b94717ff501fad7bddcd0c726938a0e3b3f95e47ceb07"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=8&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:21.234Z",
+    "sha256": "d8d2fa361a0cd3d95e3afeefbabebaec792621f1c011b7d07ac3529e649f94aa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251201&dataFinal=20251231&codigoModalidadeContratacao=6&uf=PI&pagina=7&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:15.790Z",
+    "sha256": "5e161da8e26ac80b7dc37bde41ea1d1f040368200860e48058c5f3db45006900"
+  },
+  {
+    "url": "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=20251101&dataFinal=20251130&codigoModalidadeContratacao=6&uf=PI&pagina=9&tamanhoPagina=50",
+    "capturedAt": "2026-10-29T20:48:27.655Z",
+    "sha256": "80511c1a504f467c48031d5208966d0813a75691f6f5244686abc9f17c1f727e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2024/4948/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:28.519Z",
+    "sha256": "a052670759ef2124021fc686c084a7db9fadaf94ff342edcb898f3ff5d8b6b28"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2024/22773/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:31.347Z",
+    "sha256": "7449a9799c81d6a7ac45a0457b57c77fbccdbae2f91a76befe09e6f106265073"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2025/11108/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:29.919Z",
+    "sha256": "f6b6744fb3e24d803ab0dc8cc3bff7e95a9661b63e9073a97bcdda670fb492e1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612559000135/compras/2025/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:33.735Z",
+    "sha256": "b87746ef4f1592d4bd207eeb1f9fd60841e3b049e77dd78c9cc948ca31684e76"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01519467000105/compras/2025/13/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:32.976Z",
+    "sha256": "3a1e6a6a18c61f054de0ff7831b528db4def219bf025808bc887174c03f20284"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612559000135/compras/2025/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:35.235Z",
+    "sha256": "82f5bc552b11d3f864b1f74ee58cf7326b6b7e509e7c5a2857014093a2632faa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612560000160/compras/2025/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:36.739Z",
+    "sha256": "6fcf935a92774d9ac24405e709df768ebafb19b89cd1665b3c6f9cf3ed29a077"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612564000148/compras/2024/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:38.235Z",
+    "sha256": "fa6c27b6384a9de11df0fd0d07301e8ade3eba2c395ad6f3b45f4ed42e21777a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612570000103/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:40.827Z",
+    "sha256": "acca0aaf50bf067f8866ad64c3dff16927477af934315a9fb0e7b99cc0684829"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612570000103/compras/2025/10/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:41.887Z",
+    "sha256": "67eb80d3a5fc100d6eb24a26c29ba5ff92ed8e06edefd292ec3273fbce4404a6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612574000183/compras/2025/23/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:44.650Z",
+    "sha256": "68c85851389bb9b5be1d93dcdcecc06fce2a259cc3f6f0aa1d3009797a88e772"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612573000139/compras/2025/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:44.494Z",
+    "sha256": "ef0b2140991453f0103dd43372421cc93ece50a5ba72d8ee72cf77bd5120b082"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612576000172/compras/2025/8/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:46.956Z",
+    "sha256": "16af0320fffaa477f94d52f2f357aee07993b9683894879d6ecf26e09812c5ed"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612577000117/compras/2025/12/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:50.098Z",
+    "sha256": "6bfdc7497be2ea30cee0a430d10b1e20f772b639bac177dcee046214699310f5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612573000139/compras/2025/2/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:47.546Z",
+    "sha256": "72c3d5abbcd72b7560e9a4d537fb43ecbc58eed3b12aa13c753739c4d9d20cb7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612578000161/compras/2024/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:51.974Z",
+    "sha256": "aa8af60ad46d5bc59250184720e5e202f3e98b5ee8f8b6cec29f8728dca18291"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612580000130/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:52.278Z",
+    "sha256": "b7ae1206b154badbdaa5d03b9dac218cbf72f0dcb1e3e41e9778a6546ac3f3e4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612580000130/compras/2025/9/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:54.688Z",
+    "sha256": "f8211003cf438ec7f330d290c22139093651eded5c17faf302fc9dd4b5b493d4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612578000161/compras/2024/1/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:55.014Z",
+    "sha256": "1c445a939eb4d19adc6ef4636a4835d3d64f9bb1a2c0d2f8e59d71a04652434f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612580000130/compras/2025/7/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:56.725Z",
+    "sha256": "45d84daf68fb42c90c2478c96edfe56b765a4162cb5b3dabb9376c2a6f074127"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612580000130/compras/2025/52/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:59.229Z",
+    "sha256": "4295a4f6e637d64e6aa6069a00394dee5765718d45f06d522901a1743974bb01"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612580000130/compras/2025/9/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:48:58.355Z",
+    "sha256": "8a16b85a11476c6a6522531beb00b4d412a30786af67487d4bfdb8a56f678870"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612581000185/compras/2025/37/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:03.225Z",
+    "sha256": "14fd4c035600f73a97abb20f93787c08046f7e886ffb4f5bf5cdb9541f76fe13"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612581000185/compras/2024/36/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:02.058Z",
+    "sha256": "6afb2f5daa3669e61f888ca7a29bb7ede86ad4be8a65838d283d979a344ea3ce"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:06.354Z",
+    "sha256": "bbbbcb1e4829268993652f4ba7488416a47840ef105709b3d50cad21fde23e14"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/13/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:05.395Z",
+    "sha256": "b19a8002d7f2c99d54cb69958880f0b5a2efbd7c9282343857be46d2db5bcef9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612586000108/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:08.102Z",
+    "sha256": "744f2cafc586b15e9b72c616527500d2d40450357f27be5b56c5890e806b8e89"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/18/itens/5963751/resultados",
+    "capturedAt": "2026-10-29T20:49:09.716Z",
+    "sha256": "2b1c809606dbfce0b3d42c63e22c3497be74b849c0f423936cdd585c6df8afbb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/13/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:08.405Z",
+    "sha256": "e6df50543109e3d6efaa1995eea9e93557d5d9941630161456a986f9e2e7893b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/18/itens/5963756/resultados",
+    "capturedAt": "2026-10-29T20:49:14.230Z",
+    "sha256": "c2ff94a09a7ec7bec953383acd1922229716fabd386b148334350b658e0dcad0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612587000152/compras/2025/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:13.125Z",
+    "sha256": "de410d5aa3b97c13541bcba4c77d4e3f61c9f76b728ac2e9ff15de31d54b5780"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612588000105/compras/2025/15/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:14.427Z",
+    "sha256": "a658b6d6a78a82a0a7053fb3b73f2c0bb91939d2f0110084a325078df5b03f02"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612584000119/compras/2025/18/itens/5963794/resultados",
+    "capturedAt": "2026-10-29T20:49:17.229Z",
+    "sha256": "2196c75193cb4fa48a1791faa0a3d683be50f8a840bd118b81de400d9dd96361"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612587000152/compras/2025/28/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:16.704Z",
+    "sha256": "ea7c28a1354c58acef85e4b28836270e1710e100c08cd4545a39e3a66f788052"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612590000176/compras/2024/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:20.493Z",
+    "sha256": "f396ad07fb92797359bb2414cb10595f569db79e25427a36e62a1f9f487c697e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612591000110/compras/2025/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:22.355Z",
+    "sha256": "6d432a705f24c39ca85968da195fcebae452581e5f34167c9ff528c231ec315b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612591000110/compras/2025/14/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:21.175Z",
+    "sha256": "fe43be6e52c4ccb91e345ac220149cf5e5c5788da11e25d4bec98a9e3fab9e8e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612590000176/compras/2024/1/itens/20/resultados",
+    "capturedAt": "2026-10-29T16:01:16.549Z",
+    "sha256": "a2dcadf36b84f1817a155073b503717fcf66d561b6b87bdba94851f16c6adeaa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612591000110/compras/2025/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:25.381Z",
+    "sha256": "a89ab71b7c961726458b80482c81756b4c9e6b1243393bbbbb4634868f1dc621"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612591000110/compras/2025/22/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:27.688Z",
+    "sha256": "e0b322d6b09259dab40d390e7f0e0ad104b12b80fc2d3a9bef68b41ecda0ff11"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612590000176/compras/2024/1/itens/22/resultados",
+    "capturedAt": "2026-10-29T16:01:16.608Z",
+    "sha256": "0f56405dcf1830d10a3a2c5aa2b76777f1525dfbf58f5e192e475a8d0ada1e0d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612594000154/compras/2024/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:28.362Z",
+    "sha256": "c840fd1bfafff69d2db17c67d7a54ee93e34ca61ef55a7f74241db7474264270"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612596000143/compras/2025/41/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:30.789Z",
+    "sha256": "f3a69c1a5428f94379b4ff47d2b0d95b02fe600e90098d58a63aa50969c0c1df"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612590000176/compras/2024/1/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:23.987Z",
+    "sha256": "b0f863c8136900e44e16303f4bfc5fbe1afd14e16ee2524f8ac2f35d58d4271a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612600000173/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:30.742Z",
+    "sha256": "e8f424020b0207c555786a16f449afeefd2b90a11913fabd66a08602ff7c8827"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612596000143/compras/2025/41/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:35.767Z",
+    "sha256": "b9a7ad82d2bbf2044ad29050c22e420facae1058b0b080f3e166e34b24537200"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612602000162/compras/2024/47/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:32.241Z",
+    "sha256": "1e50d22a7f75973e6f8451fe7d7431fc073f42a87ac07ae865e065e61de8abbd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612602000162/compras/2025/74/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:34.486Z",
+    "sha256": "c5bf3c00a32a11b85f03153d123986a11a1674573cb91acf5f8972c2ec6cad25"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612607000195/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:36.798Z",
+    "sha256": "b13229baec4803e09eb20b5ff49db8fd04cc6d563c00df0d6ca52e98f9bd013e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612608000130/compras/2025/23/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:38.234Z",
+    "sha256": "11cd3b3bc5baf5f5a9dee23b4e0dbe7ccef8205772a87d24de3554be131e2dc8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612608000130/compras/2025/37/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:39.739Z",
+    "sha256": "8d14e15b31b4fdd219e39310ae0963c32b729f470ef40b2fb7d83842270cfe31"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612610000109/compras/2025/75/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:41.230Z",
+    "sha256": "0942448ffbfce4a76b53d41b77aad2d9bed57b988f77487c051078ccf4d88506"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612612000106/compras/2025/16/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:44.765Z",
+    "sha256": "1209131b54cc8540b317c6a730a0b20c1fa4c2f1356698c7255f9c793539e554"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612612000106/compras/2025/41/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:45.408Z",
+    "sha256": "7b5c5f2bd7f404473f4447503b01967fb2d72d059a2028768d7bb4b0015a1dd6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612612000106/compras/2025/44/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:47.166Z",
+    "sha256": "f62ae999bf13d4a5af1ccd596c46c57e874ca3f57b682ab858a9251852acd84a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612614000197/compras/2025/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:48.387Z",
+    "sha256": "688a58f5335ee40e22f867d47eaf55e6db2701fec20ad13446e504ed2f87e3e8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612615000131/compras/2024/9/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:50.377Z",
+    "sha256": "0ab19d0fe1bbcfa8ffbd1282d8eda38ee8a8933e650c08f3d3db65b5f29af36b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612615000131/compras/2025/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:51.228Z",
+    "sha256": "9d195d288f7dfa7d28892d53d5614b7f245766e85e4024c7084352e4d5516713"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612617000120/compras/2025/15/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:51.738Z",
+    "sha256": "3b4f50a5eaaa2ace463c9d0aabbbc92836e3dddc9c038a65a771ddedfc5a5da0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612615000131/compras/2024/9/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:56.557Z",
+    "sha256": "3ff01ee0b5c629b273ac42c0783a0d0fc1006f6dbb93c8eb1e454a5298a782b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612617000120/compras/2025/36/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:54.141Z",
+    "sha256": "cc76da746cf7169da4d204ddb33264362b9e82766d123dbe20fba88b8c95d920"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612617000120/compras/2025/42/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:56.652Z",
+    "sha256": "7999cb1d43ceacf1774b4fa17b8f1afba975d245e81f91882d0a7ca033eed14a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612618000175/compras/2024/26/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:49:58.844Z",
+    "sha256": "e795faf853cc25a013a04408e1d5a22fae0bc1d43830e42f54279278775b7d37"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612618000175/compras/2024/27/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:00.345Z",
+    "sha256": "02fd69231f3b7c5f35b390a1cd14adeff107c93fc7f17bbb07c3c9d35d1da391"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612617000120/compras/2025/42/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:01.187Z",
+    "sha256": "89bf8f0ef697b79a9b3c87aac109548c4d835977b41420adf4d4111dd585ef17"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612618000175/compras/2024/33/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:03.250Z",
+    "sha256": "95e44a1ca18222533b6b50efa88c89dfb5c951babc99e06be10dee42dcc45637"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612620000144/compras/2024/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:06.460Z",
+    "sha256": "cf6ca67f504b9870fbb47ce9a91ebced8abf1f2fb6c4ec8729c17418d0260485"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612619000110/compras/2024/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:05.979Z",
+    "sha256": "1f019809b30a5f90a4e9a1e61b853ebb6394ed9a005a8265ca49e59bbd3d2d4a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612622000133/compras/2025/80/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:06.750Z",
+    "sha256": "240864037e8f0b662d5320eb8bd4629d807b3319e8c73b45c2965826f310f949"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:11.792Z",
+    "sha256": "5a8dd730c253b1eceb48e3c7ed21b5f95dda47ad1ddd3114f1bba6de2571e670"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612619000110/compras/2024/2/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:09.032Z",
+    "sha256": "3cb6d7996d59af7aa63c3ac70d2438d0c5d15e4ef632a9a3eaa5e06924c3a08c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2025/16/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:12.049Z",
+    "sha256": "f31d569fa32b124ca61605841b2f45e76a9380a2c52a0c3b35017dc2350e2033"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2025/38/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:13.621Z",
+    "sha256": "9ec8226bbb5bb4896f05fd31dedfc24648780a7745a6610ea295ee4dd8cc8938"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2024/43/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:14.453Z",
+    "sha256": "27ba821a8c83a9bf1f913a803db345bed8f2a519cad4831962ef6a149af4411f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2025/61/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:16.519Z",
+    "sha256": "5113ef6f46cb1b127570ca61a54466983be10079cc04935a8b23ae8f988a5df7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612676000107/compras/2025/80/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:17.407Z",
+    "sha256": "8980098fea2d1fdd930098627c1397b92e7710d2843d0c5b48bed583d9b34bb7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612678000198/compras/2024/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:20.546Z",
+    "sha256": "98d910df38195ec5825a226cf78b14e70433a405373f6a3f52480328f4be4846"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612679000132/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:20.339Z",
+    "sha256": "68f18ff26e741f76b09ad8fcd3221ed394ccc2568ff68a15fe90aa5abf39e1ca"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612679000132/compras/2025/13/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:21.790Z",
+    "sha256": "2a51a177fffc9e3400aca632a1e8f0969c6ad6d2448aae8adb4bc0f0e3a1f421"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612678000198/compras/2024/19/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:25.275Z",
+    "sha256": "65cfab98e7ed403019934965bdbb09cc64bf11d5a829bcaac9a9be19f03d9f76"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01612755000100/compras/2025/9/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:23.237Z",
+    "sha256": "a5d63a3cc0bef2306938f674aa8122a7d9276f4e3caa5939e0649837e75a3530"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01613513000130/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:26.228Z",
+    "sha256": "ac6623e0461a4cf8ae8570ae941a86937a65958de73dc3d26abb550860c99d8a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01613513000130/compras/2025/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:27.741Z",
+    "sha256": "1ba7c69d1716105ffdfedd03c82291ddbd1c24a96e083e329a7d1f5233951c34"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01613513000130/compras/2024/17/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:29.244Z",
+    "sha256": "05fdcb5ab9c8f3b10718dd463d4c49cb0357bbf481dbe61925f31008b2980bfd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01616855000104/compras/2024/33/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:31.587Z",
+    "sha256": "5f631b267b1abaa2898e396b1dd46b7a701a662ed239b42a7e6b6f1e47e67b52"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01668772000169/compras/2025/12/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:34.183Z",
+    "sha256": "b2cf41d39a82f9dafb5a8fb9298c21fb2f8c6c92337b214c39c9679ac4475f95"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/05522917000170/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:34.713Z",
+    "sha256": "6a8c9a340ca7a60619c634907f319817c83f03cb23db0117dd60b9901380504c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/05522917000170/compras/2025/68/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:35.687Z",
+    "sha256": "0041b23a8f58265811153343763ef6104724cfb13f62e11e5aeaf2935e23203c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01668772000169/compras/2025/12/itens/106/resultados",
+    "capturedAt": "2026-10-29T20:50:36.722Z",
+    "sha256": "73d56bf34fc3ac0cea22ca49a2408aba6c3b9976546bd24b4e83f155c1caa055"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/05522917000170/compras/2025/109/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:38.495Z",
+    "sha256": "3d236e45b273f1d2c9981e9d03ff937033c9d09171fa41923feb2488a3aa4088"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/05522917000170/compras/2025/121/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:40.086Z",
+    "sha256": "19e5e714ba4124078018fc762d36eff56ad46fd94c08134bb7987d947714fcdd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01668772000169/compras/2025/12/itens/311/resultados",
+    "capturedAt": "2026-10-29T20:50:41.242Z",
+    "sha256": "a42f696684191e9b781d149bd0ac800ab076370cea450bf9f6339b580ff44c48"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06511307000133/compras/2024/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:42.742Z",
+    "sha256": "233419fc85ad4ee29220370a5b61d724b4335b11f203c74c184f0dde7be07390"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06511307000133/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:44.232Z",
+    "sha256": "a493d9730a2061d0666933254115631e9b4d8cdb39d6e0f1d1ab0721406c2a7a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01668772000169/compras/2025/12/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:47.550Z",
+    "sha256": "272ebee6730d1d38903691c35211d5f001de3b3b27b44d10d4995d2d94f1fb96"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06511307000133/compras/2025/8/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:47.325Z",
+    "sha256": "b3273fd4d25d2d8a042951d05e919420b1218a1635d42ac5e93c5672fe132755"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553481000300/compras/2025/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:50.293Z",
+    "sha256": "6526987f1f423085d94649027470650fe1bcdf1bb74cae5934521926d426c37a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/01668772000169/compras/2025/12/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:52.715Z",
+    "sha256": "9f5c7953b558a7082decee9bf36d9f3dc92ff80801eb09ac9054f8a602b3d2f3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/43/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:50.414Z",
+    "sha256": "6a84aa7f577025338b2868a3dbe45179880a422c06ad5cdbdfdd8f90cf5ec291"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2025/90/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:53.821Z",
+    "sha256": "792d40a4fe399d11e18d9384796b1be209e2759bf5ef39a30e9eb95f8a547f8f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/113/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:54.909Z",
+    "sha256": "8508b260365795cbbf9fb6eb6bfac0fcfee5b46c4c78bbbd65744cf385bb2734"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/114/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:56.675Z",
+    "sha256": "65ba6a8697799e30a1a572814a2b43559b63c8d5c028d37353c8d2a7f4f5cebe"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/154/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:57.804Z",
+    "sha256": "a8c6add31ca5ce8250d9d63a6f002bcd352eb191aba53419febff8f5523499a7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2025/164/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:50:59.299Z",
+    "sha256": "7503d680804fb01f6ac6314c6094bfa715e0318b184dc66289f85db330fde8d7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/114/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:51:00.716Z",
+    "sha256": "64ce347b24c9c61b75a8aa301b8f1b29c5a33e1b2b3b4f9f21e1b5ad5ea1b200"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/172/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:02.334Z",
+    "sha256": "62194eb92ccd275380633b6d9f4e8366a5fd62e7c8996cf2ea2c919d394b322c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2025/164/itens/6842653/resultados",
+    "capturedAt": "2026-10-29T20:51:03.721Z",
+    "sha256": "a52bb55914a32240f514329ef5880d2bb9f1e5e317ab1dc54a0b287b2245a8d9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/114/itens/33/resultados",
+    "capturedAt": "2026-10-29T20:51:05.223Z",
+    "sha256": "2948ba55dd1b982e97c3e3ce658ba04a2121849639a1b32dd325bd5e624ac344"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2025/164/itens/6842666/resultados",
+    "capturedAt": "2026-10-29T20:51:08.328Z",
+    "sha256": "3450d65b01a94077724a24414c61d39d75e2079aa5e76b19bb4ea801f2d3bf6e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2024/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:08.261Z",
+    "sha256": "2ea8930daf0f301f7f8f31c475bbb0c524a8cefc36cd2cc033f4998d1c25e563"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553606000130/compras/2024/114/itens/75/resultados",
+    "capturedAt": "2026-10-29T20:51:09.715Z",
+    "sha256": "15f4f0fc8379f05ce05bbeea68a755989a55a1e442b4f0c4acdb04d63854fb19"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/55/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:14.432Z",
+    "sha256": "a3c678c6292434bab9920d88131077732854dc45a9447b0aafcf6ef6ef78c6f1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2024/21/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:11.967Z",
+    "sha256": "37129911b00f87011954b8b26635b4527f851cb8c38e7ecb8fca3af29005fe48"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:15.303Z",
+    "sha256": "c2aa972e39cfa5f991ab150e8abcfef58572ec85ba329701fb0c41044ccffa20"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/55/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:18.614Z",
+    "sha256": "6918dab615bfa805e1d197253eaf91cc6be611267df351a56407bac81eca32a2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553622000123/compras/2025/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:17.411Z",
+    "sha256": "fbe02c79c484a39ba9bb67c173a26cccccace02ed9a0658366a1540ef1576952"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens/6/resultados",
+    "capturedAt": "2026-10-29T20:51:18.717Z",
+    "sha256": "950c5d5f72b73d680276af50eb1e611a5102d065f8976b214b4bdba55e45f9c1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553622000123/compras/2025/12/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:23.701Z",
+    "sha256": "ede0293f9edb421de8bf7446c57d4d862b14ac6f331f9cb6bc6785193ba964e8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens/7/resultados",
+    "capturedAt": "2026-10-29T20:51:23.403Z",
+    "sha256": "0fa51bcf61aa29126048781cd305a4c7b5206618b0e407de27ead4fa38028261"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553622000123/compras/2025/6/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:20.714Z",
+    "sha256": "c6c4098c1477e924d8bc42dd361cf3186931b21b711f2df62c8773558c5af208"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553622000123/compras/2025/12/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:28.378Z",
+    "sha256": "ebc33f524c41ea23cdc3529c06d29fcd3041b37215f338a696c14a9e8e9c1f77"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens/81/resultados",
+    "capturedAt": "2026-10-29T20:51:26.226Z",
+    "sha256": "0c0296f33f44424324eb1435d8058b9da5c53c05c1e315239b1e4b7df84115a6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553622000123/compras/2025/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:26.530Z",
+    "sha256": "5cd23017b0b5e2af1e1a14650fff9d90983d72fc6d31840c4d8437a56739cb62"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens/100/resultados",
+    "capturedAt": "2026-10-29T20:51:29.219Z",
+    "sha256": "765bd00109cc02dc08cf330fac1a5d3077a954c366337443e10ac79b5f6eddb7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:32.488Z",
+    "sha256": "2e88e3b0bffc1dd2983440ba40884f168bed43855d396d2df92fbdf4ce215ac4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:33.842Z",
+    "sha256": "fee4aa757ff93ae5ecdae725da966ae731326d5994facb1fe63f6604d300f5f6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens/265/resultados",
+    "capturedAt": "2026-10-29T20:51:33.724Z",
+    "sha256": "42ffd81d6b830299e73990097be768762948a0d284691fb660fcaeb03631b04a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/6/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:35.517Z",
+    "sha256": "3421b6f9ecf70204ef39eef089318125239cb241243a1ef22481ed9e69e4d27f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/11/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:38.455Z",
+    "sha256": "395729b19257ab6731c800e708bb3ad0f6251399007e412961c62717e50c1a8d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553614000187/compras/2025/58/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:37.530Z",
+    "sha256": "1ab5adbe93ef35e1f836cffa9c7e621d08d49c7196de591fe166915235a15b59"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/38/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:41.814Z",
+    "sha256": "7b36fc938af933655bd3b28f2090c01242eda83889e9cbc792f853858745b93d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553655000173/compras/2025/33/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:42.464Z",
+    "sha256": "145a5fa3fd37b272c964597c460774da2ca2320567b1968d14c81a40e2ce4382"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553655000173/compras/2025/35/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:44.725Z",
+    "sha256": "b29f772eada6ee87f63d42c1e55c22564219212e29683156726e18e444e37e75"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553630000170/compras/2024/38/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:44.924Z",
+    "sha256": "d12c5dd92177743138a86f7c587b28feb30be86614d34363aaa8e51974bc6095"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553655000173/compras/2025/35/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:48.054Z",
+    "sha256": "5eedf05e5363faf2d9bcb6d5b36aee29ed56aabeda374ebd6cbe797c791ff9e6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553663000110/compras/2025/45/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:47.435Z",
+    "sha256": "65a10861a6e2d1e93fdd78d0b951c46c514f0917e92574175968dedd96b9b4c1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553689000168/compras/2024/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:48.753Z",
+    "sha256": "d7999556ce98b89309d71138e7d586c6a6c18cb9ac9325ff3ee0f3c9e26a30e5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553705000112/compras/2025/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:53.327Z",
+    "sha256": "440567fada4bab07d65812aca97747f44a5bd0a154e86b3505bd6d48076c606c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553705000112/compras/2025/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:53.343Z",
+    "sha256": "6df760d4fe537af7b48487c3d4afde2a3ca34e0f5bbb2d3b0399edafb213c61e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553663000110/compras/2025/45/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:51.089Z",
+    "sha256": "c490c23948a6856fedd2b107bd0c58af6d648b32ade57cfb01ad2f995253b26b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553705000112/compras/2025/19/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:56.536Z",
+    "sha256": "ee0a05c8848cae96e2579fc68a754ce728ed858cba38ec9ddb03209a0eba6114"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553705000112/compras/2024/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:54.789Z",
+    "sha256": "c6354d2ea13cf8e962aaea68b488614d6399e9073a3ac93919443149711e4ff2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2024/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:51:59.355Z",
+    "sha256": "38b4d81a541371a593213676a81cde683e8e4498575892601a97b1b0fa98eecc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2024/35/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:01.483Z",
+    "sha256": "9c2bb7497269dcda023b9b6d2bb3a694d453643173d1263826c207cee0561b33"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2024/27/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:00.761Z",
+    "sha256": "85d1a9a6b0b9456d154e02e72f2a47ab4c6caa5efa72888abc52e2418c76d5a2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2024/21/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:02.750Z",
+    "sha256": "ca2290d015b2d3c717a78b9c3efc6a6d9f12d9ca1089d960b87d8d4bb4dcc2b5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2025/56/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:07.215Z",
+    "sha256": "329d27dda096411dfb4f5d0356813a4d3eb817f729a64adf15db05f4d338bb5c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2024/27/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:04.123Z",
+    "sha256": "40a178515c78ce8ee984938fff810c84cd49c9531641245061e7ef19b2edf675"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/25/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:08.621Z",
+    "sha256": "d6e737a6cc9d5f1518900cd350980129242c49278c62daf01d444fa359d8a2a6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553713000169/compras/2025/56/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:10.103Z",
+    "sha256": "895b58c1567b579bc838e51ec789f2146a5b63eaf4b5ed341c2ec8208057ce04"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:10.097Z",
+    "sha256": "69c34e76d99f8e399210668412d996699c949cb9c4c1a188c60d867d22d629a8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/25/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:11.970Z",
+    "sha256": "35c65ba1eee03268678cf0f2ebc0d06b542d008eefd188d1c4d117f578243391"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/31/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:16.029Z",
+    "sha256": "c15ad2e158ec1bf7140679da4dbd742eb2f9bff351bb3e855ff14ec6a02c7dcb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553754000155/compras/2024/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:15.839Z",
+    "sha256": "1d4f3b49ea4aad031221db57ef54f6577dbc601413b1506f8baf541ff3b8a5e5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/28/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:13.364Z",
+    "sha256": "232c4104ec87967bfa1c4b5313972b73b1864c2a2dfad3b787faa395b771235b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553754000155/compras/2025/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:17.234Z",
+    "sha256": "5cae1b81394ec2203846825f1fd3bde04b8a45db20974bae5240130ae247d454"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553739000107/compras/2025/31/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:20.885Z",
+    "sha256": "9b7ef527242b4a8a3611e3effa78c6ecb89350a01df732097b9454f38ea3582a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553754000155/compras/2025/29/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:18.732Z",
+    "sha256": "ff62e14860f585890fab4a831936963bb0094369e012731022786769a9680a5b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553762000100/compras/2024/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:21.733Z",
+    "sha256": "620eaefb4ecfe88d73b9ddd5ae80c21fca3fb8d6625408528abaa24dce7442c7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553762000100/compras/2024/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:23.254Z",
+    "sha256": "c3ee265c9a04386e8b92a98317dd7596d668108c13019ebe8267cfcfe11afbc3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553762000100/compras/2024/15/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:24.753Z",
+    "sha256": "c28f5e0caccb15c933a63e184cf77614459110669e0e0af37e527cb6a49925b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553762000100/compras/2024/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:26.240Z",
+    "sha256": "5d2bb644669516efc9a0097df3a0d10df418d4c03692b3b0434bbf718195e07a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553762000100/compras/2025/44/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:27.737Z",
+    "sha256": "cf68670561e219ffbd11dd720c82abb1c61cb08ecfb6b73906b3d407c943a114"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553770000148/compras/2025/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:29.787Z",
+    "sha256": "ee2238c9afd57cc5cb5dfb91d14c04543d8b24834125c498a8e10e6f935702f5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553788000140/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:30.733Z",
+    "sha256": "d0ea58c59bea08f5a0fb69d97ff8348b8023a4c816a7152fde689e7018d992ed"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553788000140/compras/2025/109/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:32.230Z",
+    "sha256": "8bd0034bb2cf21a57bc4c5a179bf8f96d89371aa0d702ffa55a882ef1238489b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553788000140/compras/2025/110/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:33.739Z",
+    "sha256": "5f52ac7660f1d9bd9d76fff6913cc61277cd551fe139b7beb66da8960ad9d364"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553796000196/compras/2024/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:36.736Z",
+    "sha256": "464504863c1d938033467429b37f857d105895cbd52ede54b67f6bcd81f1b7aa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553796000196/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:36.571Z",
+    "sha256": "ba709c7e3feec67ef61a6f47f2fee48c88c8473339873b7ec49c3f5cc625b711"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553796000196/compras/2024/22/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:38.241Z",
+    "sha256": "3910e54ef9180bc4966a573c8b9d69348b8d8580e29a2676e9810ebaa8cf68da"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553796000196/compras/2024/37/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:39.739Z",
+    "sha256": "ebbd6d9e51ec091b32b22a88adebd1ee54849e6806cb99ff59ddc88a40522ecc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553796000196/compras/2025/65/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:41.547Z",
+    "sha256": "e16f01a44860ab61746d4914a0d42ec8b2ca5cbe27cbd455bd015c127e37448e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553804000102/compras/2025/40/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:42.737Z",
+    "sha256": "20c570e57cc0741d270428b664ad0d3628a712182ee2b5bfdb20406692cb4ff8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553804000102/compras/2025/60/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:45.670Z",
+    "sha256": "a576d353654f35d538f6f9b6daf70e7f7e0b825cb7a6db06d298790667d0b5db"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553838000199/compras/2025/12/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:48.010Z",
+    "sha256": "6f303a5dedbb52bdf485106c319b50ad4fca82c1e6bc2a7ee32afc17918c4ec2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553804000102/compras/2025/67/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:47.113Z",
+    "sha256": "a14641c2d61c1b43b3d5a97f8e9c1efe8eeace5cb56f569774e8bc761d4b4994"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553804000102/compras/2025/60/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:50.081Z",
+    "sha256": "7782957e3c8f0f33259c38920f1a39df07326fd9c87c71209f752a9167d36656"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553853000137/compras/2024/92/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:51.848Z",
+    "sha256": "40c326994c573c0d5d7c8c369f5cc6cf13933f23887e7b5c6d22d1f0178ddf37"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553804000102/compras/2025/67/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:51.690Z",
+    "sha256": "7a26ef7ee2d1c9e3f953aa442275c8efb7f303e0fd0c325302f43c09aee3c35f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553887000121/compras/2024/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:53.244Z",
+    "sha256": "ef9ecfa91637e36fc02a150023ce4b969441db57dddc2fba7a8dc6a892440e2b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553887000121/compras/2025/44/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:56.866Z",
+    "sha256": "95e1e137c0ff64bed12eca0e2930f5b0502e6977ed910ef62907b10142b30a97"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/63/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:57.628Z",
+    "sha256": "a8a9ace64c0338297dfc1d0a63079004621c1bc740840a5c5247b24516a063bf"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/75/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:52:59.565Z",
+    "sha256": "7bf69e6fe443a5487ed085a4b106b8663852748470530d176b70e1c680374764"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553887000121/compras/2025/44/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:01.025Z",
+    "sha256": "75e69ad649fafbbcd56ec3763b332ff3870e14b98d90ca94d004eab2afc34d4b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/63/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:01.963Z",
+    "sha256": "1ba9b346b64971334b42251acd2f5eee90ff587bf754a4b9b3248487fa80cb1e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/75/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:03.827Z",
+    "sha256": "985605acb6811d3c027c41da85819921320dac13dd92af6c65c78127641cdc1d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553903000186/compras/2025/80/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:05.970Z",
+    "sha256": "84af66b2a0ac0801497ae1756381cca25d7edf1151a5558d5aa0d89f8f797cc4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/79/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:05.449Z",
+    "sha256": "dfe1633bb92444043f5a3ae20ef894feb09c5222429902eb310e48abc66123d1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553911000122/compras/2024/22/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:08.577Z",
+    "sha256": "4dc61abe02dafc46ae75c52c3a5131c110d95fd969e350664aabf9e8a69a94a2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:11.768Z",
+    "sha256": "0e8d8535bcb98d224145ce6ea8b4c42ee7771a26556e12536c84bfef88118017"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553911000122/compras/2024/22/itens/1/resultados",
+    "capturedAt": "2026-10-29T20:53:11.223Z",
+    "sha256": "cdc4128a1ba9fcc9e3da26627a9fb34a00e2878b5b4150de0a44c34c1769a76b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553895000178/compras/2025/79/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:09.520Z",
+    "sha256": "397fd09f064993db5f0a5bccff125d8c9eab33dcfdedbb9b02964aacf6bc8cbb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553911000122/compras/2024/22/itens/4/resultados",
+    "capturedAt": "2026-10-29T20:53:14.221Z",
+    "sha256": "11cf8d5af3d217f589d9029c9d6833f68b12305d4bab1332297d0ed813fac1ed"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/3/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:17.538Z",
+    "sha256": "288161eebe756df712b712a339b1b2f9367c55f6b333f7737d6f15e5c8def744"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:14.385Z",
+    "sha256": "c066a2c75b282454188c63670be3325a9b2c99cd1cf700e8b09a85ce922ee9dd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:19.117Z",
+    "sha256": "afdf5c1f14b1749a2040e2fbbc4942e6fc4a3af104f067376aa0930e618e6692"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/3/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:20.500Z",
+    "sha256": "40cfc7e47daca7e4d2924181c20d6fcd84a9b4f1a7c7c883a7f38c17c1b1ea6c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/4/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:20.657Z",
+    "sha256": "495696072bddc8dca31ef8c50b461caeb242ebd9a79fa43fab76a2888e4e4dbe"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/5/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:23.684Z",
+    "sha256": "148bf20f123f6dd1660246184822dc20aa10d8f89d03275403d6c0769c881269"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:24.772Z",
+    "sha256": "a53db4011b7ada6a2e03c41cdb71024de937b39e6c459a6c3c07c85a3b11dbf6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/4/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:24.995Z",
+    "sha256": "61354e39103ce528ad6b2de5fa9c90b7d4050d81b738d41e65df158ea6e0838e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/5/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:26.502Z",
+    "sha256": "927c8a5d59b389499e5e56fcbe7cb24827253c49c15234948281960104afe580"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2024/22/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:30.085Z",
+    "sha256": "d1327b4c2afd3ee10985f05a5a63d2b0857a1d81df8ffd961835164b8968f031"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/6/itens/5/resultados",
+    "capturedAt": "2026-10-29T20:53:27.719Z",
+    "sha256": "59e28180389234936d1a5563b3a1c229f75d66b59e1d3d40220ef1501ba9a79a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2024/44/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:32.015Z",
+    "sha256": "684e8cf445c4e7ae67afb2524608b7624a4d08d1785a4a4471794c9dec0eb948"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/6/itens/11/resultados",
+    "capturedAt": "2026-10-29T20:53:32.218Z",
+    "sha256": "86d73813306804c3db3a59cf8376dab4adb9c4d99d12134b8013070c57cb03e1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553937000170/compras/2025/99/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:35.125Z",
+    "sha256": "5f8c949ce05d155446b8b6bd4cb40c3017a9803a7ca6b437d55f9fc2e0fc1188"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553937000170/compras/2025/101/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:36.157Z",
+    "sha256": "bf75cf77163cf8f39403b36c783960707abc73377ed200f2ec7723fe12be17ac"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/6/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:38.563Z",
+    "sha256": "4bcbd9985b564a3c4e790b4abde224b26c8a2499cc813e8c9bd5c9d92e920f75"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553937000170/compras/2025/99/itens/23/resultados",
+    "capturedAt": "2026-10-29T20:53:38.334Z",
+    "sha256": "689678777d83c0091fb3658bc0d28303d4c17c55fa5ae2a3738666f973458116"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553945000117/compras/2025/38/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:41.703Z",
+    "sha256": "89f3fb3c874456ea50df571f28a6a72c2842d550b76e4b7c5da25b6ef2f565e9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553937000170/compras/2025/99/itens/69/resultados",
+    "capturedAt": "2026-10-29T20:53:41.231Z",
+    "sha256": "9cf1c6b05a85648bb88df42887a7b984f18ed58303d7b67819c241b214d68da1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553929000124/compras/2025/6/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:43.007Z",
+    "sha256": "841bc158c5a5ad57d949896d068a40a1c5fb400f7d0d73f217980499f6c5d108"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553945000117/compras/2025/38/itens/1/resultados",
+    "capturedAt": "2026-10-29T20:53:45.818Z",
+    "sha256": "6ad53b39aaca5d5763d4f6562ddb6b3faeeb8813cffa607c39f86a3356c1275e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553986000103/compras/2024/36/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:47.948Z",
+    "sha256": "64e5cfdc993cb070ceaa593004d68851d47e5ed59e71cbd545c947180a312980"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553952000119/compras/2025/26/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:46.005Z",
+    "sha256": "20c105742f60944ea53e5e18daeeaa2dfd8ac5b052641b478da5e06c30cee762"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553945000117/compras/2025/38/itens/10/resultados",
+    "capturedAt": "2026-10-29T20:53:48.716Z",
+    "sha256": "5fd085b3ff4046937b0d3163dfcf869b3a0f0dfadfdc8caaa5e90a6813fcb1c4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553986000103/compras/2024/37/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:52.214Z",
+    "sha256": "8bd8ccc5d54c382f9ef64ed1e6dd910d2cdce501145bf38f3f52ec2b1ec90642"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553952000119/compras/2025/26/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:50.973Z",
+    "sha256": "7c5a217ea85bc2f4dbfeaa88d2d7ce51d289f222421c921335eb91b9c0bc8f4d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553945000117/compras/2025/38/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:53.620Z",
+    "sha256": "5e7b49e4379e0ca6dbe935187235755d816b55907471e76ffa465e78f9e36ad4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553986000103/compras/2024/47/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:55.537Z",
+    "sha256": "ca71abe90430272047dc97e71a2a6a810ae9a2bacceabcc11f7eab004314a6ca"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06553994000150/compras/2025/36/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:56.670Z",
+    "sha256": "91bc027264c0c75076f8c782936e87213ed19af5a2e01b8c1df0a674c1dd847b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554018000111/compras/2025/23/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:57.763Z",
+    "sha256": "1f613f8032f9c78042cc54ab7e42220a13ec5844afa2496b15f102574ecece33"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554018000111/compras/2024/26/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:53:59.241Z",
+    "sha256": "7b1738cb1db7010998d7f19c61bf5b4fa6ff149ce164ccda1b7cb9a1a1665c4f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554042000150/compras/2024/41/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:02.338Z",
+    "sha256": "f947f817d05784f5cdb71f071248c04a6aefe7ff575019125cad6f5a50240aee"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554026000168/compras/2024/41/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:02.284Z",
+    "sha256": "e24d015297be3f6f8c08c420a067cf181cc8b6fba2969338f3de800728863153"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554059000108/compras/2024/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:05.033Z",
+    "sha256": "93d996e28fc0ffcac3edf481b0f9c27d9c9be9def984e98c757567bacd37cb2d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554083000147/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:07.429Z",
+    "sha256": "86f43e8bed476b33b1db57b48598cea71f9d5be971788bbc8dec69acd8b19936"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554083000147/compras/2024/35/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:08.428Z",
+    "sha256": "4700d74b635dc2f41eabe675207a185e3d5a9bec08901c65ac92609c46423fe6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554091000193/compras/2024/9/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:08.403Z",
+    "sha256": "c54760ac3b3edf0bcedd1112b81c428af2e2da7c14e6ea4dd57c478e81a028c0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554083000147/compras/2024/4/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:10.295Z",
+    "sha256": "e6c4585a2cc442cd023399d4209a25e13930977dba1e7aaacec0f899dba41147"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554117000101/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:11.341Z",
+    "sha256": "74da1a19c32a25f9c801e64a93dcd665f0aa4c05eeb0d808421406a38ddb7efd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554083000147/compras/2024/35/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:13.325Z",
+    "sha256": "dca80436c46f439c9507b26c95dddc992bedb49cd18385244cd031cf66b1be8e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554141000132/compras/2024/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:15.735Z",
+    "sha256": "90df485d1c25081a0fe88d9ede5dcf99cfa032e524adba1808e55799fcec95fe"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554125000140/compras/2025/27/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:15.353Z",
+    "sha256": "10344c01467be37bbd6d84fb98c87c7b3064e7cd9ef5037766ccd81acd6ca322"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554141000132/compras/2025/10/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:17.945Z",
+    "sha256": "dd5d3ab5da62d6ae83c014deefc65915bfd0d0162d5a657a2f5d1b248ea9dcc2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554141000132/compras/2025/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:20.228Z",
+    "sha256": "8d6f6183762a09904999f591bfcfecfe7dc27d688feee70a8ac9ddde5a5d29ba"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554125000140/compras/2025/27/itens/6165940/resultados",
+    "capturedAt": "2026-10-29T20:54:18.718Z",
+    "sha256": "24cb3495d2a8ef2df101b8336935541ec49b27f39cb6bd829dc632b405830b06"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554166000136/compras/2025/14/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:24.729Z",
+    "sha256": "1f1d3c5344deb8b5ff733af1202524b94a7006bcc17927b9a95b3b3980815af9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554141000132/compras/2025/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:23.636Z",
+    "sha256": "c7dd193c0cbf9f394e4288f87d2e82656cf50d50407aa0f976637c66c1bbea95"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554125000140/compras/2025/27/itens/6165942/resultados",
+    "capturedAt": "2026-10-29T20:54:23.457Z",
+    "sha256": "015c59229429c088d1cfb06a1dd3cb0800c162d7a1b5768e6c44500f5cc3db45"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554174000182/compras/2025/15/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:28.200Z",
+    "sha256": "75162772aee0d8227c39941b1eac2d07536905fc2344fc129d1402932ccc644d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554141000132/compras/2025/21/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:27.946Z",
+    "sha256": "d19d7f707f3e3b744be4ef344e53257d994b3ce7f1848e674c3de4ca863a93a9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/10/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:31.384Z",
+    "sha256": "c0db48e96bb6b3701c160a0e6d71a715061dd0f7d3372daadab5b62a9547c06c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554174000182/compras/2025/15/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:32.608Z",
+    "sha256": "a8f8c28c6953f7205a39a8bc4970d1b912b303b80800ae3273b444910303dec0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:31.998Z",
+    "sha256": "dd3a1605f6b95deeda2d66e7f4fa2437b19c285ed282bff3dc0fa6cab1b0fdea"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/10/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:34.422Z",
+    "sha256": "fb24f7c434b5fd82c98abfd09d096dc83b6572c4b134a1f4eac116a220d3f29e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:38.969Z",
+    "sha256": "7fc4159d75913a320c0190aa788e9cb49b3954aa77918f9a3ce35b7359349351"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/28/itens/24/resultados",
+    "capturedAt": "2026-10-29T20:54:35.229Z",
+    "sha256": "d67a959a861d0e3b2a4a46a5e2619d8e6b79ffdc1a99d2696ec45d00043f1bf2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554224000121/compras/2025/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:39.424Z",
+    "sha256": "f9069200f1be137a3556cf58b1e4d7bd8c4963bb06ebaaccb445ce391306b77c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens/1/resultados",
+    "capturedAt": "2026-10-29T16:01:16.834Z",
+    "sha256": "2c30436f7ea1e0f1e5313409ea2dfb57d4670ca76320f1cd65b728a0951068c0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/28/itens/96/resultados",
+    "capturedAt": "2026-10-29T20:54:39.741Z",
+    "sha256": "30e0c980cc89a708e18a21a1d043d420ffb01bc792f047de81422ce707ee2bd2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554224000121/compras/2025/3/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:54:42.733Z",
+    "sha256": "5b7bd6afb374197a0b28bdc8faa423bc3c4fbdb1047d395c1c500372e961a894"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens/6/resultados",
+    "capturedAt": "2026-10-29T16:01:16.904Z",
+    "sha256": "4b2cfd6f139d399d3d4a7a676e0723e847df8d9b5dda4097ac20f48cfa39b01e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554224000121/compras/2025/3/itens/5/resultados",
+    "capturedAt": "2026-10-29T20:54:47.336Z",
+    "sha256": "102ad1bbba419b2a610f92d61fd5ca518acc5978eafc438a8589a4d4e9ebd054"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554208000139/compras/2024/28/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:45.095Z",
+    "sha256": "9df7710011170631d8d64daff2c02c7f672130d8498f2c72b0715fb0bcd0d6c4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens/56/resultados",
+    "capturedAt": "2026-10-29T16:01:16.964Z",
+    "sha256": "fe481f8cc8d954245b005607ec12ccf47f562ee84f3972f84f15e30ddfa08212"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554265000118/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:47.874Z",
+    "sha256": "83dfd00a91942b532d9f7192988995e3c5244e2fc4648c7e67c39bf65709b022"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens/74/resultados",
+    "capturedAt": "2026-10-29T16:01:17.025Z",
+    "sha256": "6e3adb2a32cdeb218fb7bfb8f5f87261e0582b1aeceec63913344ac56abff252"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554265000118/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:50.558Z",
+    "sha256": "29ef2fbc053d956eaca5dc89a27f5ba0104da057d9c9896068d5f9136119b3c6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:50.524Z",
+    "sha256": "7d9d1ca564d9c314f8369aab345ef5dc66fd78ea281acf855a140d0c03557cb8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554216000185/compras/2025/1/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:41.606Z",
+    "sha256": "380c1c0411accebf420fb8db2364bdbb98f226857cd0eebea8ca4e90bf2c2c9e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:53.996Z",
+    "sha256": "0eacfb2205ce9f6f89e5eb7a80062f0d3d104e5ebe62cf1233992e382a354636"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554331000150/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:53.231Z",
+    "sha256": "1dab74723be4aca54f19846e4be95e5e1d5850e01e49ab26d2b643620b952410"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554331000150/compras/2025/14/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:54.741Z",
+    "sha256": "1b3193393183ca5ab6d9e672de3595c6668e8d2f5f93aa6ce35ff4cb8ca56d2e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens/4/resultados",
+    "capturedAt": "2026-10-29T20:54:57.726Z",
+    "sha256": "76b1072eab2c2bd7e1797097a890a28eb64115ca11322e1d92f3a4fb39c01110"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554331000150/compras/2025/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:56.240Z",
+    "sha256": "36f53f84d4ba7717277bdfce53c21da2888c0c2db7f089c9c522063b57e4f151"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554364000108/compras/2024/63/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:54:59.245Z",
+    "sha256": "041c3e3be7f52d20a913ce856a749b231f9ef87aca5e0fd2624b8402c38c5296"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens/16/resultados",
+    "capturedAt": "2026-10-29T20:55:02.228Z",
+    "sha256": "1775fde639b6e3e250cb359d57993dcc13fe1f01c55f1e9db246714f954bcb32"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554364000108/compras/2024/67/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:00.734Z",
+    "sha256": "7b75072be00d25567f16978868ca86b353fffa56fa76272edd3d360e9a79cf8f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554406000100/compras/2025/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:05.593Z",
+    "sha256": "fc5a5adb979cf9de456ad306847ea80380c112f05887d77a0161ac4fc0f77673"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554414000149/compras/2024/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:05.338Z",
+    "sha256": "eb0869135030e5e45ce00b4860cbc6db39955fd9af3db83d4c89411d6f24fecd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens/62/resultados",
+    "capturedAt": "2026-10-29T20:55:06.725Z",
+    "sha256": "2e1f7b019a92cc6ed9305de444c25719ed43015378c2a5e253eebb3b4b3f0427"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554406000100/compras/2025/3/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:11.359Z",
+    "sha256": "214bd4a17aab9b7f63fe23a705820874b1e7d21858371a056f68c2c0ad78ae91"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/53/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:08.713Z",
+    "sha256": "ad48080ddbf69de9656dcb49329ccb1d2c988f639f4b6dbe5854ecf26f70fc5c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens/156/resultados",
+    "capturedAt": "2026-10-29T20:55:11.322Z",
+    "sha256": "1d49053fb192caa7bd213aaacfb35ecccbe7fd260caf66564083c5fbd96a6a61"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:13.197Z",
+    "sha256": "e1a5986130f05c22f31419762b38c5a3f2aab4de2e873b43f4b6a86d69d02513"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/55/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:16.033Z",
+    "sha256": "3e2cb0d426dd8c1433207afefd3430fcd834b1a23988264e5712741e8181c43c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:55:17.219Z",
+    "sha256": "5801bff85f0588af545d3a30649bf245e407c244dd0bfbd47e2636cd3b755a52"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554315000167/compras/2025/22/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:15.196Z",
+    "sha256": "22f022aacd90e77686f99bfe501da710ccefce718c687aac5c99c5ae2d30b0c0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2024/111/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:18.730Z",
+    "sha256": "8276aa303827ba36afb42b63b3d973276dd3fb6a20a910f38a247e5c3fc5dc5d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens/59/resultados",
+    "capturedAt": "2026-10-29T20:55:21.833Z",
+    "sha256": "3e33db98f1a3210d2f9a8bda88e3db2b301157492697b603ae67a45318bfc137"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens/60/resultados",
+    "capturedAt": "2026-10-29T20:55:24.720Z",
+    "sha256": "ec0c0fc80cc974b01ea733e08692bdaf8e17d03896216a6f2727d6cd60d62d6e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2025/84/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:24.960Z",
+    "sha256": "93550738fd343a278e0e8540ce5ca5d0185254c136809a0917128ae4baba738b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:22.222Z",
+    "sha256": "4e209c34ec0adacf1053a90a157c11f4ae843880ced4b5d7cc7444e7bd413c08"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2025/84/itens/12/resultados",
+    "capturedAt": "2026-10-29T20:55:29.231Z",
+    "sha256": "bbbe9a01b667a5a3d6850fa9a99f07b6397abdf0c1bca5ec3a7f2019bfb59786"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens/76/resultados",
+    "capturedAt": "2026-10-29T20:55:27.718Z",
+    "sha256": "bdc97367ba09bbb45ca85bb704746d5607eee22aa6f53ff822ee28e99cd773df"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens/5/resultados",
+    "capturedAt": "2026-10-29T20:55:26.221Z",
+    "sha256": "b53d5a020522516e2e052fc5b0d3548a438b53b46dac637df28ad44e38bdb0e5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554430000131/compras/2025/54/itens/77/resultados",
+    "capturedAt": "2026-10-29T20:55:32.234Z",
+    "sha256": "734a47e6e2a6b531732a23de6127d406760eb392666fad8e3486b5ad0d720474"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2025/84/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:34.286Z",
+    "sha256": "444ad7c3a8b83c5d06006c4448dff08df25d078f79372ebc80a2c0530ae194da"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens/8/resultados",
+    "capturedAt": "2026-10-29T20:55:30.735Z",
+    "sha256": "e72eb2d759eff08e6d029f6657f8f50c86f817809bf3ba1ab53ffbc032a39c2f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554455000135/compras/2024/74/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:38.535Z",
+    "sha256": "6a5c15c888ae2e99ac7ae0f52d561c1ba99b36e32edff1792984c14824267cc9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens/75/resultados",
+    "capturedAt": "2026-10-29T20:55:35.227Z",
+    "sha256": "e880ec5f56c440855a9efc4138066805d87f82e65e7bae3d31574c2c481b4203"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554455000135/compras/2024/91/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:38.576Z",
+    "sha256": "4bf67df42da8d7770ae7cd7e6cad027954a0aef27b89805f6a54b96107140a1a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens/107/resultados",
+    "capturedAt": "2026-10-29T20:55:39.723Z",
+    "sha256": "20e3e5595d76e532925e908fc70b75589768941e1162584f78588b65b9b0eb29"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554455000135/compras/2024/74/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:41.986Z",
+    "sha256": "368567581bba75e0c0ec8f5d8c788d8f9a7057ceffb2cf7c75c10cc682d60049"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554448000133/compras/2024/50/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:44.678Z",
+    "sha256": "7f684ed820e0d8f5c8f2652967405fc2b51e1aa79a56a5e615f5db8e7506763b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554745000189/compras/2025/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:44.467Z",
+    "sha256": "69769ab7e438e7f50cce94751759d41f42779fe13f24608ecaa822d9659c188e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554778000129/compras/2024/16/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:47.183Z",
+    "sha256": "1b3dc2b77e8f3f475b62856867b3fce1fd13c1090223a9003fd898b19e0171d1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554745000189/compras/2025/24/itens/7/resultados",
+    "capturedAt": "2026-10-29T20:55:47.216Z",
+    "sha256": "5fdbc04dd02df9ba9b4034b927a8325c990ec5881bcc4885d16ebac8501384dc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554778000129/compras/2025/46/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:50.201Z",
+    "sha256": "d7c85936561976d2867967f9698ce24959b76d2ec16f7e62088426ee728e6bc5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554778000129/compras/2024/16/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:50.355Z",
+    "sha256": "d7372df7372b764f6894a1937d17ae322784756f4c937bca6d50bd252f294273"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554745000189/compras/2025/24/itens/98/resultados",
+    "capturedAt": "2026-10-29T20:55:51.724Z",
+    "sha256": "ad9f9fca2eff134a67366d785fa93dd7c640877f733cb74d4e410e80648f7efa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554778000129/compras/2025/46/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:54.916Z",
+    "sha256": "5c0287ea6570219b9be8b13e86ec3afb7b6acbc901c3f0c5398c6571a40783e2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:56.228Z",
+    "sha256": "c81437a3e78f3bddef241f949468af537185d7ed2a9c1f3a1439f04a3701c53b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554745000189/compras/2025/24/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:58.251Z",
+    "sha256": "9a6aa8db7016aed9c24b83149ba3614585ec77ec13c73dae5ea1db076b5f2c95"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2024/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:55:57.734Z",
+    "sha256": "1849c9553d2efae9c0a323f4c68c453fab65507d71ea0d6a300b51c82eb7a5af"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:55:59.231Z",
+    "sha256": "c33a2644ce152de944ef6c305af8e2a0afe540c8e6eb69186c41a59d4957af23"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554745000189/compras/2025/24/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:02.662Z",
+    "sha256": "aa7a13665a9cb89ae3fa5c82fd6ec29626ffda9a6e05d4a9bafd912fefef1c45"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2024/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:00.751Z",
+    "sha256": "ad0faee539601de36b5de8f17d13c23fbe530b3b9885acffe94ee07487c718b5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens/4/resultados",
+    "capturedAt": "2026-10-29T20:56:03.717Z",
+    "sha256": "8079fb0951c76e59bcf963b87dba7003fe603612102f520021f99fb79d56787b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554802000120/compras/2025/40/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:06.774Z",
+    "sha256": "93253bcafc2661e9970cdd67d719f6a7ca08a733dd9a3a7883400ea89e7954a2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens/75/resultados",
+    "capturedAt": "2026-10-29T20:56:08.231Z",
+    "sha256": "db0c09a8868679837dd133aa2c9b877c2063f7c0c761fb6dbd029a102cbeff8d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554802000120/compras/2025/41/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:08.053Z",
+    "sha256": "3779818a5b904a047d517de1dafb66b07d0234c5bc58bc6e5a7a60a47f0d7e50"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens/76/resultados",
+    "capturedAt": "2026-10-29T20:56:12.718Z",
+    "sha256": "68f9c0e544b8a4214e1c588b81fb744f5889afba1319ed353cb430a25a57b068"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554810000176/compras/2025/14/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:09.959Z",
+    "sha256": "7821291eec3fcddd7f85b0951df60d0ee197912108c994850372805fcbd7264d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554802000120/compras/2025/41/itens/2/resultados",
+    "capturedAt": "2026-10-29T20:56:11.229Z",
+    "sha256": "18faf22496482316c646b6d6f3fe60b34765aff882890d2f5a0f69d8e39a0266"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554786000175/compras/2025/6/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:18.139Z",
+    "sha256": "47d1b255af1a58a4d95295fc0c68fc63675971e0d580ba4ebc3bec6bd6935af7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554810000176/compras/2025/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:14.440Z",
+    "sha256": "46877ec1c6f71dacdad05a3d7f6b6a6273c4a0e993efc05f5775d5099b709241"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554802000120/compras/2025/41/itens/4/resultados",
+    "capturedAt": "2026-10-29T20:56:15.742Z",
+    "sha256": "a23e0e757b4fe0dc06efd1aeee20596e971e80fc5ee38570caec5fe02ed999d4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554836000114/compras/2024/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:22.273Z",
+    "sha256": "0c51bde9119b5a26286436a22f491ac7198bb0200f3f4076408a2cbbb35707ab"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554836000114/compras/2025/8/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:20.425Z",
+    "sha256": "212198eb3f6b2b8c8d6809492351651fc75cce981331adfe03d0b4b2a797c991"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554844000160/compras/2025/69/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:22.916Z",
+    "sha256": "2f0c90f7f859102251c2c59b499e23edd0009a9aba9c8f9af9619d1392bfacb9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554844000160/compras/2025/81/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:24.309Z",
+    "sha256": "fec4d579c62991f0f15b27ce00377ab42f01ea7caa257ceecaae81bef6820e21"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554851000162/compras/2024/12/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:26.289Z",
+    "sha256": "16334dbe6c209e8914a79f2415d507e49cec4dbb44dd6bc544b10b7816fa858c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554869000164/compras/2025/11/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:26.234Z",
+    "sha256": "66d322aa0f9e9a12ae2833d023febf903e7fd9205dca73a1d41ef80f955fc90a"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554844000160/compras/2025/81/itens/1/resultados",
+    "capturedAt": "2026-10-29T20:56:27.739Z",
+    "sha256": "0d24ee27bce6be85f081ed4fce3bf7343a35cd72632c8d35c1cff643e587a25e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554869000164/compras/2025/55/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:29.240Z",
+    "sha256": "48ff377c514628054dc5bb7179d708e47a45c44961b05e91c67f2909fc193fcd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554844000160/compras/2025/81/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:56:32.337Z",
+    "sha256": "7f9d5075282cf6da0a463838e7c5f77b3c19e0f5a1f4558ccef44bdfb8fd7249"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554893000101/compras/2025/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:32.357Z",
+    "sha256": "582074260512fabed51eb1133eb07db50657093bce8f3509f14d2b7f6d6fe1b6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554919000103/compras/2024/10/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:34.205Z",
+    "sha256": "e3b905af6c9005823db657bd705d63a33e0aaf7c15bd0f3c160da57af644501d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554844000160/compras/2025/81/itens/107/resultados",
+    "capturedAt": "2026-10-29T20:56:35.230Z",
+    "sha256": "f875858fa5bc78e04e5e4522f126fd127455f0abb054899dbf9b5c5b2c53b8d8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554893000101/compras/2025/1/itens/1629962/resultados",
+    "capturedAt": "2026-10-29T16:01:16.670Z",
+    "sha256": "f63bebd373ef92d2069cfcd4fe114af75d1ec64f53e560cb7b3fb2b7f7ef76dc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554919000103/compras/2025/17/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:39.361Z",
+    "sha256": "fd7e286f7abc6f2747a879e2465d33a47800bf98e7dc6ab466075425b31e5d3b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554893000101/compras/2025/1/itens/1630027/resultados",
+    "capturedAt": "2026-10-29T16:01:16.730Z",
+    "sha256": "2391bef94778e95103ca8744b046b2aaeb20352d22b58446ef41c36f303d2dba"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554919000103/compras/2024/19/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:41.206Z",
+    "sha256": "fb8a3f0f84cb4b9da297c814928a6fdf7505a86143613d63694a36bcfef7a8e9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554893000101/compras/2025/1/itens/1630042/resultados",
+    "capturedAt": "2026-10-29T16:01:16.792Z",
+    "sha256": "5c734afb5b8fe87346feeae9c5928f59aba1cf6bd7ceca75c54e6f8640b2551e"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:43.073Z",
+    "sha256": "9a5384961483f12ea024c43cce03deef1d90b223f610b78428a3055b972fb279"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:44.294Z",
+    "sha256": "4015a67dd1f48c024f367ae786f5dc73b5285d9761584bcb0147d5a5ebfdd14b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/18/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:46.326Z",
+    "sha256": "250d0c3c815651dc2757ada953e8a97a2c2a85454235d2da7d4bf6c4e4aa44f9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554893000101/compras/2025/1/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:37.445Z",
+    "sha256": "bc0a940fef3aa073738d76cafca53287ff37beb16c70ac2a877b87d0ca742d9b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/20/itens/1/resultados",
+    "capturedAt": "2026-10-29T20:56:47.238Z",
+    "sha256": "14fe5222ed8f775b18221e54edf64f88d37e1f1c52224014625ff55dadeafaff"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554935000104/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:45.950Z",
+    "sha256": "657566f6c7fab7ab151a00d5af912a38b96556fdc37c984e2119ea8d2b112a60"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/20/itens/3/resultados",
+    "capturedAt": "2026-10-29T20:56:51.731Z",
+    "sha256": "dba8189f019bbd59ada550bc5aa8af4d2f934dace7bc9d9100710a5931d8ae49"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554976000192/compras/2024/1/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:50.560Z",
+    "sha256": "c494bf7247d7c067663e948d1100c9d261b6587631bcbb8bbf976d19bb798d65"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554927000150/compras/2025/20/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:56.076Z",
+    "sha256": "88cece9ba626c74f35139baa79029dff8525351a05feaecc25de7a7cfdfd8ab9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554976000192/compras/2025/30/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:51.771Z",
+    "sha256": "63010630d6dea6beb8b11fd02783167fe7a3a6e6e68edc1aee3efd2e72d04da7"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554976000192/compras/2024/1/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:53.593Z",
+    "sha256": "c0f2456c4411f79888f52ff1de5d2d5b3538b93628a8f33e6d441be7af460b89"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554984000139/compras/2025/29/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:59.583Z",
+    "sha256": "4a6d89e1e018229e71c1bcd058b3bf51c909ca0c59d77537508d7419b75d9e15"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554976000192/compras/2025/30/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:56:58.303Z",
+    "sha256": "fbc4f141514d852fd6574a3b0cd568cd77db3f4b9643749eff1dedc91a6cdc57"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:00.476Z",
+    "sha256": "ac451bc159f64adbd2e0575f12430d8d61bfabdc7cfce7a7b1aeeca72330d651"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/31/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:02.288Z",
+    "sha256": "9512975410d047c3d9aebb162e80d279f230dc4eec6bc61e9e02f19577273a9d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06554976000192/compras/2025/30/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:01.195Z",
+    "sha256": "a278c9f39fbaf2a41f770ea75ee4c74b6ed03bf0bbe30e0cd5277f0607e1ae56"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:05.381Z",
+    "sha256": "fcd36aeaa56c88e5faa65812fcd98bfd41d79dd6834f2ea8844f696ad2db4a0d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2024/34/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:05.651Z",
+    "sha256": "0ece1408a537a1c54e7f0e8813d78785217f1d0482d567a1d6a6e160e25962a5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716906000193/compras/2024/25/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:07.995Z",
+    "sha256": "31935dd89790a5bddf03ba060cc20a4463c7d5b48d047d9ac2441b26985c5d78"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens/44/resultados",
+    "capturedAt": "2026-10-29T20:57:08.229Z",
+    "sha256": "6c2792e15f584d8c0412f53fb8d30b4b3ea2cac4971ca0f0fd08da51b9634666"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716906000193/compras/2024/32/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:09.738Z",
+    "sha256": "5f7ad9fc09b1ab1fd2f940cc453ffc05b3e2358a037add4ad3dd8f77ce7890db"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06772859000103/compras/2024/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:12.164Z",
+    "sha256": "51e6dae4b10c3b82dd193c3bdf31262184ed07a899514322870e4f56f8d33d5d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06772859000103/compras/2025/76/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:14.231Z",
+    "sha256": "f3bd6a56e9f8c042dadd1bccec0564d2fc17a0d1d8c2c374b065f000c62b4829"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens/50/resultados",
+    "capturedAt": "2026-10-29T20:57:12.728Z",
+    "sha256": "991f5fcb26a91a68311ae42f59a2ab0146da6e49e4c3a69b392fc8ec62d3ef97"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06772859000103/compras/2024/24/itens/1/resultados",
+    "capturedAt": "2026-10-29T20:57:15.722Z",
+    "sha256": "304c373462d4f62db1f321b8bfa6947a45d1a7c3c2d0601690c8cff6b481c330"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens/59/resultados",
+    "capturedAt": "2026-10-29T20:57:17.227Z",
+    "sha256": "b78661de130ecc4b4a6c8f18f10dd71fa5a37d9ae0cd3f36b433951bc569a502"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06985832000190/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:18.851Z",
+    "sha256": "21b3aefbdd5ec570e2a5309ef68e8668231034e807f9809e644a07b705ea8fed"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens/64/resultados",
+    "capturedAt": "2026-10-29T20:57:21.824Z",
+    "sha256": "352738cd81483769a0789650b11b8efb1f490073a473d2bb32c688292b792636"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06985832000190/compras/2025/7/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:21.708Z",
+    "sha256": "9e252d9119af5ecb644de1425b310575dcd56fde43bd1276e7e45c4a18a15580"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/07165549000185/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:23.264Z",
+    "sha256": "7826d040defe04bd917e8d1ca42c8f75ce1771655f6f0cd38ea0c7d09c7c52f2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:28.176Z",
+    "sha256": "13799d9f5e8177fe79a31f8ac12780fec9a82b6c12a7c27fb9225470e0636561"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/07444159000144/compras/2025/24/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:27.963Z",
+    "sha256": "ebd979b92295d3ff2dfe10674a8352a37f493a81ec1890a835371b3a3ac6a226"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06985832000190/compras/2025/7/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:24.914Z",
+    "sha256": "7eaf8711e4acda2da9624064fa3ca253cbdbf0429b9b90af43d457fa0adbdaa5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens/833/resultados",
+    "capturedAt": "2026-10-29T20:57:32.321Z",
+    "sha256": "2699c31a0c028bd7b5f54e4fa5de2f9b6491e21effcc8583ebe78a63ecb79d1d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/07660350000123/compras/2024/80/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:29.243Z",
+    "sha256": "af81a3206fcd9ff444883702d5601bb9d57fa750e8ef1303e33967a0918ad565"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10560403000149/compras/2024/33/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:32.589Z",
+    "sha256": "f58859be40e23aa33ee2f3cf0e30c9290a773677c99210b24f3cdc2a99cb0a3b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10640637000104/compras/2025/2/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:34.340Z",
+    "sha256": "ea344658cb5c440b4b3a3daf04be0e860cfa2d1051a1b33d533a334758cdc0b5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens?pagina=3&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:37.281Z",
+    "sha256": "0fad686d26efbca53fbb079954810bb2bb9dff144e7e8d7d986939fb1f7215b4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10560403000149/compras/2024/33/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:36.992Z",
+    "sha256": "328d751164a28debb6678547f79aaca88d8e8968fe294add57ae0699b29d7df5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10640637000104/compras/2025/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:38.769Z",
+    "sha256": "c38d74310778d72ef4a092c5fd45687e427a72a314b2ecb6e9442cafb5d49a9c"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/06716880000183/compras/2025/32/itens?pagina=4&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:42.434Z",
+    "sha256": "dce717ea1c6680f92a77ac3f47b9af7997591726f05ef83b01646295c738de48"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10640637000104/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:41.112Z",
+    "sha256": "5fe9a8e6f8fddbf9cd875fce1bdb201540d827c259e071d3dc780e81e9d5a344"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10806496000149/compras/2024/33/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:43.232Z",
+    "sha256": "9705598953046764c24c85361b8e1b62adea5b2d48a35b46182a3ffb28fd27d8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/11279054000154/compras/2024/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:46.387Z",
+    "sha256": "cec50acb6a9c64cc84a936e335e5420d88d3e57a1cf049b9822883a6e8e2a9ce"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/10640637000104/compras/2025/4/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:45.065Z",
+    "sha256": "bc08afecfbd0b5c0cd6af8dadab80f3d4dea851f8f16327de0f8310e7f3d97fd"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/12066973000102/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:47.237Z",
+    "sha256": "55a0bd0010791c5de4ba9464c2ed92e5c436462b8385bf469ff92da6045d70e9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/11279054000154/compras/2024/3/itens/3891450/resultados",
+    "capturedAt": "2026-10-29T20:57:50.226Z",
+    "sha256": "751fe96ad102269b42215fed7ec8fae371689a3c63adbf0e2b8a9626f528fddf"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/170/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:48.910Z",
+    "sha256": "c706af72c86e5fb23eb6627607c2a71fe607e4f46e8b4c46e7cb670faa832f07"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2025/274/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:52.068Z",
+    "sha256": "0e0f3e51b6591c5be6e976552cc2a363dff4125128da9541002ccc0c341761c3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/279/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:53.557Z",
+    "sha256": "5c79789411a6f24772c1ba07f4f65b94eea1cf9f45db799c8f43747b7c4cb66b"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/527/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:54.732Z",
+    "sha256": "255fef4147253b8b9d0d31830f13107ed9c90c4836c89cf302976e42c0788277"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/1004/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:56.406Z",
+    "sha256": "4be8c92d02a605d62c87ac2644027b76847ae38a0a52dc41555ed92b59f56fe5"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/1022/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:57.951Z",
+    "sha256": "36227083dc908f6c13263ecdd0abd3ec7b1af1d076f148ced18bc8a83a5aadd9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/1045/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:57:59.290Z",
+    "sha256": "1705a2e7aac3cd521e36ccec3432007735062e298cff6b77d16b7ee12b1f7025"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/1325/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:01.143Z",
+    "sha256": "e2467c03de462ada59de01df21319e51512841e1711d26ce025c3e30fddba7a9"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/2043/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:02.513Z",
+    "sha256": "8e618dda1038b6f0a206ba9dbc682dc05c8dcc88d83f5e83518f1c55dd59c0b8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/3250/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:03.910Z",
+    "sha256": "3c00176c6752a7414685f406d5a3649ea3e0faf5db0173691d31dabab05cc616"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000143/compras/2024/3784/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:05.627Z",
+    "sha256": "aa4a0b3c410c404a865e89bec42663eadf5a950aa590f1a7499ccff1d7dc7fce"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/783/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:06.729Z",
+    "sha256": "56c97820f87c7c96267786518378cd44dfabe269f16e1ca778219465c8097bb6"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/1007/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:08.679Z",
+    "sha256": "4ea5b370399d2826f98394574c303f5c72cdcba622935a0fdc750974d7f4a3d3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/1448/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:11.404Z",
+    "sha256": "779ae11fd83675e82205d4209a97b365c0f7288bf76996f3911d91629b9953b1"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/1232/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:10.001Z",
+    "sha256": "79c4bdc30c8904e843e9e67496dd673a9dee8aa38ebb4e3e7c79cc34eebdfb33"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/1551/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:13.102Z",
+    "sha256": "e6ce0165de77a89adec07c058c69b7441dbdbaf263222484503aeee8a5a4f14d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/2506/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:14.233Z",
+    "sha256": "b8dd21b5d98c33dda207f6841efb95c8282e8addb4d71298bb4a5c34339f1d29"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/3610/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:16.080Z",
+    "sha256": "d3d2c677a5afc9908e0d36a000d25f49771f4a14b7872875fd81f2fa9ddf66e8"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/15126437000305/compras/2025/3746/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:17.775Z",
+    "sha256": "60523f5d45a394a4242bd6a4239c8a276530c79bca133a2f298788bd4f455a66"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/23500002000145/compras/2024/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:20.499Z",
+    "sha256": "bdf8ae0ee41fe714c6c4743e1d48a37802aecb1c8a9675a64458d1da332fe27f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/23500002000145/compras/2024/20/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:21.931Z",
+    "sha256": "82d70d81ae11318fe82a4d5560cff7024883243302f9d8c0fac981f65b613732"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/26461699000180/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:21.728Z",
+    "sha256": "65eeb95c240e89e85424b8db6dfb8ea2c13049a681b8d3e0e77540893a7db196"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/23500002000145/compras/2024/6/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:23.697Z",
+    "sha256": "d673993223529b6fe8600b732b6a5b9838bdcd178050b76b6df695d9e853623d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/23500002000145/compras/2024/20/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:26.570Z",
+    "sha256": "4640d1dbdd235d9a639ff965ae2c14aeb0e36fb7ddb2815fd0c76da08812152f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/26461699000180/compras/2024/42/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:24.733Z",
+    "sha256": "e25cc1da188437f023cf98ae70968d7fe407664702a68902f80c3f177eb4d027"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/26461699000180/compras/2024/272/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:27.732Z",
+    "sha256": "efaeef6f3f09e29f0cc59578199eca9f1bd8668c1bd33fc56925afa12c7f4102"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522145000130/compras/2025/5/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:30.817Z",
+    "sha256": "8f3e73b189ac4db9cb266988397f9de56cc880774c0323d1ba0e547c808e7512"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522152000131/compras/2024/29/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:30.831Z",
+    "sha256": "1f75e64f1354cb4bd471e881f6fceda95b8a6cd61c3165d3c16e1a137c0bc2a3"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522160000188/compras/2025/18/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:32.235Z",
+    "sha256": "f3f0fc92fda7abd2a03e55d05d42b2d6db9d42d7e26fa884a5b155122a72da51"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522186000126/compras/2025/21/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:33.747Z",
+    "sha256": "8b89056394abc48d0dfe432b25cc193013b409f899bf06d7acf2c6c1e358141d"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522236000175/compras/2024/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:36.735Z",
+    "sha256": "2c17db7cf0542ddb0ba5bbad36e66a695b81b7dfc62faa68ab54c171570d5f35"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522186000126/compras/2025/26/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:35.239Z",
+    "sha256": "3f0018140311deb50577c8753827ae6bcdbe4c90c12904089ef81ca305f85282"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522251000113/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:40.173Z",
+    "sha256": "bdf827829a216616d657eb52e4d809debe9a30b8b8f2cbdeabae9de599cb691f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522269000115/compras/2025/6/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:42.941Z",
+    "sha256": "1ed282705d93c49edf6eed5b5584bc4faf3a5c00cfceb22058aa0d1ab992ff40"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522251000113/compras/2024/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:39.969Z",
+    "sha256": "e3a145e386873651518a2b09d33fee6c9b0b5f5f4a6f337026b92b7c7437ad15"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522277000161/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:45.370Z",
+    "sha256": "1e8d36a7b93d18a8306ad1bb37e198c5e2f8e994dc70a1c98f495395cc47c57f"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522285000108/compras/2025/25/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:46.779Z",
+    "sha256": "fe1bab895f6fd59445de2a75db6f35bc65f9278b87fe3fa5867971cb84f5c3aa"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522251000113/compras/2024/4/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:43.005Z",
+    "sha256": "06114a09beb7a4ae31723ebb3e75101590b0916884661487db88a163adcc6091"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522293000154/compras/2024/28/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:49.786Z",
+    "sha256": "93ef73aabb75824092621f51be0df93e6e50894340f2ad4fa5301e271f24aa65"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522285000108/compras/2025/30/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:48.358Z",
+    "sha256": "5d6cc837fc207ff99cfd037fefac330cac39360f46f84133e58696d984c598f4"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522301000162/compras/2024/37/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:51.735Z",
+    "sha256": "206dc4aa658c05fbf7da4e4cc40ed938f11ba604c2f0eff6c3b35f214f3297b0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522293000154/compras/2024/29/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:51.250Z",
+    "sha256": "f92794b15c9bf439df9a15c03662d3009e3d002f43235295699b66322983e153"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522368000105/compras/2025/4/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:53.237Z",
+    "sha256": "50552a7d0b28367efde25bd4194107bc2c70137bbcf7154c6e2dceec7f8e17e0"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522376000143/compras/2024/3/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:56.515Z",
+    "sha256": "65f74959d80c309e83f147432cb31d4330e32b7bfec531083b23ba0356551db2"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522376000143/compras/2025/10/itens?pagina=1&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:58.155Z",
+    "sha256": "8f6dfa247ec619c4de70533820f0fe6a82236eb58a20723b48f4be492757ddbb"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522376000143/compras/2024/3/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:58:58.684Z",
+    "sha256": "46b0bffa54579be6f8f326e3eae397df82591a8cea17b50c116b87d3f2c345bc"
+  },
+  {
+    "url": "https://pncp.gov.br/api/pncp/v1/orgaos/41522376000143/compras/2025/10/itens?pagina=2&tamanhoPagina=500",
+    "capturedAt": "2026-10-29T20:59:00.243Z",
+    "sha256": "2b62247a41a4165d18f8a3f092d8181e82239fc6b16a1c0b8ed7c1a714fdc028"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "scope": "state",
+  "version": "20261029T210005-state-34216cf0",
+  "passed": true,
+  "checkedAt": "2026-10-29T21:00:21.934Z",
+  "municipalities": 224,
+  "procedures": 87,
+  "observations": 58,
+  "comparableProducts": 4,
+  "neo4j": {
+    "verified": true,
+    "version": "5.26.32",
+    "nodes": 416,
+    "edges": 457,
+    "verifiedAt": "2026-10-29T21:00:10.651Z"
+  }
+}

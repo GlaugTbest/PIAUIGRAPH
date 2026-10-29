@@ -105,6 +105,7 @@ test("time, year, dosage and incoherent totals prevent invalid references", () =
   );
   assert.equal(identifyProduct("Ivermectina", "CPR").product, null);
   assert.equal(identifyProduct("IVERMECTINA 6MG C/4", "CX").product, null);
+  assert.equal(identifyProduct("AAS INFANTIL 100MG CX C/1000", "CPR").product, null);
   assert.equal(identifyProduct("ESPIRONOLACTONA 50MG", "CPR").product, null);
 });
 test("CSV preserves unknown and blocks spreadsheet formula injection", () => {

@@ -167,7 +167,7 @@ export default function Explorer({
   }, [search]);
   const globalSearch = useResource<{
     suppliers: { id: string; name: string }[];
-    procedures: { id: string; name: string }[];
+    procedures: { id: string; name: string; municipalityId: string }[];
   }>(
     debouncedSearch.length >= 2
       ? `/api/search?q=${encodeURIComponent(debouncedSearch)}`
@@ -225,8 +225,9 @@ export default function Explorer({
   );
   const title = selected?.name ?? region?.name ?? "Piauí";
   const shown = exploration.data;
-  function chooseCase(id: string) {
+  function chooseCase(id: string, municipalityId?: string) {
     update({
+      ...(municipalityId ? { m: municipalityId, r: null, q: null, page: null } : {}),
       case: id,
       supplier: null,
       center: null,
@@ -352,6 +353,7 @@ export default function Explorer({
                           center: null,
                         });
                         setSearch("");
+                        setCollapsed(false);
                       }}
                     >
                       <NetworkIcon size={15} />
@@ -368,7 +370,7 @@ export default function Explorer({
                 <>
                   <span className="search-group">Procedimentos</span>
                   {globalSearch.data.procedures.map((t) => (
-                    <button key={t.id} onClick={() => chooseCase(t.id)}>
+                    <button key={t.id} onClick={() => chooseCase(t.id, t.municipalityId)}>
                       <FileText size={15} />
                       <span>
                         {t.name}
@@ -412,7 +414,9 @@ export default function Explorer({
           <select
             aria-label="Filtrar período"
             value={y}
-            onChange={(e) => update({ y: e.target.value }, true)}
+            onChange={(e) =>
+              update({ y: e.target.value, page: null, case: null }, !supplierId)
+            }
           >
             <option value="">2024–2025</option>
             <option>2024</option>
@@ -631,7 +635,7 @@ export default function Explorer({
                         <button
                           className="related-procedure"
                           key={t.id}
-                          onClick={() => chooseCase(t.id)}
+                          onClick={() => chooseCase(t.id, t.municipalityId)}
                         >
                           {t.municipality} · {t.sequence}/{t.year}
                           <ArrowRight size={14} />
