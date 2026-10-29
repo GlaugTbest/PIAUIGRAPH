@@ -35,8 +35,11 @@ async function official(url: string): Promise<{ data: any; source: Source }> {
   if (!process.argv.includes("--refresh")) {
     try {
       const cached = JSON.parse(await readFile(file, "utf8"));
-      sourceManifest.set(url, cached.source);
-      return cached;
+      const now=new Date();
+      if(Date.parse(cached.source.capturedAt)>=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)) {
+        sourceManifest.set(url, cached.source);
+        return cached;
+      }
     } catch {
       /* Cache miss, including interrupted writes. */
     }

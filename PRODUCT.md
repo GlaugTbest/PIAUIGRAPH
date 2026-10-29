@@ -10,7 +10,7 @@ Next.js, TypeScript, MapLibre GL JS, Neo4j. Vercel Hobby. User authorized implem
 People exploring public procurement in Piauí, including journalists, researchers and citizens. Personal, non-commercial portfolio shared on LinkedIn and TikTok.
 
 ## Product Purpose
-Explore official records by territory, compare equivalent medicine items and inspect evidence-backed supplier relationships. The application describes observations, never concludes fraud.
+Help anyone find public purchases and services in Piauí, understand the published values and inspect documented buyer/contract/supplier relationships. All procurement subjects are in scope. Equivalent medicine comparisons remain a specifically labelled subset. The application describes factual signals for checking, never concludes fraud from a pattern alone.
 
 ## Capabilities and Constraints
 - Initial years 2024 and 2025; monthly refresh; R$0/month services; anonymous public reading.
@@ -22,7 +22,7 @@ Explore official records by territory, compare equivalent medicine items and ins
 - Do not infer personal identities, beneficiary territory, fraud, payments or actual spending from award values.
 
 ## Brand Commitments
-Portuguese interface. Serif typography resembling Times. Palette #73030D, #732F3B, #F2F2F2, #8C8C8C, #0D0D0D. Map first, no marketing landing page. Desktop contextual side panel, mobile bottom panel, equivalent list/table. Impeccable quality workflow.
+Portuguese in ordinary language, usable across literacy levels. The user explicitly superseded the former burgundy/serif/map-first commitments and delegated the new palette and typography. New direction: public-library wayfinding, blue ink and teal with warm reading surfaces, Source Sans 3. Search and results lead; map, comparisons and documentary relationships help when useful. No unexplained fraud scores, jargon, marketing hero or decorative charts. Impeccable quality workflow.
 
 ## Evidence on Hand
 PNCP procedures 06554893000101-1-000001/2025, 06554216000185-1-000001/2025 and 01612590000176-1-000001/2024. Ivermectin 6mg and spironolactone 25mg comparisons checked against official tender PDFs during discovery. BPS and cross-source reconciliation remain unverified and must not support public indicators.

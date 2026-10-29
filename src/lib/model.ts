@@ -29,6 +29,7 @@ export type Procedure = {
   modalityId?: number;
   status?: string;
   statusId?: number;
+  sphere?: string;
 };
 export type Observation = {
   id: string;
@@ -84,8 +85,20 @@ export type Manifest = {
     month: number;
     records: number;
   }[];
-  contractCoverage?: { cnpj: string; year: number; records: number }[];
+  contractCoverage?: {
+    cnpj: string;
+    year: number;
+    records: number;
+    unitCode?: string;
+  }[];
   contracts?: number;
+  contractIndexCoverage?: {
+    year: number;
+    month: number;
+    reported: number;
+    captured: number;
+    included: number;
+  }[];
   neo4j: {
     verified: boolean;
     version?: string;
@@ -104,6 +117,9 @@ export type Dataset = {
   manifest: Manifest;
 };
 export type PublicContract = {
+  cancelled?: boolean;
+  sourceProcedureId?: string | null;
+  sourceProcedureUrl?: string | null;
   id: string;
   procedureId: string | null;
   cnpj: string;

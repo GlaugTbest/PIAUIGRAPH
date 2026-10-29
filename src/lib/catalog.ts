@@ -1,5 +1,5 @@
 import { normalize } from "./analysis";
-import type { Dataset, Procedure, PublicContract } from "./model";
+import type { Dataset, Procedure } from "./model";
 
 export const TOPICS = [
   {
@@ -56,7 +56,9 @@ export function valueCheck(p: Procedure) {
     p.estimated > 0 &&
     p.homologated !== null &&
     p.homologated > 0;
-  const difference = eligible ? Math.round((p.homologated! - p.estimated!) * 100) / 100 : null;
+  const difference = eligible
+    ? Math.round((p.homologated! - p.estimated!) * 100) / 100
+    : null;
   return {
     eligible,
     difference,
@@ -126,7 +128,11 @@ function index(data: Dataset) {
 }
 export function selectCatalog(data: Dataset, f: CatalogFilters) {
   const i = index(data);
-  const words = normalize(f.q).split(" ").filter(Boolean);
+  const digits = f.q.replace(/\D/g, "");
+  const words =
+    /^[\d .\/-]+$/.test(f.q) && digits.length === 14
+      ? [digits]
+      : normalize(f.q).split(" ").filter(Boolean);
   const municipalityIds = new Set(
     data.municipalities
       .filter((m) => (!f.m || m.id === f.m) && (!f.r || m.regionId === f.r))
@@ -179,13 +185,21 @@ export function catalogExplore(data: Dataset, f: CatalogFilters) {
   const counts = new Map<string, number>();
   for (const p of procedures)
     counts.set(p.municipalityId, (counts.get(p.municipalityId) ?? 0) + 1);
-  const topics = TOPICS.map((t) => ({
-    id: t.id,
-    name: t.name,
-    count: procedures.filter(
+  const topics = TOPICS.map((t) => {
+    const rows = procedures.filter(
       (p) => index(data).procedures.get(p.id)!.topic === t.id,
-    ).length,
-  }));
+    );
+    const values = rows.filter((p) => p.estimated !== null && p.estimated > 0);
+    return {
+      id: t.id,
+      name: t.name,
+      count: rows.length,
+      withEstimate: values.length,
+      estimated: values.length
+        ? values.reduce((sum, p) => sum + p.estimated!, 0)
+        : null,
+    };
+  });
   const months = [2024, 2025].flatMap((year) =>
     Array.from({ length: 12 }, (_, m) => ({
       month: `${year}-${String(m + 1).padStart(2, "0")}`,
@@ -203,14 +217,12 @@ export function catalogExplore(data: Dataset, f: CatalogFilters) {
     total: procedures.length,
     page,
     pages: Math.max(1, Math.ceil(sorted.length / 20)),
-    rows: sorted
-      .slice((page - 1) * 20, page * 20)
-      .map((p) => ({
-        ...p,
-        topic: topicOf(p.object).name,
-        check: valueCheck(p),
-        contracts: contracts.filter((c) => c.procedureId === p.id).length,
-      })),
+    rows: sorted.slice((page - 1) * 20, page * 20).map((p) => ({
+      ...p,
+      topic: topicOf(p.object).name,
+      check: valueCheck(p),
+      contracts: contracts.filter((c) => c.procedureId === p.id).length,
+    })),
     summary: {
       procedures: procedures.length,
       municipalities: counts.size,
@@ -229,6 +241,13 @@ export function catalogExplore(data: Dataset, f: CatalogFilters) {
       count: counts.get(m.id) ?? 0,
     })),
     topics,
+    modes: [
+      ...new Map(
+        data.procedures
+          .filter((p) => p.modalityId)
+          .map((p) => [p.modalityId!, { id: p.modalityId!, name: p.mode }]),
+      ).values(),
+    ].sort((a, b) => a.id - b.id),
     months,
     coverage: {
       all: data.procedures.length,
@@ -243,7 +262,8 @@ export function catalogExplore(data: Dataset, f: CatalogFilters) {
 export function contractExplore(data: Dataset, f: CatalogFilters) {
   const rows = selectCatalog(data, f).contracts.toSorted((a, b) =>
     f.sort === "value"
-      ? (b.initialValue ?? -1) - (a.initialValue ?? -1)
+      ? (b.globalValue ?? b.initialValue ?? -1) -
+        (a.globalValue ?? a.initialValue ?? -1)
       : b.publishedAt.localeCompare(a.publishedAt),
   );
   const pages = Math.max(1, Math.ceil(rows.length / 20));
@@ -254,15 +274,5 @@ export function contractExplore(data: Dataset, f: CatalogFilters) {
     total: rows.length,
     pages,
     page,
-  };
-}
-export function contractSummary(contracts: PublicContract[]) {
-  const signed = contracts.filter((c) => c.kindId === 1);
-  return {
-    count: contracts.length,
-    signed: signed.length,
-    initialValue: signed.length
-      ? signed.reduce((sum, c) => sum + (c.initialValue ?? 0), 0)
-      : null,
   };
 }

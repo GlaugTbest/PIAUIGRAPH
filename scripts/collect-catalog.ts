@@ -4,10 +4,9 @@ import type { Dataset, Procedure } from "../src/lib/model";
 import { readReleaseFile } from "../src/lib/release";
 type Raw = Record<string, any>;
 const active = JSON.parse(await readFile("data/active.json", "utf8"));
-const previous: Dataset = await readReleaseFile(
-  `data/releases/${active.version}`,
-  "dataset",
-);
+const previous: Dataset = process.argv.includes("--medicine-stage")
+  ? JSON.parse(await readFile("data/staging/state.json", "utf8"))
+  : await readReleaseFile(`data/releases/${active.version}`, "dataset");
 const municipalities = previous.municipalities;
 const old = new Map(previous.procedures.map((p) => [p.id, p]));
 const records = new Map<string, Procedure>();
@@ -25,12 +24,15 @@ await mkdir("data/staging", { recursive: true });
 for (const modality of modalities) {
   await pool(
     [2024, 2025].flatMap((year) =>
-      Array.from({ length: 12 }, (_, m) => ({ year, month: m + 1 })),
+      [6,4,8,9].includes(modality)
+        ? Array.from({ length: 12 }, (_, m) => ({ year, month: m + 1 }))
+        : [{year,month:0}],
     ),
     async ({ year, month }) => {
-      const from = `${year}${String(month).padStart(2, "0")}01`;
-      const to = `${year}${String(month).padStart(2, "0")}${new Date(Date.UTC(year, month, 0)).getUTCDate()}`;
+      const from = month ? `${year}${String(month).padStart(2, "0")}01` : `${year}0101`;
+      const to = month ? `${year}${String(month).padStart(2, "0")}${new Date(Date.UTC(year, month, 0)).getUTCDate()}` : `${year}1231`;
       let count = 0;
+      const monthCounts = new Map<number,number>();
       for (let page = 1; page <= 400; page++) {
         const result = await official(
           `https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial=${from}&dataFinal=${to}&codigoModalidadeContratacao=${modality}&uf=PI&pagina=${page}&tamanhoPagina=50`,
@@ -41,6 +43,9 @@ for (const modality of modalities) {
         count += rows.length;
         scanned += rows.length;
         for (const r of rows) {
+          const publishedMonth = Number(String(r.dataPublicacaoPncp ?? "").slice(5,7));
+          if(!month && !(publishedMonth >= 1 && publishedMonth <= 12)) throw Error("Invalid publication month");
+          monthCounts.set(publishedMonth,(monthCounts.get(publishedMonth)??0)+1);
           const municipality = municipalities.find(
             (m) => m.id === String(r.unidadeOrgao?.codigoIbge),
           );
@@ -78,13 +83,15 @@ for (const modality of modalities) {
             modalityId: r.modalidadeId,
             status: r.situacaoCompraNome ?? "Não informado",
             statusId: r.situacaoCompraId,
+            sphere: r.orgaoEntidade.esferaId,
           });
         }
         if (!rows.length || page >= result.data.totalPaginas) break;
         if (page === 400)
           throw Error("Publication pagination exceeded safety budget");
       }
-      coverage.push({ modality, year, month, records: count });
+      if(month)coverage.push({ modality, year, month, records: count });
+      else for(let m=1;m<=12;m++)coverage.push({modality,year,month:m,records:monthCounts.get(m)??0});
       console.log(
         `Catálogo modalidade ${modality} · ${year}-${String(month).padStart(2, "0")}: ${count} · ${records.size} únicos`,
       );

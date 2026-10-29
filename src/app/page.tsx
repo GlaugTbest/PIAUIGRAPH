@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import Explorer from "@/components/explorer";
+import Explorer from "@/components/civic-explorer";
 import { getData } from "@/lib/data";
 export default async function Page() {
   const { data } = await getData();
@@ -11,9 +11,11 @@ export default async function Page() {
         bootstrap={{
           municipalities: data.municipalities,
           regions: data.regions,
-          manifest: data.manifest,
+          manifest: {
+            collectedAt: data.manifest.collectedAt,
+            version: data.manifest.version,
+          },
         }}
-        initialQuery=""
       />
     </Suspense>
   );

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getData } from "@/lib/data";
 import { liveOfficial } from "@/lib/live-official";
+import { publicText } from "@/lib/text";
 const numeric = (v: unknown) =>
   typeof v === "number" && Number.isFinite(v) ? v : null;
 const string = (v: unknown) => (typeof v === "string" ? v : null);
@@ -48,7 +49,7 @@ export async function GET(req: NextRequest) {
             total: numeric(x.valorTotalHomologado),
             supplier:
               x.tipoPessoa === "PJ"
-                ? (string(x.nomeRazaoSocialFornecedor) ?? "Nome não informado")
+                ? publicText(string(x.nomeRazaoSocialFornecedor) ?? "Nome não informado")
                 : "Pessoa física ou fornecedor sem CNPJ publicado",
             supplierId:
               x.tipoPessoa === "PJ" &&
@@ -60,10 +61,10 @@ export async function GET(req: NextRequest) {
           }))
       : raw.map((x) => ({
           id: numeric(x.numeroItem),
-          description: String(x.descricao ?? "Descrição não informada").slice(
+          description: publicText(String(x.descricao ?? "Descrição não informada").slice(
             0,
             3000,
-          ),
+          )),
           unit: string(x.unidadeMedida),
           quantity: numeric(x.quantidade),
           unitPrice: numeric(x.valorUnitarioEstimado),

@@ -1,15 +1,15 @@
 import type { Metadata, Viewport } from "next";
-import "./globals.css";
+import "./civic.css";
 export const metadata: Metadata = {
-  title: "PIAUIGRAPH — contratações em perspectiva",
+  title: "PIAUIGRAPH — compras públicas do Piauí, sem complicação",
   description:
-    "Explore compras públicas do Piauí, compare itens de medicamentos e acompanhe relações com evidências oficiais.",
+    "Encontre compras, obras e serviços públicos no Piauí. Entenda os valores e siga as ligações até as fontes oficiais.",
   robots: { index: true, follow: true },
 };
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#73030D",
+  themeColor: "#102e42",
 };
 export default function RootLayout({
   children,

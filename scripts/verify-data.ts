@@ -59,7 +59,7 @@ for (const o of d.observations) {
   const result = compare(o, d.observations);
   assert.ok(result.references.every((r) => r.procedureId !== o.procedureId));
 }
-const graphNodeIds = new Set(g.nodes.map(n => n.id));
+const graphNodeIds = new Set(g.nodes.map((n) => n.id));
 for (const e of g.edges) {
   assert.ok(graphNodeIds.has(e.source));
   assert.ok(graphNodeIds.has(e.target));
@@ -69,6 +69,22 @@ for (const e of g.edges) {
 }
 if (scope === "catalog") {
   assert.equal(d.manifest.catalogCoverage?.length, 19 * 24);
+  const windows = d.manifest.contractIndexCoverage ?? [];
+  assert.equal(windows.length, 24);
+  assert.equal(new Set(windows.map((w) => `${w.year}-${w.month}`)).size, 24);
+  for (const w of windows) {
+    assert.ok([2024, 2025].includes(w.year) && w.month >= 1 && w.month <= 12);
+    assert.equal(
+      w.captured,
+      w.reported,
+      "Every official monthly result must be captured",
+    );
+  }
+  assert.equal(
+    windows.reduce((s, w) => s + w.included, 0),
+    d.contracts?.length,
+  );
+  assert.equal(d.manifest.contracts, d.contracts?.length);
   assert.equal(
     new Set(d.contracts?.map((c) => c.id)).size,
     d.contracts?.length,

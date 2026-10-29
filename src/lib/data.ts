@@ -4,23 +4,34 @@ import { compare, normalize, PRODUCTS } from "./analysis";
 import type { Dataset, Graph, Observation, Procedure } from "./model";
 import { readReleaseFile } from "./release";
 
-let cached: { version: string; data: Dataset; graph: Graph } | undefined;
-export async function getData() {
+let cached: { version: string; data: Dataset } | undefined;
+let cachedGraph: { version: string; graph: Graph } | undefined;
+const pendingData = new Map<string,Promise<Dataset>>();
+const pendingGraph = new Map<string,Promise<Graph>>();
+async function activeVersion() {
   const { version } = JSON.parse(
     await readFile(path.join(process.cwd(), "data/active.json"), "utf8"),
   );
   if (!/^[a-zA-Z0-9-]+$/.test(version))
     throw new Error("Invalid release identifier");
+  return version as string;
+}
+export async function getData() {
+  const version=await activeVersion();
   if (cached && cached.version === version) return cached;
-  const [data, graph] = await Promise.all(
-    ["dataset", "graph"].map(async (f) =>
-      readReleaseFile(path.join(process.cwd(), "data/releases", version), f),
-    ),
-  );
-  if (data.manifest.version !== graph.version || !graph.verified)
-    throw new Error("Inconsistent release");
-  cached = { version, data, graph };
+  if(!pendingData.has(version))pendingData.set(version,readReleaseFile(path.join(process.cwd(),"data/releases",version),"dataset").finally(()=>pendingData.delete(version)));
+  const data:Dataset=await pendingData.get(version)!;
+  if(data.manifest.version!==version||!data.manifest.neo4j.verified)throw Error("Inconsistent release");
+  cached = { version, data };
   return cached;
+}
+export async function getGraph() {
+  const version=await activeVersion();
+  if(cachedGraph?.version===version)return cachedGraph;
+  if(!pendingGraph.has(version))pendingGraph.set(version,readReleaseFile(path.join(process.cwd(),"data/releases",version),"graph").finally(()=>pendingGraph.delete(version)));
+  const graph:Graph=await pendingGraph.get(version)!;
+  if(graph.version!==version||!graph.verified)throw Error("Inconsistent graph release");
+  cachedGraph={version,graph};return cachedGraph;
 }
 export type Filters = {
   municipality: string;

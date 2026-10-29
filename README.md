@@ -1,61 +1,52 @@
 # PIAUIGRAPH
 
-Exploração de compras públicas do Piauí com mapa municipal, comparação de medicamentos e rede de relações verificadas. Projeto pessoal de portfólio, público e não comercial.
+Encontre compras, obras, materiais e serviços públicos do Piauí, entenda os valores publicados e siga as ligações até a fonte oficial. Projeto pessoal de portfólio, público e não comercial.
 
-**Acessar:** https://piauigraph.vercel.app · [Validação estadual](docs/state-validation.md) · [Publicação e orçamento](docs/deployment.md)
+[Abrir o site](https://piauigraph.vercel.app) · [Cobertura e validação geral](docs/catalog-validation.md) · [Publicação e orçamento](docs/deployment.md) · [Piloto histórico](docs/pilot-validation.md)
 
 ## Executar
 
-Node.js 24 e npm. Os dados publicados já estão incluídos; as APIs oficiais e o banco não são consultados no carregamento de páginas.
+Node.js 24 e npm. A carga publicada está incluída no repositório.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Abra http://localhost:3000. Produção local: `npm run build` e `npm start`.
+Abra http://localhost:3000. Para produção local: `npm run build` e `npm start`.
 
-## Dados e limites
+## Encontrar e conferir
 
-- IBGE: 224 municípios e 19 regiões geográficas imediatas, malha simplificada oficial.
-- PNCP: procedimentos, itens e resultados homologados, anos 2024/2025.
-- Quatro especificações: ivermectina 6 mg, espironolactona 25 mg, ácido fólico 5 mg e ácido acetilsalicílico 100 mg, comprimidos simples.
-- Ampliação estadual: paginação de pregões eletrônicos publicados em 2024/2025, ano do procedimento 2024/2025, unidade compradora no Piauí e objeto mencionando medicamento/farmácia.
-- Cobertura parcial: não representa todas as modalidades ou todas as compras de todos os municípios. A ausência de registros é informada na interface.
-- Carga inicial estadual de 29/10/2026: 87 procedimentos em 56 municípios. Desses, 22 procedimentos em 21 municípios têm 58 resultados elegíveis, de 23 fornecedores. Os demais procedimentos mantêm as limitações e exclusões visíveis.
-- Preços são homologados, não pagamentos ou gastos efetivos. Totais de procedimentos não são somados aos itens.
-- TCE-PI, BPS, PI Digital, sócios e sanções não integram os indicadores desta publicação.
+- Busca por texto, município, identificador PNCP, empresa ou CNPJ; filtros por assunto sugerido, ano, modalidade e região.
+- Compras e instrumentos contratuais em listas separadas, paginadas; exportação CSV em blocos de até 1.000 registros.
+- Mapa oficial dos 224 municípios e 19 regiões imediatas do IBGE. A cobertura permanece explícita.
+- Previsão e resultado aprovado do mesmo procedimento, com duas barras na mesma escala. Um destaque exige situação normal, valores positivos e resultado superior à previsão em mais de um centavo.
+- Contratos com valor global publicado, tipo, vigência e fornecedor. Contratação, previsão e homologação não são pagamentos e não são somadas entre si.
+- Ligações entre município, órgão, compra, instrumento e empresa. CNPJ completo e chave PNCP exata; nenhuma ligação por nome parecido.
+- Itens e resultados detalhados são consultados no PNCP ao abrir a seção. Falha mostra recuperação e link oficial; a busca principal permanece disponível.
 
-O manifesto em `data/active.json` aponta para a carga imutável em `data/releases/`. Cada resposta usada possui URL, captura e SHA-256. Brutos/cache ficam fora do Git. Um erro de coleta interrompe a atualização sem alterar a versão ativa.
+## Fontes e limites
 
-## Neo4j real e navegação rápida
+As publicações de procedimentos de 2024/2025 são percorridas por modalidade, período e página, para unidades do Piauí, sem filtro por assunto. O ano do procedimento também deve ser 2024/2025. O índice público de contratos do portal PNCP é consultado em 24 janelas mensais, filtrado por Piauí; todas as páginas devem fechar com o total informado. Só entram instrumentos de 2024/2025 com município válido do estado. Não é um inventário de pagamentos ou documentos ausentes do PNCP.
 
-O Neo4j é parte obrigatória da preparação da carga. O importador sanitiza dados oficiais, o banco recebe nós/relações por versão, consultas Cypher e travessias são executadas, e a projeção é exportada e conferida contra a entrada antes da publicação.
+Cada registro tem URL, captura e SHA-256 dos bytes recebidos. O índice de contratos é a API pública usada pelo portal, sem versão de estabilidade; mudança de esquema interrompe a atualização. O valor inicial não está nesse índice e permanece ausente, sem ser inferido do global. Cancelamentos ficam identificados. Documentos pessoais nos textos são omitidos; brutos ficam em cache privado fora do Git.
 
-A aplicação pública serve essa projeção, não uma conexão ao vivo ao banco. Isso evita credenciais e consultas públicas arbitrárias, reduz a latência e permite operação sem banco pago permanente. O retorno informa `neo4j-snapshot`; o site explica esse funcionamento. A rede tem no máximo dois saltos, 100 nós e 200 relações por consulta. Não se desenham vínculos fictícios.
+A comparação unitária padronizada continua sendo um subconjunto explícito: comprimidos simples de ivermectina 6 mg, espironolactona 25 mg, ácido fólico 5 mg e ácido acetilsalicílico 100 mg. Não se compara automaticamente o preço de obras ou serviços pelo título. A metodologia pública descreve unidades, janela de 180 dias, quantidades, mediana, exclusão da própria compra e amostra mínima. TCE-PI, BPS, PI Digital, sócios e sanções não estão incorporados.
 
-Em desenvolvimento foi usado Neo4j Community 5.26.32. Não foi contratado Aura nem aceito seu contrato. O workflow mensal usa um serviço Neo4j efêmero, sem banco público persistente. Community é GPLv3; o projeto não incorpora ou redistribui seu binário.
+O site não calcula fraude, superfaturamento, prejuízo ou dinheiro desviado. Assuntos são sugestões baseadas no objeto, não classificação oficial ou ranking de risco.
 
-## Atualização
+## Neo4j e desempenho
 
-O workflow `Monthly official data` executa no dia 5 de cada mês, às 09:17 UTC (06:17 em Brasília), e também permite acionamento manual. Usa executores padrão em repositório público e um contêiner Neo4j efêmero. Nenhum serviço pago é requerido. A publicação Vercel depende de sua integração ao repositório e de suas cotas.
+O Neo4j Community real recebe a carga, executa consultas e exporta a rede. Contagens e propriedades são conferidas antes de promover a versão. A aplicação serve a exportação `neo4j-snapshot`, sem banco pago permanente ou credenciais no navegador. Retorna até dois passos, 100 registros e 200 ligações; o desenho limita a 28 registros e oferece a lista dos retornados.
 
-Para atualização local, inicie um Neo4j e configure `.env.local` conforme `.env.example` (nunca commitar senhas).
+Início e documentação são pré-renderizados. Catálogo e rede são carregados separadamente no servidor, com índice de busca em memória por versão. A interface recebe 20 registros por página. Mapa e rede são módulos sob demanda; o mapa oculto não carrega no celular. Fontes, malha e trabalhador do mapa são locais.
 
-```sh
-npm run data:pilot
-npm run data:neo4j
-npm run data:verify
-npm run data:promote
-```
+## Atualizar e verificar
 
-Para o estado, use `npm run data:state -- --refresh`, e acrescente `-- --state` aos três comandos seguintes. Sem `--refresh`, o cache permite retomar uma coleta interrompida. O agendamento sempre solicita respostas novas; não confunde uma carga nova com dados antigos do cache.
-
-As respostas brutas são mantidas localmente em `.cache/official`, fora do Git. Retenção proposta: 12 meses, revisão manual de tamanho até 3 GB; nenhum armazenamento externo pago é criado. O workflow tem cache limitado pelo GitHub. Uma reprodução histórica byte a byte exige conservar os brutos correspondentes, pois a fonte oficial pode mudar. Fontes, hashes, versões sanitizadas e relatórios ficam no repositório. Não apagar a carga anterior antes da conclusão de uma nova.
-
-## Verificações
+Configure um Neo4j real conforme `.env.example`. Não publique credenciais.
 
 ```sh
+npm run data:update -- --catalog
 npm run lint
 npm run typecheck
 npm test
@@ -64,18 +55,8 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-Testes determinísticos usam fixtures sintéticas isoladas. Testes de integridade e navegador usam a carga real publicada, sem depender de APIs oficiais ao vivo. Há verificações de mediana, exclusão do próprio procedimento, dependência entre resultados, diversidade, janela temporal, unidades, CSV, filtros, grafo e limites. A auditoria de acessibilidade e os testes de desktop/celular cobrem os fluxos principais.
+A preparação reúne o subconjunto comparável, catálogo geral e contratos; calcula integridade, valida no Neo4j e promove somente carga completa. O workflow mensal executa no dia 5 às 09:17 UTC, testa antes de commitar e publica pela integração Vercel. O cache só reutiliza capturas do mês corrente; meses seguintes exigem respostas novas. Coletas podem ser retomadas no mesmo mês. O pipeline geral usa essa regra; o coletor individual aceita `--refresh` para ignorar cache.
 
-O piloto foi aprovado por testes antes da coleta estadual; evidências em `docs/pilot-validation.md`. Resultados de desempenho locais não representam garantias de latência ou disponibilidade na internet.
+Falha de coleta, contagem, integridade, banco ou testes impede o commit. A publicação anterior continua disponível. Agendamento e disponibilidade do PNCP não são garantidos. Conservar os brutos é necessário para reprodução histórica byte a byte; a fonte atual pode mudar. Cache local em `.cache/official`, ignorado pelo Git, sujeito a revisão manual de tamanho e retenção; nenhum armazenamento pago foi criado.
 
-## Metodologia
-
-Regra `unit-price-v1`: mesmo produto, unidade e ano do resultado; até 180 dias; quantidade entre metade e dobro. Exclui o próprio procedimento e usa uma referência por procedimento. Destaque apenas com cinco referências de pelo menos três compradores e dois fornecedores, mediana positiva e preço mais de 30% acima da mediana. Limiar exploratório, não norma legal ou probabilidade de fraude. Sem amostra suficiente, mostra comparação descritiva e insuficiência.
-
-Não há inferência de conluio, superfaturamento ou irregularidade. Dados ausentes não são zero. O município é o da unidade compradora, não um destino de entrega presumido. Identidade de fornecedor usa CNPJ completo; matriz e filial ficam distintas. Atribuição e fonte oficial são preservadas em cada evidência.
-
-## Publicação
-
-Vercel Hobby é o destino escolhido para o portfólio pessoal não comercial, sujeito às cotas do plano. O build usa a carga preparada e não provisiona banco. O site não tem login, escrita pública ou importação por URL arbitrária.
-
-`next.config.ts` contém cabeçalhos de proteção e cache. Nenhuma credencial do banco é enviada ao navegador. Os exports têm campos públicos selecionados e proteção contra fórmulas de planilha. Uma implantação só deve ser descrita como produção após confirmar acesso anônimo e os fluxos na URL final.
+Vercel Hobby e executores padrão do GitHub em repositório público atendem ao portfólio pessoal, dentro das cotas. Neo4j é local na preparação e efêmero no workflow. Não há plano pago ou promessa de disponibilidade ilimitada. Evidências históricas permanecem datadas e não descrevem a cobertura atual.

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getData } from "@/lib/data";
+import { getGraph } from "@/lib/data";
 import { neighborhood } from "@/lib/graph";
 export async function GET(req: NextRequest) {
   const center = (req.nextUrl.searchParams.get("center") ?? "").slice(0, 120);
@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
   )
     ? Number(req.nextUrl.searchParams.get("y"))
     : undefined;
-  const { graph } = await getData();
+  const { graph } = await getGraph();
   const result = neighborhood(graph, center, depth, year);
   return NextResponse.json(result, {
     headers: {

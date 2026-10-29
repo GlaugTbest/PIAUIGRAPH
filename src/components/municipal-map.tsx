@@ -56,7 +56,7 @@ export default function MunicipalMap({
               {
                 id: "background",
                 type: "background",
-                paint: { "background-color": "#f0eded" },
+                paint: { "background-color": "#e8eeea" },
               },
             ],
           },
@@ -88,12 +88,12 @@ export default function MunicipalMap({
               "fill-color": [
                 "case",
                 ["boolean", ["feature-state", "selected"], false],
-                "#73030D",
-                ["boolean", ["feature-state", "region"], false],
-                "#d0aeb4",
+                "#087a72",
                 [">", ["coalesce", ["feature-state", "count"], 0], 0],
-                "#ac727d",
-                "#ded7d8",
+                "#6baba0",
+                ["boolean", ["feature-state", "region"], false],
+                "#b8d8d0",
+                "#d6e2da",
               ],
               "fill-opacity": 0.96,
             },
@@ -103,7 +103,7 @@ export default function MunicipalMap({
             type: "line",
             source: "municipalities",
             paint: {
-              "line-color": "#faf7f7",
+              "line-color": "#f8faf6",
               "line-width": [
                 "interpolate",
                 ["linear"],
@@ -120,7 +120,7 @@ export default function MunicipalMap({
             type: "line",
             source: "municipalities",
             paint: {
-              "line-color": "#0D0D0D",
+              "line-color": "#163247",
               "line-width": [
                 "case",
                 ["boolean", ["feature-state", "selected"], false],

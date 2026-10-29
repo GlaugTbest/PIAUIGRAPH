@@ -11,7 +11,7 @@ export default function DocumentShell({
         <Link href="/">PIAUIGRAPH</Link>
         <Link href="/">
           <ArrowLeft size={15} />
-          Voltar ao mapa
+          Voltar à busca
         </Link>
       </header>
       <main className="document-main">{children}</main>

@@ -16,8 +16,11 @@ export async function official(
   if (!process.argv.includes("--refresh")) {
     try {
       const cached = JSON.parse(await readFile(path, "utf8"));
-      sources.set(url, cached.source);
-      return cached;
+      const now = new Date();
+      if (Date.parse(cached.source.capturedAt) >= Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)) {
+        sources.set(url, cached.source);
+        return cached;
+      }
     } catch {
       /* Resume only complete captures. */
     }

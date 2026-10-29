@@ -1,172 +1,174 @@
 import DocumentShell from "@/components/document-shell";
 import { getData } from "@/lib/data";
-export const metadata = { title: "Metodologia e cobertura — PIAUIGRAPH" };
+import Link from "next/link";
+export const metadata = { title: "Como ler os dados — PIAUIGRAPH" };
 export default async function Methodology() {
   const { data } = await getData();
   const m = data.manifest;
   return (
     <DocumentShell>
-      <h1>O que os dados permitem afirmar.</h1>
+      <h1>Entenda o valor antes de tirar uma conclusão.</h1>
       <p className="document-intro">
-        Uma comparação só é útil quando sabemos o que está sendo comparado, de
-        onde veio a informação e o que ficou de fora.
+        O PIAUIGRAPH organiza informações públicas para você encontrar uma
+        compra, entender os números e conferir os documentos.
       </p>
-      <div className="document-meta">
-        <span>Regra: unit-price-v1</span>
-        <span>Carga: {m.version}</span>
-        <span>
-          Captura:{" "}
-          {new Date(m.collectedAt).toLocaleDateString("pt-BR", {
-            timeZone: "America/Sao_Paulo",
-          })}
-        </span>
-      </div>
-      <h2 id="cobertura">Cobertura territorial e analítica</h2>
+      <h2>Três etapas, três significados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome na tela</th>
+            <th>O que significa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Valor estimado</th>
+            <td>A previsão publicada pelo órgão para a compra ou serviço.</td>
+          </tr>
+          <tr>
+            <th>Valor homologado</th>
+            <td>
+              O resultado aprovado e informado pelo órgão. Um registro de preços
+              pode não ser comprado integralmente.
+            </td>
+          </tr>
+          <tr>
+            <th>Valor do contrato</th>
+            <td>
+              O valor de um instrumento publicado. Há contratos e outros tipos
+              de instrumento; o tipo fica visível.
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <p>
-        O mapa contém os 224 municípios do Piauí e as 19 regiões geográficas
-        imediatas do IBGE. As regiões são agrupamentos oficiais de municípios;
-        não são territórios administrativos de saúde. A malha é consultada na
-        API do IBGE e versionada junto à carga.
+        Essas etapas não comprovam entrega nem pagamento. O site não soma
+        licitação, resultado e contrato como se fossem despesas diferentes: isso
+        poderia contar o mesmo negócio várias vezes.
       </p>
+      <h2 id="cobertura">Quais registros entram</h2>
+      <p>{m.scopeDescription}</p>
       <p>
-        <strong>Recorte efetivamente coletado:</strong> {m.scopeDescription}
-      </p>
-      <p>
-        Esta versão contém {m.procedures.toLocaleString("pt-BR")} procedimentos
-        com itens identificados, em {m.municipalitiesWithData} municípios.
-        Desses, {new Set(data.observations.map((o) => o.procedureId)).size}
-        {" "}procedimentos em {new Set(data.observations.map((o) => o.municipalityId)).size}
-        {" "}municípios possuem os {m.observations.toLocaleString("pt-BR")}
-        {" "}resultados homologados elegíveis. A existência de um município no
-        mapa não significa que todas as suas compras tenham sido analisadas.
-      </p>
-      <p>
-        A coleta estadual percorre as páginas de publicações de pregão
-        eletrônico (modalidade 6) entre janeiro de 2024 e dezembro de 2025.
-        Seleciona objetos que mencionam medicamento ou farmácia e procedimentos
-        cujo ano é 2024 ou 2025. Esse filtro pode deixar de fora compras de
-        medicamentos descritas de outra forma. Não cobre todas as modalidades,
-        publicações posteriores ou a totalidade dos contratos do estado.
-      </p>
-      <p>
-        O território é o da unidade compradora informada pelo PNCP. Para órgãos
-        federais ou estaduais, não se presume benefício municipal nem
-        distribuição territorial da compra. A sede do fornecedor não é inferida.
-      </p>
-      <h2>Valores e estágios</h2>
-      <p>
-        O indicador financeiro principal soma somente{" "}
-        <strong>
-          totais homologados dos resultados dos itens selecionados
-        </strong>
-        . Um resultado homologado, inclusive de registro de preços, não comprova
-        contrato assinado, entrega, empenho ou pagamento. Os valores estimado e
-        homologado do procedimento completo aparecem separadamente na ficha e
-        podem conter itens fora deste recorte.
+        A publicação contém {m.procedures.toLocaleString("pt-BR")} compras em{" "}
+        {m.municipalitiesWithData} municípios. O mapa usa os 224 municípios e as
+        19 regiões imediatas do IBGE. Um município aparecer no mapa não
+        significa que todas as suas despesas estejam disponíveis aqui.
       </p>
       <p>
-        Valores ausentes são desconhecidos. Nenhum valor de procedimento é
-        somado ao total de seus itens. Não é apresentado indicador de
-        concentração por valor contratado porque essa carga não comprova o
-        universo de contratos assinados e sua execução.
+        O catálogo percorre as publicações do PNCP de janeiro de 2024 a dezembro
+        de 2025, por modalidade e por página, para unidades compradoras do Piauí
+        e procedimentos de 2024/2025. Não há filtro por assunto: obras,
+        materiais e serviços podem aparecer. Os contratos vêm do índice público
+        usado na busca do portal PNCP, filtrado por Piauí e mês de publicação;
+        só entram instrumentos de 2024/2025 com código de município do Piauí.
+        Cada um dos 24 meses exige captura de todas as páginas e contagem igual
+        à informada pela fonte. O valor exibido é o global publicado; o índice
+        não informa valor inicial nem comprova desembolso.
       </p>
-      <h2 id="comparacao">Comparação de preço unitário</h2>
       <p>
-        São padronizados comprimidos simples de ivermectina 6 mg,
+        Publicações fora desse intervalo, documentos que o órgão não enviou ao
+        PNCP e despesas sem esses registros ficam de fora. Os itens são
+        consultados na fonte oficial quando você abre a seção da compra. Essa
+        consulta depende da disponibilidade do PNCP; a lista principal continua
+        usando a carga verificada.
+      </p>
+      <h2>Como o site aponta valores para conferir</h2>
+      <p>
+        A regra principal compara dois totais do{" "}
+        <strong>mesmo procedimento</strong>: estimado e homologado. Só usa
+        valores positivos e situação “Normal” informada no PNCP. Destaca quando
+        o homologado supera o estimado em mais de R$ 0,01, com diferença
+        arredondada a centavos.
+      </p>
+      <p>
+        O destaque mostra os dois números, a diferença em reais e a proporção.
+        Ele não classifica uma pessoa ou uma área como fraudulenta. Mudanças de
+        quantidade, retificações, alterações no objeto e erros de preenchimento
+        precisam ser conferidos no processo. Valor alto, contratação direta e
+        relação entre registros também não comprovam irregularidade
+        isoladamente.
+      </p>
+      <p>
+        Os assuntos são agrupamentos sugeridos pelas palavras do objeto, para
+        facilitar a navegação. Não são classificação oficial nem ranking de
+        risco. Uma mesma compra pode atender a mais de uma área; a busca
+        preserva o texto original.
+      </p>
+      <h2>Quando preços unitários podem ser comparados</h2>
+      <p>
+        Comparar dois serviços pelo título ou duas embalagens diferentes pode
+        produzir uma conclusão errada. Por isso a comparação unitária verificada
+        tem um recorte explícito: comprimidos simples de ivermectina 6 mg,
         espironolactona 25 mg, ácido fólico 5 mg e ácido acetilsalicílico 100
-        mg. A identificação exige substância, dosagem e unidade de comprimido
-        explicitamente publicadas. Apresentações ambíguas, associações,
-        liberação modificada e embalagens sem unidade comprovada são excluídas.
-        Menções explícitas a caixa, cartela ou frasco também são excluídas,
-        mesmo quando o campo de unidade diz comprimido, para não resolver uma
-        apresentação contraditória por suposição. Não há conversão de embalagens.
-        A descrição original fica disponível; similaridade textual sozinha não
-        cria uma equivalência.
+        mg.
       </p>
       <p>
-        O preço usado é o valor unitário homologado publicado no resultado. Cada
-        referência deve ter a mesma especificação e ano do resultado, data a até
-        180 dias da observação e quantidade entre metade e dobro da quantidade
-        observada. O próprio procedimento e suas duplicatas são excluídos;
-        usa-se no máximo uma referência de cada procedimento, em ordem estável
-        de identificador.
+        Ela exige mesma substância, dosagem, unidade e ano do resultado, data a
+        até 180 dias e quantidade entre metade e dobro. Exclui a própria compra
+        e usa no máximo uma referência de cada procedimento. Associações,
+        liberação modificada e apresentações ambíguas são excluídas. Menção
+        explícita a caixa, cartela ou frasco impede assumir que se trata de um
+        comprimido. Não há conversão presumida de embalagem.
       </p>
       <p>
-        O universo de referência pode incluir outros municípios do estado
-        presentes na mesma carga. A seleção de um município escolhe as
-        observações analisadas, sem restringir silenciosamente esse universo.
-        Referências, datas, quantidades e fornecedores são expostos na ficha.
+        Um destaque unitário exige{" "}
+        <strong>5 referências de 3 compradores e 2 fornecedores</strong>,
+        mediana positiva e preço mais de 30% acima dela. Esse limite é uma regra
+        exploratória do projeto, não uma norma legal ou uma probabilidade de
+        fraude. Com menos dados, a tela informa amostra pequena e mantém apenas
+        a comparação descritiva.
       </p>
       <p>
-        <code>
-          diferença (%) = (preço observado / mediana da referência − 1) × 100
-        </code>
+        Diferença material entre total, quantidade e preço impede destaque sobre
+        o registro e seu uso como referência. A tolerância de arredondamento é
+        quantidade × R$ 0,005 + R$ 0,01. As descrições e os valores originais
+        continuam disponíveis.
+      </p>
+      <h2>De onde vêm as ligações</h2>
+      <p>
+        Órgão, compra, instrumento e fornecedor são conectados por
+        identificadores publicados. Um contrato só é ligado a uma compra quando
+        o PNCP fornece a chave exata. Empresa é identificada pelo CNPJ completo;
+        matriz e filial permanecem distintas. CPF não é indexado. Sequências de
+        documento pessoal inseridas nos nomes e textos são omitidas da publicação.
+        Não são criadas ligações por nomes parecidos.
       </p>
       <p>
-        A mediana descritiva pode ser exibida em amostras pequenas, acompanhada
-        do tamanho da amostra. Um destaque por diferença de preço requer ao
-        menos <strong>5 referências de 3 compradores e 2 fornecedores</strong>,
-        mediana positiva e diferença superior a <strong>30%</strong>. O
-        comprador é identificado pelo CNPJ do órgão e código da unidade
-        compradora. Esses parâmetros são uma convenção exploratória versionada,
-        não uma norma legal ou medida da probabilidade de fraude.
+        O Neo4j recebe e verifica os registros antes da publicação. O site
+        navega pela exportação dessa rede, com até dois passos, 100 registros e
+        200 ligações por consulta. O desenho mostra até 28 registros para
+        preservar a leitura; a lista oferece o conjunto retornado. Cada relação
+        tem fonte. Não há inferência de sociedade, parentesco ou conluio.
       </p>
       <p>
-        Abaixo dos mínimos, o estado é “dados insuficientes para alerta”. Não se
-        ampliam janela ou faixa de quantidade para produzir um destaque. Não há
-        ajuste por inflação, marca ou condições de entrega não documentadas; uma
-        diferença observada exige investigação adicional. O sistema não calcula
-        superfaturamento, prejuízo ou dinheiro desviado.
+        O município é o da unidade compradora. Não é uma suposição sobre a sede
+        do fornecedor, o local da entrega ou quem foi beneficiado.
+      </p>
+      <h2>Como conferir uma informação</h2>
+      <p>
+        Abra o registro e use <strong>Abrir fonte oficial</strong>. Em “Conferir
+        identificação e captura”, veja o identificador PNCP, a redação original,
+        a data e o hash da resposta. O hash identifica os bytes capturados
+        naquela consulta; a resposta atual da fonte pode mudar ou ser
+        serializada em outra ordem.
       </p>
       <p>
-        Quando o total diverge de quantidade × preço unitário, a ficha preserva
-        os valores oficiais. Diferenças compatíveis com arredondamento do preço
-        a centavos são sinalizadas. Divergências superiores à tolerância de
-        quantidade × R$ 0,005 + R$ 0,01 excluem o resultado da referência e
-        impedem um destaque sobre esse próprio registro até conferência.
-      </p>
-      <h2>Fornecedores e grafo</h2>
-      <p>
-        A identidade de fornecedores usa o CNPJ completo. Matriz e filial
-        permanecem distintas. Nomes semelhantes não fundem empresas. A rede
-        registra relações entre região, município, unidade compradora,
-        procedimento, item padronizado e fornecedor do resultado, com URL
-        oficial por relação.
+        Campo ausente aparece como “Não informado”. Zero fornecido pela fonte é
+        identificado como “Valor zerado na fonte”, sem tratá-lo como prova de
+        compra gratuita. O texto pode ter a capitalização ajustada para leitura;
+        a redação publicada permanece na identificação e nos arquivos exportados,
+        com documentos pessoais omitidos.
       </p>
       <p>
-        O Neo4j recebe a carga real e executa consultas Cypher, validações e
-        travessias. O site consulta uma projeção dessa versão exportada do banco
-        e conferida antes da ativação.{" "}
-        <strong>
-          Esta publicação não afirma manter uma conexão ao vivo com o banco.
-        </strong>{" "}
-        A projeção permite navegação rápida mesmo quando a coleta ou o banco
-        estão indisponíveis. A rede pública limita a expansão a dois saltos, 100
-        nós e 200 relações, e informa quando há truncamento.
+        A atualização é mensal. Uma carga com falha de coleta, integridade,
+        banco ou testes não substitui a anterior. A data de cada captura é
+        preservada. O site não calcula superfaturamento, prejuízo ou dinheiro
+        desviado.
       </p>
       <p>
-        Compartilhar um órgão contratante não demonstra conluio ou participação
-        conjunta em licitação. Dados sobre sócios e pessoas físicas não integram
-        o escopo.
-      </p>
-      <h2>Atualização e reprodução</h2>
-      <p>
-        A atualização prevista é mensal. O importador utiliza paginação,
-        concorrência limitada, retomada por cache e tentativas com espera. Cada
-        resposta utilizada possui endereço, data de captura e SHA-256. Uma nova
-        carga só é ativada após validação de identidade, cobertura, cálculos e
-        exportação do Neo4j. Falhas preservam a última carga válida.
-      </p>
-      <p>
-        O build usa dados já preparados e não depende das APIs oficiais. O
-        repositório inclui as projeções sanitizadas, parâmetros e verificações.
-        Respostas brutas e documentos utilizados na conferência ficam fora do
-        Git; sua disponibilidade posterior na fonte não é garantida.
-      </p>
-      <p>
-        Uma comparação sem destaque não comprova regularidade. Ausência de
-        registros pode significar falta de cobertura, filtro ou insuficiência
-        cadastral.
+        <Link href="/fontes">
+          Ver o manifesto e as fontes desta publicação →
+        </Link>
       </p>
     </DocumentShell>
   );

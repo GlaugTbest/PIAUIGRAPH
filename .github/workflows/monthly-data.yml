@@ -11,7 +11,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 330
     services:
       neo4j:
         image: neo4j:5.26-community
@@ -39,10 +39,9 @@ jobs:
           path: .cache/official
           key: official-${{ github.run_id }}
           restore-keys: official-
-      - run: npm run data:state -- --refresh
-      - run: npm run data:neo4j -- --state
-      - run: npm run data:verify -- --state
-      - run: npm run data:promote -- --state
+      - run: npm run data:update -- --catalog
+      - run: npm run lint
+      - run: npm run typecheck
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium

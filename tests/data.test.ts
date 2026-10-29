@@ -1,9 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { getData, explore, filtersFrom } from "../src/lib/data";
+import { getData, getGraph, explore, filtersFrom } from "../src/lib/data";
 import { compare } from "../src/lib/analysis";
 test("active real release preserves identity, counts, sources and Neo4j export", async () => {
-  const { data, graph } = await getData();
+  const [{data},{graph}] = await Promise.all([getData(),getGraph()]);
   assert.equal(data.municipalities.length, 224);
   assert.equal(data.regions.length, 19);
   assert.ok(graph.verified);

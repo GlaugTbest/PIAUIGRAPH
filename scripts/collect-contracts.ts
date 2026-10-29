@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { official, pool, sources, counters } from "./official-client";
 import type { Dataset, PublicContract } from "../src/lib/model";
+import { contractJobs } from "./catalog-jobs";
 const data: Dataset = JSON.parse(
   await readFile("data/staging/catalog.json", "utf8"),
 );
@@ -10,14 +11,15 @@ const previousSources = JSON.parse(
 const buyers = [...new Set(data.procedures.map((p) => p.cnpj))].sort();
 const contracts = new Map<string, PublicContract>();
 const procedureIds = new Set(data.procedures.map((p) => p.id));
-const coverage: { cnpj: string; year: number; records: number }[] = [];
+const coverage: { cnpj: string; year: number; records: number; unitCode?: string }[] = [];
+const jobs = contractJobs(data);
 await pool(
-  buyers.flatMap((cnpj) => [2024, 2025].map((year) => ({ cnpj, year }))),
-  async ({ cnpj, year }, index) => {
+  jobs,
+  async ({ cnpj, year, unitCode }, index) => {
     let count = 0;
     for (let page = 1; page <= 100; page++) {
       const r = await official(
-        `https://pncp.gov.br/api/consulta/v1/contratos?dataInicial=${year}0101&dataFinal=${year}1231&cnpjOrgao=${cnpj}&pagina=${page}&tamanhoPagina=500`,
+        `https://pncp.gov.br/api/consulta/v1/contratos?dataInicial=${year}0101&dataFinal=${year}1231&cnpjOrgao=${cnpj}${unitCode ? `&codigoUnidadeAdministrativa=${encodeURIComponent(unitCode)}` : ""}&pagina=${page}&tamanhoPagina=500`,
       );
       const rows = r.data?.data ?? [];
       if (!Array.isArray(rows)) throw Error("Unexpected contract schema");
@@ -28,26 +30,28 @@ await pool(
         );
         if (!m || c.receita === true || ![2024, 2025].includes(c.anoContrato))
           continue;
-        if (!c.numeroControlePNCP || String(c.orgaoEntidade?.cnpj) !== cnpj)
+        const contractCnpj=String(c.orgaoEntidade?.cnpj??"");
+        if (!c.numeroControlePNCP || !/^\d{14}$/.test(contractCnpj))
           throw Error("Invalid contract identity");
         const company =
           c.tipoPessoa === "PJ" &&
           /^\d{14}$/.test(String(c.niFornecedor ?? "").replace(/\D/g, ""));
+        const original=/^(\d{14})-1-(\d{6})\/(\d{4})$/.exec(String(c.numeroControlePncpCompra??""));
         contracts.set(c.numeroControlePNCP, {
           id: c.numeroControlePNCP,
           procedureId: procedureIds.has(c.numeroControlePncpCompra)
             ? c.numeroControlePncpCompra
             : null,
-          cnpj,
-          agencyId: `${cnpj}:${c.unidadeOrgao.codigoUnidade}`,
+          sourceProcedureId: original ? c.numeroControlePncpCompra : null,
+          sourceProcedureUrl: original ? `https://pncp.gov.br/app/editais/${original[1]}/${original[3]}/${Number(original[2])}` : null,
+          cnpj:contractCnpj,
+          agencyId: `${contractCnpj}:${c.unidadeOrgao.codigoUnidade}`,
           agency: String(c.orgaoEntidade.razaoSocial ?? "Órgão não informado"),
           municipalityId: m.id,
           municipality: m.name,
           supplierId: company ? String(c.niFornecedor).replace(/\D/g, "") : "",
           supplier: company
-            ? String(
-                c.nomeRazaoSocialFornecedor ?? "Razão social não informada",
-              )
+            ? String(c.nomeRazaoSocialFornecedor ?? "").trim() || "Razão social não informada"
             : "Pessoa física ou fornecedor sem CNPJ publicado",
           object: String(c.objetoContrato ?? "").slice(0, 12000),
           year: c.anoContrato,
@@ -60,16 +64,16 @@ await pool(
           kind: String(c.tipoContrato?.nome ?? "Instrumento não informado"),
           kindId: c.tipoContrato?.id ?? 0,
           source: r.source,
-          officialUrl: `https://pncp.gov.br/app/contratos/${cnpj}/${c.anoContrato}/${c.sequencialContrato}`,
+          officialUrl: `https://pncp.gov.br/app/contratos/${contractCnpj}/${c.anoContrato}/${c.sequencialContrato}`,
         });
       }
       if (!rows.length || page >= r.data.totalPaginas) break;
       if (page === 100) throw Error("Contract pagination exceeded budget");
     }
-    coverage.push({ cnpj, year, records: count });
-    if (index % 10 === 0 || index === buyers.length * 2 - 1)
+    coverage.push({ cnpj, year, records: count, ...(unitCode ? {unitCode}: {}) });
+    if (index % 10 === 0 || index === jobs.length - 1)
       console.log(
-        `Contratos ${index + 1}/${buyers.length * 2} · ${contracts.size} instrumentos`,
+        `Contratos ${index + 1}/${jobs.length} · ${contracts.size} instrumentos`,
       );
   },
 );

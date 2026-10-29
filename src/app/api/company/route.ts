@@ -25,9 +25,10 @@ export async function GET(req: NextRequest) {
     {
       id,
       name: contracts[0]?.supplier ?? observations[0]?.supplier,
-      contracts: contracts.toSorted((a, b) =>
-        b.publishedAt.localeCompare(a.publishedAt),
-      ),
+      totalContracts: contracts.length,
+      contracts: contracts
+        .toSorted((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+        .slice(0, 200),
       observations,
       municipalities: new Set([
         ...contracts.map((c) => c.municipalityId),
