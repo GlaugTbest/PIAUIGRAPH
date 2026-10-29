@@ -1,7 +1,6 @@
 import DocumentShell from "@/components/document-shell";
 import { getData } from "@/lib/data";
 import { ExternalLink } from "lucide-react";
-export const dynamic = "force-dynamic";
 export const metadata = { title: "Fontes e versão dos dados — PIAUIGRAPH" };
 export default async function Sources() {
   const { data } = await getData();

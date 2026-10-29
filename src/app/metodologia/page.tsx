@@ -1,6 +1,5 @@
 import DocumentShell from "@/components/document-shell";
 import { getData } from "@/lib/data";
-export const dynamic = "force-dynamic";
 export const metadata = { title: "Metodologia e cobertura — PIAUIGRAPH" };
 export default async function Methodology() {
   const { data } = await getData();

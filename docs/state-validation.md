@@ -30,6 +30,7 @@ A conferência conservadora excluiu uma apresentação cuja descrição informav
 - Neo4j Community 5.26.32: 416 nós e 457 relações. Importação, exportação, comparação exata com a entrada e travessia Cypher real passaram. O site serve a projeção verificada, não um banco ao vivo.
 - Quatro grupos de produtos com referências reais. Próprio procedimento excluído, duplicatas dependentes limitadas, quantidade/data/diversidade e amostra mínima respeitadas.
 - 11 testes de cálculo e integridade passaram. 12 testes de navegação passaram em Chromium desktop e Pixel 7 sobre a carga estadual.
+- Os mesmos 12 testes passaram no endereço público sem login. O workflow Linux do GitHub também concluiu instalação limpa, lint, tipos, cálculos, build e navegação com sucesso.
 - Busca municipal e global, regiões, paginação, ano, medicamento, indicador, detalhe, fonte, CSV, fornecedor, rede de um/dois saltos, estados vazios, recarga e histórico foram exercitados.
 - Auditoria automatizada de acessibilidade sem violações WCAG A/AA nos estados testados. Não substitui avaliação humana de todas as combinações possíveis.
 - Capturas de início, detalhe e rede em computador/celular sem erros de página ou rolagem horizontal. Revisão Impeccable: disposição de publicar.
