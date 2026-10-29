@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { compare, normalize, PRODUCTS } from "./analysis";
 import type { Dataset, Graph, Observation, Procedure } from "./model";
+import { readReleaseFile } from "./release";
 
 let cached: { version: string; data: Dataset; graph: Graph } | undefined;
 export async function getData() {
@@ -13,12 +14,7 @@ export async function getData() {
   if (cached && cached.version === version) return cached;
   const [data, graph] = await Promise.all(
     ["dataset", "graph"].map(async (f) =>
-      JSON.parse(
-        await readFile(
-          path.join(process.cwd(), "data/releases", version, `${f}.json`),
-          "utf8",
-        ),
-      ),
+      readReleaseFile(path.join(process.cwd(), "data/releases", version), f),
     ),
   );
   if (data.manifest.version !== graph.version || !graph.verified)

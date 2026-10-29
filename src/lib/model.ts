@@ -26,6 +26,9 @@ export type Procedure = {
   source: Source;
   itemCount: number;
   matchedCount: number;
+  modalityId?: number;
+  status?: string;
+  statusId?: number;
 };
 export type Observation = {
   id: string;
@@ -75,6 +78,14 @@ export type Manifest = {
   sourceRequests: number;
   sourceFailures: number;
   datasetSha256: string;
+  catalogCoverage?: {
+    modality: number;
+    year: number;
+    month: number;
+    records: number;
+  }[];
+  contractCoverage?: { cnpj: string; year: number; records: number }[];
+  contracts?: number;
   neo4j: {
     verified: boolean;
     version?: string;
@@ -84,12 +95,36 @@ export type Manifest = {
   };
 };
 export type Dataset = {
+  contracts?: PublicContract[];
   municipalities: Municipality[];
   regions: Region[];
   procedures: Procedure[];
   observations: Observation[];
   exclusions: Exclusion[];
   manifest: Manifest;
+};
+export type PublicContract = {
+  id: string;
+  procedureId: string | null;
+  cnpj: string;
+  agencyId: string;
+  municipalityId: string;
+  municipality: string;
+  agency: string;
+  supplierId: string;
+  supplier: string;
+  object: string;
+  year: number;
+  signedAt: string;
+  publishedAt: string;
+  start: string;
+  end: string;
+  initialValue: number | null;
+  globalValue: number | null;
+  kind: string;
+  kindId: number;
+  source: Source;
+  officialUrl: string;
 };
 export type GraphNode = {
   id: string;
@@ -99,7 +134,8 @@ export type GraphNode = {
     | "agency"
     | "procedure"
     | "supplier"
-    | "product";
+    | "product"
+    | "contract";
   label: string;
   municipalityId?: string;
   year?: number;

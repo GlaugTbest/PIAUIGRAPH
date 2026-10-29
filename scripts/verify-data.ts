@@ -4,7 +4,11 @@ import { createHash } from "node:crypto";
 import { compare } from "../src/lib/analysis";
 import { neighborhood } from "../src/lib/graph";
 import type { Dataset, Graph } from "../src/lib/model";
-const scope = process.argv.includes("--state") ? "state" : "pilot";
+const scope = process.argv.includes("--catalog")
+  ? "catalog"
+  : process.argv.includes("--state")
+    ? "state"
+    : "pilot";
 const d: Dataset = JSON.parse(
   await readFile(`data/staging/${scope}.json`, "utf8"),
 );
@@ -38,6 +42,7 @@ const sha = createHash("sha256")
       procedures: d.procedures,
       observations: d.observations,
       exclusions: d.exclusions,
+      ...(d.contracts ? { contracts: d.contracts } : {}),
     }),
   )
   .digest("hex");
@@ -54,12 +59,27 @@ for (const o of d.observations) {
   const result = compare(o, d.observations);
   assert.ok(result.references.every((r) => r.procedureId !== o.procedureId));
 }
+const graphNodeIds = new Set(g.nodes.map(n => n.id));
 for (const e of g.edges) {
-  assert.ok(g.nodes.some((n) => n.id === e.source));
-  assert.ok(g.nodes.some((n) => n.id === e.target));
+  assert.ok(graphNodeIds.has(e.source));
+  assert.ok(graphNodeIds.has(e.target));
   assert.ok(
     /^https:\/\/(pncp.gov.br|servicodados.ibge.gov.br)\//.test(e.evidence),
   );
+}
+if (scope === "catalog") {
+  assert.equal(d.manifest.catalogCoverage?.length, 19 * 24);
+  assert.equal(
+    new Set(d.contracts?.map((c) => c.id)).size,
+    d.contracts?.length,
+  );
+  const ids = new Set(d.procedures.map((p) => p.id));
+  for (const c of d.contracts ?? []) {
+    assert.ok(!c.supplierId || /^\d{14}$/.test(c.supplierId));
+    assert.ok(!c.procedureId || ids.has(c.procedureId));
+    assert.ok(d.municipalities.some((m) => m.id === c.municipalityId));
+  }
+  assert.ok(d.procedures.some((p) => !/(medicamento|farmac)/i.test(p.object)));
 }
 const paired = d.observations.filter(
   (o) => compare(o, d.observations).references.length > 0,

@@ -82,6 +82,7 @@ export function graphInput(data: Dataset): Graph {
       p.source.url,
       p.source.capturedAt,
       p.id,
+      p.year,
     );
   }
   for (const o of data.observations) {
@@ -115,6 +116,67 @@ export function graphInput(data: Dataset): Graph {
       o.procedureId,
       o.year,
     );
+  }
+  for (const c of data.contracts ?? []) {
+    const agency = `agency:${c.agencyId}`;
+    node({
+      id: agency,
+      type: "agency",
+      label: c.agency,
+      municipalityId: c.municipalityId,
+      evidence: c.source.url,
+    });
+    node({
+      id: `contract:${c.id}`,
+      type: "contract",
+      label: `${c.kind} · ${c.municipality} · ${c.year}`,
+      municipalityId: c.municipalityId,
+      year: c.year,
+      evidence: c.officialUrl,
+    });
+    edge(
+      agency,
+      `municipality:${c.municipalityId}`,
+      "UNIDADE_LOCALIZADA_EM",
+      c.source.url,
+      c.source.capturedAt,
+    );
+    edge(
+      agency,
+      `contract:${c.id}`,
+      "PUBLICA_CONTRATO",
+      c.source.url,
+      c.source.capturedAt,
+      c.procedureId ?? undefined,
+      c.year,
+    );
+    if (c.procedureId)
+      edge(
+        `procedure:${c.procedureId}`,
+        `contract:${c.id}`,
+        "ORIGINA_CONTRATO",
+        c.source.url,
+        c.source.capturedAt,
+        c.procedureId,
+        c.year,
+      );
+    if (c.supplierId) {
+      node({
+        id: `supplier:${c.supplierId}`,
+        type: "supplier",
+        label: c.supplier,
+        evidence: c.source.url,
+      });
+      edge(
+        `contract:${c.id}`,
+        `supplier:${c.supplierId}`,
+        "CONTRATA_FORNECEDOR",
+        c.source.url,
+        c.source.capturedAt,
+        c.procedureId ?? undefined,
+        c.year,
+      );
+    }
   }
   return {
     nodes: [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id)),

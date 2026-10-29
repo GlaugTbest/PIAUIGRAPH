@@ -7,7 +7,11 @@ try {
 } catch {
   /* CI uses injected secrets or local service credentials. */
 }
-const scope = process.argv.includes("--state") ? "state" : "pilot";
+const scope = process.argv.includes("--catalog")
+  ? "catalog"
+  : process.argv.includes("--state")
+    ? "state"
+    : "pilot";
 const data: Dataset = JSON.parse(
   await readFile(`data/staging/${scope}.json`, "utf8"),
 );
