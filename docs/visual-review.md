@@ -1,15 +1,13 @@
-# Revisão visual e de estados — 29/10/2026
+# Revisão visual — catálogo geral
 
-Impeccable foi aplicada em modo Operate, com direção visual fixada pelo usuário e implementação orientada por código. A paleta, a serifada estilo Times, o mapa predominante e os painéis contextuais foram preservados.
+A pedido do usuário, esta revisão substitui a direção anterior de vinho e serifas por azul profundo, verde e Source Sans 3. O modo é Operate: busca familiar, leitura clara, resultados em linhas e dados visuais com fonte.
 
-Revisão independente inspecionou as capturas desktop 1440×1000, celular 390×844, evidência de item e rede. A composição, tipografia, alternativas em lista/tabela e comunicação de cobertura/amostra foram consideradas correspondentes ao contrato.
+A revisão independente recebeu dez estados: início em desktop 1440×1000 e celular 390×844; detalhe; ligações em desktop/celular; perguntas financeiras; mapa móvel; instrumentos; detalhe de instrumento em desktop/celular. Uma captura de instrumentos foi inicialmente rejeitada por mostrar o mapa carregando; foi refeita aguardando o sinal de prontidão e a revisão completa só ocorreu com evidência válida.
 
-Foram solicitadas e executadas duas correções: estado recuperável quando a rede perde o centro ao limpar filtros e exibição completa de 2024–2025 no filtro móvel. Capturas específicas do estado vazio e da recuperação, além dos testes de regressão, comprovaram as correções.
+A revisão completa pediu três correções materiais. As abas móveis agora quebram em linhas, mantendo visíveis todos os destinos e o selecionado. Cada instrumento na rede mostra identificador PNCP completo e assunto. Orientação, contagens, acesso à lista e controles explícitos ficam antes do desenho; no celular, a rede precede o painel do fornecedor.
 
-Veredito final: `ship`, no escopo das duas correções pontuadas. O detector mecânico foi executado uma vez e retornou lista vazia. A documentação do sistema visual descreve a implementação entregue.
+As dez capturas foram refeitas após a correção. O mesmo revisor pontuou as três correções como resolvidas, sem regressão material observada nesse lote, disposição `ship` no escopo das correções pontuadas. Não foi apresentada essa etapa como nova aprovação irrestrita de toda a superfície.
 
-As capturas de revisão são artefatos locais de teste, não imagens ilustrativas ou fontes de dados publicadas. A exatidão dos registros e a execução do Neo4j são verificadas separadamente pelos scripts e testes de dados.
+O detector mecânico foi executado uma vez nesta nova direção. Seu único aviso foi a linha inferior de 3px na aba ativa; o revisor julgou inaplicável por ser um indicador de aba com raio zero, não uma borda de cartão arredondado. Não há imagem decorativa: mapa usa geometria oficial e o diagrama usa vínculos reais. Nenhum comp ou cartão externo de calibragem foi produzido; a revisão declarou essa ausência e usou o pedido e o contrato de direção.
 
-## Complemento estadual
-
-A revisão final das quatro capturas da carga estadual confirmou geometria municipal renderizada, ausência de transbordamento horizontal, controles de período completos e distinção entre procedimentos e resultados elegíveis. O sinal de prontidão do mapa passou a esperar o evento `idle`, corrigindo uma seleção antecipada detectada no GitHub. Busca global de procedimento seleciona seu município e busca de fornecedor abre o painel móvel. Disposição final do revisor: **ship**, sem regressão material nos estados inspecionados.
+Os 16 testes de unidade/integridade e os 14 fluxos de navegador em desktop/celular passaram após as correções. Capturas locais registraram ausência de transbordamento horizontal e de erros de JavaScript. A exatidão dos dados e o Neo4j são conferidos separadamente; detalhes em catalog-validation.md. As capturas são evidência local de revisão, não fontes de dados.

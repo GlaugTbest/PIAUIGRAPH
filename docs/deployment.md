@@ -7,6 +7,7 @@ Verificado em 29/10/2026.
 - Projeto Vercel: `glaugtbests-projects/piauigraph`, plano Hobby. Funções em São Paulo (`gru1`), Node.js 24.
 - Publicação automática ligada à branch `main`. Dados preparados entram no build; a página não depende da disponibilidade momentânea do PNCP ou de um banco ligado permanentemente.
 - Início, Fontes e Metodologia são pré-renderizados no build e distribuídos como páginas estáticas. Filtros e links diretos são lidos no navegador; as consultas de dados continuam nas APIs com cache. Isso evita inicializar uma função apenas para abrir a página.
+- As funções recebem apenas a carga ativa. Cargas históricas permanecem no GitHub, mas são excluídas dos pacotes da hospedagem para evitar crescimento desnecessário a cada atualização. A presença da carga ativa foi conferida nos manifestos de empacotamento das APIs de catálogo, registro e rede.
 
 ## Compatibilidade com R$ 0/mês
 

@@ -1,407 +1,501 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-29T20:46:39.692Z",
+  "generatedAt": "2026-10-30T00:17:44.925Z",
   "title": "Design System: PIAUIGRAPH",
   "extensions": {
     "colorMeta": {
-      "wine": {
+      "navy": {
         "role": "primary",
-        "displayName": "Wine",
-        "canonical": "#73030D",
+        "displayName": "Navy",
+        "canonical": "#102e42",
         "tonalRamp": [
-          "oklch(15% 0.030 22)",
-          "oklch(27% 0.060 22)",
-          "oklch(38% 0.085 22)",
-          "oklch(49% 0.100 22)",
-          "oklch(61% 0.100 22)",
-          "oklch(73% 0.080 22)",
-          "oklch(85% 0.050 22)",
-          "oklch(95% 0.015 22)"
-        ]
-      },
-      "wine-soft": {
-        "role": "primary",
-        "displayName": "Soft Wine",
-        "canonical": "#732F3B",
-        "tonalRamp": [
-          "oklch(15% 0.021 8)",
-          "oklch(27% 0.042 8)",
-          "oklch(38% 0.060 8)",
-          "oklch(49% 0.070 8)",
-          "oklch(61% 0.070 8)",
-          "oklch(73% 0.056 8)",
-          "oklch(85% 0.035 8)",
-          "oklch(95% 0.011 8)"
-        ]
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Paper",
-        "canonical": "#F2F2F2",
-        "tonalRamp": [
-          "oklch(15% 0.000 0)",
-          "oklch(27% 0.000 0)",
-          "oklch(38% 0.000 0)",
-          "oklch(49% 0.000 0)",
-          "oklch(61% 0.000 0)",
-          "oklch(73% 0.000 0)",
-          "oklch(85% 0.000 0)",
-          "oklch(95% 0.000 0)"
+          "oklch(15% 0.0153 240.9)",
+          "oklch(27% 0.0306 240.9)",
+          "oklch(38% 0.0434 240.9)",
+          "oklch(49% 0.0511 240.9)",
+          "oklch(61% 0.0511 240.9)",
+          "oklch(73% 0.0409 240.9)",
+          "oklch(85% 0.0255 240.9)",
+          "oklch(95% 0.0077 240.9)"
         ]
       },
       "ink": {
         "role": "neutral",
         "displayName": "Ink",
-        "canonical": "#0D0D0D",
+        "canonical": "#163247",
         "tonalRamp": [
-          "oklch(15% 0.000 0)",
-          "oklch(27% 0.000 0)",
-          "oklch(38% 0.000 0)",
-          "oklch(49% 0.000 0)",
-          "oklch(61% 0.000 0)",
-          "oklch(73% 0.000 0)",
-          "oklch(85% 0.000 0)",
-          "oklch(95% 0.000 0)"
+          "oklch(15% 0.0153 243.2)",
+          "oklch(27% 0.0306 243.2)",
+          "oklch(38% 0.0434 243.2)",
+          "oklch(49% 0.0510 243.2)",
+          "oklch(61% 0.0510 243.2)",
+          "oklch(73% 0.0408 243.2)",
+          "oklch(85% 0.0255 243.2)",
+          "oklch(95% 0.0077 243.2)"
         ]
       },
       "muted": {
         "role": "neutral",
         "displayName": "Muted",
-        "canonical": "#675C5F",
+        "canonical": "#526775",
         "tonalRamp": [
-          "oklch(15% 0.004 2)",
-          "oklch(27% 0.007 2)",
-          "oklch(38% 0.010 2)",
-          "oklch(49% 0.012 2)",
-          "oklch(61% 0.012 2)",
-          "oklch(73% 0.010 2)",
-          "oklch(85% 0.006 2)",
-          "oklch(95% 0.002 2)"
+          "oklch(15% 0.0101 237.5)",
+          "oklch(27% 0.0202 237.5)",
+          "oklch(38% 0.0286 237.5)",
+          "oklch(49% 0.0337 237.5)",
+          "oklch(61% 0.0337 237.5)",
+          "oklch(73% 0.0270 237.5)",
+          "oklch(85% 0.0169 237.5)",
+          "oklch(95% 0.0051 237.5)"
         ]
       },
-      "line": {
-        "role": "neutral",
-        "displayName": "Line",
-        "canonical": "#DCD3D5",
+      "teal": {
+        "role": "primary",
+        "displayName": "Teal",
+        "canonical": "#087a72",
         "tonalRamp": [
-          "oklch(15% 0.004 0)",
-          "oklch(27% 0.007 0)",
-          "oklch(38% 0.010 0)",
-          "oklch(49% 0.012 0)",
-          "oklch(61% 0.012 0)",
-          "oklch(73% 0.010 0)",
-          "oklch(85% 0.006 0)",
-          "oklch(95% 0.002 0)"
+          "oklch(15% 0.0269 186.7)",
+          "oklch(27% 0.0538 186.7)",
+          "oklch(38% 0.0762 186.7)",
+          "oklch(49% 0.0897 186.7)",
+          "oklch(61% 0.0897 186.7)",
+          "oklch(73% 0.0718 186.7)",
+          "oklch(85% 0.0448 186.7)",
+          "oklch(95% 0.0135 186.7)"
+        ]
+      },
+      "teal-dark": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "canonical": "#065e59",
+        "tonalRamp": [
+          "oklch(15% 0.0221 188.4)",
+          "oklch(27% 0.0443 188.4)",
+          "oklch(38% 0.0627 188.4)",
+          "oklch(49% 0.0738 188.4)",
+          "oklch(61% 0.0738 188.4)",
+          "oklch(73% 0.0590 188.4)",
+          "oklch(85% 0.0369 188.4)",
+          "oklch(95% 0.0111 188.4)"
+        ]
+      },
+      "teal-light": {
+        "role": "primary",
+        "displayName": "Pale Teal",
+        "canonical": "#e3f2ed",
+        "tonalRamp": [
+          "oklch(15% 0.0052 174.1)",
+          "oklch(27% 0.0103 174.1)",
+          "oklch(38% 0.0146 174.1)",
+          "oklch(49% 0.0172 174.1)",
+          "oklch(61% 0.0172 174.1)",
+          "oklch(73% 0.0137 174.1)",
+          "oklch(85% 0.0086 174.1)",
+          "oklch(95% 0.0026 174.1)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f4f5f1",
+        "tonalRamp": [
+          "oklch(15% 0.0016 117.9)",
+          "oklch(27% 0.0032 117.9)",
+          "oklch(38% 0.0046 117.9)",
+          "oklch(49% 0.0054 117.9)",
+          "oklch(61% 0.0054 117.9)",
+          "oklch(73% 0.0043 117.9)",
+          "oklch(85% 0.0027 117.9)",
+          "oklch(95% 0.0008 117.9)"
         ]
       },
       "surface": {
         "role": "neutral",
         "displayName": "Surface",
-        "canonical": "#FFFFFF",
+        "canonical": "#ffffff",
         "tonalRamp": [
-          "oklch(15% 0.000 0)",
-          "oklch(27% 0.000 0)",
-          "oklch(38% 0.000 0)",
-          "oklch(49% 0.000 0)",
-          "oklch(61% 0.000 0)",
-          "oklch(73% 0.000 0)",
-          "oklch(85% 0.000 0)",
-          "oklch(95% 0.000 0)"
+          "oklch(15% 0.0000 0.0)",
+          "oklch(27% 0.0000 0.0)",
+          "oklch(38% 0.0000 0.0)",
+          "oklch(49% 0.0000 0.0)",
+          "oklch(61% 0.0000 0.0)",
+          "oklch(73% 0.0000 0.0)",
+          "oklch(85% 0.0000 0.0)",
+          "oklch(95% 0.0000 0.0)"
         ]
       },
-      "tint": {
+      "line": {
         "role": "neutral",
-        "displayName": "Tint",
-        "canonical": "#F6F0F1",
+        "displayName": "Line",
+        "canonical": "#d5dfde",
         "tonalRamp": [
-          "oklch(15% 0.004 0)",
-          "oklch(27% 0.007 0)",
-          "oklch(38% 0.010 0)",
-          "oklch(49% 0.012 0)",
-          "oklch(61% 0.012 0)",
-          "oklch(73% 0.010 0)",
-          "oklch(85% 0.006 0)",
-          "oklch(95% 0.002 0)"
+          "oklch(15% 0.0033 189.8)",
+          "oklch(27% 0.0065 189.8)",
+          "oklch(38% 0.0092 189.8)",
+          "oklch(49% 0.0109 189.8)",
+          "oklch(61% 0.0109 189.8)",
+          "oklch(73% 0.0087 189.8)",
+          "oklch(85% 0.0054 189.8)",
+          "oklch(95% 0.0016 189.8)"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Amber",
+        "canonical": "#84500e",
+        "tonalRamp": [
+          "oklch(15% 0.0304 65.4)",
+          "oklch(27% 0.0609 65.4)",
+          "oklch(38% 0.0863 65.4)",
+          "oklch(49% 0.1015 65.4)",
+          "oklch(61% 0.1015 65.4)",
+          "oklch(73% 0.0812 65.4)",
+          "oklch(85% 0.0507 65.4)",
+          "oklch(95% 0.0152 65.4)"
+        ]
+      },
+      "amber-light": {
+        "role": "secondary",
+        "displayName": "Pale Amber",
+        "canonical": "#fff3d9",
+        "tonalRamp": [
+          "oklch(15% 0.0109 86.2)",
+          "oklch(27% 0.0218 86.2)",
+          "oklch(38% 0.0309 86.2)",
+          "oklch(49% 0.0364 86.2)",
+          "oklch(61% 0.0364 86.2)",
+          "oklch(73% 0.0291 86.2)",
+          "oklch(85% 0.0182 86.2)",
+          "oklch(95% 0.0055 86.2)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Focus Amber",
+        "canonical": "#c27619",
+        "tonalRamp": [
+          "oklch(15% 0.0407 64.2)",
+          "oklch(27% 0.0813 64.2)",
+          "oklch(38% 0.1152 64.2)",
+          "oklch(49% 0.1355 64.2)",
+          "oklch(61% 0.1355 64.2)",
+          "oklch(73% 0.1084 64.2)",
+          "oklch(85% 0.0678 64.2)",
+          "oklch(95% 0.0203 64.2)"
         ]
       },
       "map-canvas": {
         "role": "neutral",
         "displayName": "Map Canvas",
-        "canonical": "#F0EDED",
+        "canonical": "#e8eeea",
         "tonalRamp": [
-          "oklch(15% 0.002 0)",
-          "oklch(27% 0.004 0)",
-          "oklch(38% 0.005 0)",
-          "oklch(49% 0.006 0)",
-          "oklch(61% 0.006 0)",
-          "oklch(73% 0.005 0)",
-          "oklch(85% 0.003 0)",
-          "oklch(95% 0.001 0)"
+          "oklch(15% 0.0025 157.1)",
+          "oklch(27% 0.0050 157.1)",
+          "oklch(38% 0.0071 157.1)",
+          "oklch(49% 0.0083 157.1)",
+          "oklch(61% 0.0083 157.1)",
+          "oklch(73% 0.0066 157.1)",
+          "oklch(85% 0.0042 157.1)",
+          "oklch(95% 0.0012 157.1)"
         ]
       },
       "map-data": {
         "role": "neutral",
         "displayName": "Map Data",
-        "canonical": "#AC727D",
+        "canonical": "#6baba0",
         "tonalRamp": [
-          "oklch(15% 0.019 7)",
-          "oklch(27% 0.039 7)",
-          "oklch(38% 0.055 7)",
-          "oklch(49% 0.065 7)",
-          "oklch(61% 0.065 7)",
-          "oklch(73% 0.052 7)",
-          "oklch(85% 0.033 7)",
-          "oklch(95% 0.010 7)"
+          "oklch(15% 0.0204 182.2)",
+          "oklch(27% 0.0408 182.2)",
+          "oklch(38% 0.0578 182.2)",
+          "oklch(49% 0.0680 182.2)",
+          "oklch(61% 0.0680 182.2)",
+          "oklch(73% 0.0544 182.2)",
+          "oklch(85% 0.0340 182.2)",
+          "oklch(95% 0.0102 182.2)"
         ]
       },
       "map-empty": {
         "role": "neutral",
         "displayName": "Map Empty",
-        "canonical": "#DED7D8",
+        "canonical": "#d6e2da",
         "tonalRamp": [
-          "oklch(15% 0.003 0)",
-          "oklch(27% 0.006 0)",
-          "oklch(38% 0.009 0)",
-          "oklch(49% 0.010 0)",
-          "oklch(61% 0.010 0)",
-          "oklch(73% 0.008 0)",
-          "oklch(85% 0.005 0)",
-          "oklch(95% 0.002 0)"
+          "oklch(15% 0.0050 156.9)",
+          "oklch(27% 0.0101 156.9)",
+          "oklch(38% 0.0142 156.9)",
+          "oklch(49% 0.0168 156.9)",
+          "oklch(61% 0.0168 156.9)",
+          "oklch(73% 0.0134 156.9)",
+          "oklch(85% 0.0084 156.9)",
+          "oklch(95% 0.0025 156.9)"
         ]
       },
       "map-region": {
         "role": "neutral",
         "displayName": "Map Region",
-        "canonical": "#D0AEB4",
+        "canonical": "#b8d8d0",
         "tonalRamp": [
-          "oklch(15% 0.011 5)",
-          "oklch(27% 0.021 5)",
-          "oklch(38% 0.030 5)",
-          "oklch(49% 0.035 5)",
-          "oklch(61% 0.035 5)",
-          "oklch(73% 0.028 5)",
-          "oklch(85% 0.018 5)",
-          "oklch(95% 0.005 5)"
+          "oklch(15% 0.0107 178.6)",
+          "oklch(27% 0.0214 178.6)",
+          "oklch(38% 0.0303 178.6)",
+          "oklch(49% 0.0357 178.6)",
+          "oklch(61% 0.0357 178.6)",
+          "oklch(73% 0.0285 178.6)",
+          "oklch(85% 0.0178 178.6)",
+          "oklch(95% 0.0054 178.6)"
         ]
       },
       "graph-edge": {
         "role": "neutral",
         "displayName": "Graph Edge",
-        "canonical": "#C3A7AD",
+        "canonical": "#8caeaa",
         "tonalRamp": [
-          "oklch(15% 0.011 3)",
-          "oklch(27% 0.021 3)",
-          "oklch(38% 0.030 3)",
-          "oklch(49% 0.035 3)",
-          "oklch(61% 0.035 3)",
-          "oklch(73% 0.028 3)",
-          "oklch(85% 0.018 3)",
-          "oklch(95% 0.005 3)"
+          "oklch(15% 0.0113 187.6)",
+          "oklch(27% 0.0225 187.6)",
+          "oklch(38% 0.0319 187.6)",
+          "oklch(49% 0.0375 187.6)",
+          "oklch(61% 0.0375 187.6)",
+          "oklch(73% 0.0300 187.6)",
+          "oklch(85% 0.0188 187.6)",
+          "oklch(95% 0.0056 187.6)"
         ]
       },
-      "graph-context": {
+      "diagram-surface": {
         "role": "neutral",
-        "displayName": "Graph Context",
-        "canonical": "#A87D85",
+        "displayName": "Diagram Surface",
+        "canonical": "#edf3ef",
         "tonalRamp": [
-          "oklch(15% 0.013 4)",
-          "oklch(27% 0.027 4)",
-          "oklch(38% 0.038 4)",
-          "oklch(49% 0.045 4)",
-          "oklch(61% 0.045 4)",
-          "oklch(73% 0.036 4)",
-          "oklch(85% 0.022 4)",
-          "oklch(95% 0.007 4)"
+          "oklch(15% 0.0025 157.1)",
+          "oklch(27% 0.0050 157.1)",
+          "oklch(38% 0.0070 157.1)",
+          "oklch(49% 0.0083 157.1)",
+          "oklch(61% 0.0083 157.1)",
+          "oklch(73% 0.0066 157.1)",
+          "oklch(85% 0.0041 157.1)",
+          "oklch(95% 0.0012 157.1)"
+        ]
+      },
+      "estimate-bar": {
+        "role": "primary",
+        "displayName": "Estimate Bar",
+        "canonical": "#264b62",
+        "tonalRamp": [
+          "oklch(15% 0.0173 237.9)",
+          "oklch(27% 0.0346 237.9)",
+          "oklch(38% 0.0490 237.9)",
+          "oklch(49% 0.0577 237.9)",
+          "oklch(61% 0.0577 237.9)",
+          "oklch(73% 0.0461 237.9)",
+          "oklch(85% 0.0288 237.9)",
+          "oklch(95% 0.0086 237.9)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Display",
-        "purpose": "Document-page titles; 37px mobile override."
+        "displayName": "Document title",
+        "purpose": "Document-page headings; reduced on mobile."
       },
       "headline": {
-        "displayName": "Headline",
-        "purpose": "Current territory heading; 32px mobile override."
+        "displayName": "Explorer heading",
+        "purpose": "A compact task heading before search."
       },
       "title": {
-        "displayName": "Title",
-        "purpose": "Section headings, with local source variants."
+        "displayName": "Section title",
+        "purpose": "Reading-workspace section headings."
+      },
+      "record-title": {
+        "displayName": "Catalog record",
+        "purpose": "Readable three-line result objects."
       },
       "body": {
-        "displayName": "Body",
-        "purpose": "Arial interface text; reading pages use 1.8 line height and a 75ch maximum."
+        "displayName": "Reading text",
+        "purpose": "Ordinary Portuguese explanations."
       },
       "label": {
-        "displayName": "Label",
-        "purpose": "Bold panel tab labels; local controls use regular weights."
-      },
-      "figure": {
-        "displayName": "Figure",
-        "purpose": "Regular Tinos summary figures with tabular numerals."
+        "displayName": "Control label",
+        "purpose": "Filter labels and supporting metadata."
       }
     },
     "shadows": [
       {
-        "name": "search-overlay",
-        "value": "0 8px 24px rgb(47 12 21 / 10%)",
-        "purpose": "Floating search results only; CSS custom property --shadow."
+        "name": "filter-popover",
+        "value": "0 8px 25px #16324720",
+        "purpose": "Desktop region filter; removed when inline on mobile."
+      },
+      {
+        "name": "map-controls",
+        "value": "0 2px 8px #102e4212",
+        "purpose": "Separate controls from geographic fill."
+      },
+      {
+        "name": "selected-row",
+        "value": "inset 0 0 0 1px #a7c6bc",
+        "purpose": "Pair a visible selection stroke with pale green fill."
       }
     ],
     "motion": [
       {
+        "name": "row-hover",
+        "value": "background-color 0.12s",
+        "purpose": "A brief row-hover color change; disabled for reduced motion."
+      },
+      {
+        "name": "loading-dot",
+        "value": "breathe 1.1s ease-out infinite alternate",
+        "purpose": "Opacity .3 to 1 while loading; disabled for reduced motion."
+      },
+      {
+        "name": "document-scroll",
+        "value": "smooth",
+        "purpose": "Default HTML scrolling; auto for reduced motion."
+      },
+      {
         "name": "map-selection",
         "value": "450ms",
-        "purpose": "Selected boundary fit; 0ms with reduced motion."
-      },
-      {
-        "name": "map-reset",
-        "value": "0ms",
-        "purpose": "Return to statewide bounds."
-      },
-      {
-        "name": "reduced-motion",
-        "value": "0.01ms",
-        "purpose": "CSS animation and transition duration under prefers-reduced-motion: reduce; smooth scrolling becomes auto."
+        "purpose": "Selected-feature fit; 0ms when reduced motion is requested. Other MapLibre interactions are not asserted to be exhaustively motion-free."
       }
     ],
     "breakpoints": [
       {
         "name": "wide",
-        "value": "1600px"
+        "value": "1500px"
       },
       {
         "name": "compact-desktop",
-        "value": "1150px"
+        "value": "1100px"
+      },
+      {
+        "name": "single-column",
+        "value": "999px"
       },
       {
         "name": "mobile",
-        "value": "800px"
+        "value": "600px"
       }
     ]
   },
   "components": [
     {
-      "name": "Official-source action",
+      "name": "Primary action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Filled link used to open the official PNCP record.",
-      "html": "<a class=\"ds-primary\" href=\"#pncp\">Abrir no PNCP <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5\"/></svg></a>",
-      "css": ".ds-primary{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:inline-flex;align-items:center;gap:7px;background:var(--wine,#73030d);color:var(--surface,#fff);padding:9px 12px;border:0;border-radius:3px;text-decoration:none}.ds-primary:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-primary:focus-visible{outline-offset:3px}"
+      "description": "The clear next action; teal deepens on hover.",
+      "html": "<button class=\"ds-primary\">Buscar <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-primary{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:16px;font-weight:600;line-height:1.2;min-height:44px;padding:10px 16px;border-radius:7px;text-decoration:none;border:0;background:var(--teal,#087a72);color:var(--surface,#fff)}.ds-primary:hover{background:var(--teal-dark,#065e59)}.ds-primary:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}.ds-primary:disabled{cursor:not-allowed;opacity:.45}"
     },
     {
-      "name": "Export action",
+      "name": "Outline action",
       "kind": "button",
-      "refersTo": "button-export",
-      "description": "Outlined evidence export link with a trailing arrow.",
-      "html": "<a class=\"ds-export\" href=\"#csv\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3\"/></svg> Exportar evidências do recorte <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-export{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:flex;align-items:center;gap:9px;border:1px solid #c8b3b9;border-radius:4px;padding:12px 13px;color:var(--wine,#73030d);text-decoration:none}.ds-export svg:last-child{margin-left:auto}.ds-export:hover{background:var(--tint,#f6f0f1)}.ds-export:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}"
+      "refersTo": "button-outline",
+      "description": "A secondary action on white with a pale teal hover.",
+      "html": "<button class=\"ds-outline\">Ver ligações</button>",
+      "css": ".ds-outline{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:16px;font-weight:600;line-height:1.2;min-height:44px;padding:10px 16px;border-radius:7px;text-decoration:none;border:1px solid #9db8b8;background:var(--surface,#fff);color:var(--teal-dark,#065e59)}.ds-outline:hover{background:var(--teal-light,#e3f2ed)}.ds-outline:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}.ds-outline:disabled{cursor:not-allowed;opacity:.45}"
     },
     {
-      "name": "Icon action",
+      "name": "Text action",
       "kind": "button",
-      "refersTo": "button-icon",
-      "description": "Compact bordered action used for copying the current scope link.",
-      "html": "<button class=\"ds-icon\" aria-label=\"Copiar link deste recorte\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5\"/></svg></button>",
-      "css": ".ds-icon{height:35px;width:35px;display:grid;place-items:center;border:1px solid var(--line,#dcd3d5);border-radius:4px;background:none;color:var(--wine-soft,#732f3b);cursor:pointer}.ds-icon:hover{background:var(--tint,#f6f0f1)}.ds-icon:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-icon:disabled{cursor:default;opacity:.45}"
+      "refersTo": "button-text",
+      "description": "A lightweight contextual action with a hover underline.",
+      "html": "<button class=\"ds-text\">Copiar link</button>",
+      "css": ".ds-text{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:inline-flex;align-items:center;gap:7px;padding:7px 0;min-height:44px;font-size:16px;font-weight:600;white-space:nowrap;background:none;border:0;color:var(--teal-dark,#065e59)}.ds-text:hover{text-decoration:underline}.ds-text:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}"
     },
     {
       "name": "Search field",
       "kind": "input",
       "refersTo": "input-search",
-      "description": "Labelled scope search with its focus ring on the outer control.",
-      "html": "<div class=\"ds-search\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Buscar município\" placeholder=\"Município, fornecedor ou contratação\"/></div>",
-      "css": ".ds-search{display:flex;align-items:center;gap:10px;border:1px solid #c8b7bb;border-radius:4px;height:48px;padding:0 13px;background:var(--surface,#fff);color:var(--wine-soft,#732f3b)}.ds-search input{font:13px/1.5 var(--ui,Arial,Helvetica,sans-serif);border:0;background:transparent;outline:none;width:100%;min-width:0;color:var(--ink,#0d0d0d);caret-color:var(--wine,#73030d)}.ds-search input::placeholder{color:#73666a}.ds-search:focus-within{outline:2px solid var(--wine,#73030d);outline-offset:2px}.ds-search input:focus-visible{outline:0}@media(max-width:800px){.ds-search{height:45px}}"
+      "description": "The leading search control; focus is shown around the full field.",
+      "html": "<form class=\"ds-search\" onsubmit=\"return false\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m17 17 4 4\"/></svg><input aria-label=\"Buscar compras, serviços ou fornecedores\" placeholder=\"O que você procura?\" /><button>Buscar</button></form>",
+      "css": ".ds-search{display:flex;align-items:center;gap:12px;background:var(--surface,#fff);border:1px solid #87a5a7;border-radius:9px;padding:7px 8px 7px 17px;max-width:100%;color:var(--teal,#087a72);font-family:var(--font,'Source Sans 3',Arial,sans-serif)}.ds-search input{min-width:0;flex:1;border:0;outline:none;background:transparent;color:var(--ink,#163247);padding:6px 0;font:400 18px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);height:43px;caret-color:var(--teal,#087a72)}.ds-search input::placeholder{color:#5c707d;opacity:1}.ds-search:focus-within{border-color:var(--teal,#087a72);outline:2px solid #b6d6cf;outline-offset:1px}.ds-search input:focus-visible{outline:none}.ds-search button{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:16px;font-weight:600;line-height:1.2;min-height:44px;padding:10px 16px;border-radius:7px;text-decoration:none;border:0;color:#fff;background:var(--teal,#087a72);height:45px;min-width:120px;font-size:17px}.ds-search button:hover{background:var(--teal-dark,#065e59)}.ds-search button:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}"
     },
     {
-      "name": "Evidence tabs",
+      "name": "Native filter",
+      "kind": "input",
+      "refersTo": "input-select",
+      "description": "A visible label above an ordinary native selection control.",
+      "html": "<label class=\"ds-filter\">Ano<select aria-label=\"Filtrar ano\"><option>2024 e 2025</option><option>2024</option><option>2025</option></select></label>",
+      "css": ".ds-filter{display:block;color:var(--muted,#526775);font:600 14px/1.5 var(--font,'Source Sans 3',Arial,sans-serif)}.ds-filter select{display:block;width:100%;min-height:44px;margin-top:5px;padding:8px 28px 8px 11px;border:1px solid #afc1c2;border-radius:7px;background:var(--surface,#fff);color:var(--ink,#163247);font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif)}.ds-filter select:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}"
+    },
+    {
+      "name": "Workspace navigation",
       "kind": "nav",
-      "refersTo": "nav-panel",
-      "description": "White tab navigation with a wine underline for the selected evidence view.",
-      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Evidências\"><button role=\"tab\" aria-selected=\"true\">Compras</button><button role=\"tab\" aria-selected=\"false\">Comparações</button><button role=\"tab\" aria-selected=\"false\">Municípios</button></div>",
-      "css": ".ds-tabs{display:flex;gap:23px;border-bottom:1px solid var(--line,#dcd3d5);background:var(--surface,#fff)}.ds-tabs button{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;font-weight:700;padding:13px 0;border:0;border-bottom:2px solid transparent;background:none;color:#79686e;cursor:pointer}.ds-tabs button[aria-selected=true]{color:var(--wine,#73030d);border-bottom-color:var(--wine,#73030d)}.ds-tabs button:hover{color:var(--wine,#73030d)}.ds-tabs button:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}@media(max-width:800px){.ds-tabs{gap:26px}}"
+      "refersTo": "nav-workspace",
+      "description": "Text tabs with a selected bottom rule and quiet record-count badges; mobile wraps.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Explorar dados\"><button role=\"tab\" aria-selected=\"true\">Compras <span>25.770</span></button><button role=\"tab\" aria-selected=\"false\">Contratos <span>15.589</span></button><button role=\"tab\" aria-selected=\"false\">Mapa</button><button role=\"tab\" aria-selected=\"false\">O que conferir</button><button role=\"tab\" aria-selected=\"false\">Ligações</button></div>",
+      "css": ".ds-tabs{display:flex;gap:27px;border-bottom:1px solid #bacdcb;overflow:auto}.ds-tabs>button{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:flex;align-items:center;gap:8px;white-space:nowrap;padding:10px 0 13px;font-size:16px;font-weight:600;min-height:44px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted,#526775)}.ds-tabs>button[aria-selected=true]{color:var(--teal-dark,#065e59);border-bottom-color:var(--teal,#087a72)}.ds-tabs>button:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}.ds-tabs span{font-size:13px;background:#e1eae7;color:#35575c;border-radius:5px;padding:1px 6px;font-variant-numeric:tabular-nums}@media(max-width:600px){.ds-tabs{flex-wrap:wrap;gap:4px 16px;overflow:visible}.ds-tabs>button{font-size:15px;gap:6px;padding-top:9px;padding-bottom:12px}.ds-tabs span{font-size:11px;padding:1px 5px}}"
     },
     {
-      "name": "Count badge",
+      "name": "Value check tag",
       "kind": "chip",
-      "refersTo": "chip-count",
-      "description": "Noninteractive count attached to a list heading; it is not a filter.",
-      "html": "<span class=\"ds-count\">3</span>",
-      "css": ".ds-count{font-family:var(--ui,Arial,Helvetica,sans-serif);font-size:11px;line-height:1.5;display:inline-block;padding:0 7px;background:var(--tint,#f6f0f1);color:var(--wine,#73030d);border-radius:3px}"
+      "refersTo": "chip-check",
+      "description": "A textual prompt to check a value, without implying wrongdoing.",
+      "html": "<span class=\"ds-check\">Valor para conferir</span>",
+      "css": ".ds-check{display:inline-block;padding:3px 8px;color:var(--amber,#84500e);background:var(--amber-light,#fff3d9);font:400 13px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);border-radius:5px;white-space:nowrap}@media(max-width:600px){.ds-check{font-size:11px;max-width:90px;white-space:normal;line-height:1.25;padding:5px 7px}}"
     },
     {
-      "name": "Procedure row",
-      "kind": "custom",
-      "refersTo": "row-procedure",
-      "description": "Divided full-width record row with a serif title and compact metadata.",
-      "html": "<button class=\"ds-procedure\"><span class=\"ds-row-top\"><span>Gilbués</span><span>2025 · Registro de preços</span></span><strong>Registro de preços para aquisição futura e parcelada de medicamentos</strong><span class=\"ds-row-bottom\"><span>4 itens padronizados · 27/01/2025</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></button>",
-      "css": ".ds-procedure{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line,#dcd3d5);padding:19px 0;background:none;color:var(--ink,#0d0d0d);cursor:pointer}.ds-procedure:hover{background:#fcf8f9}.ds-procedure:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}.ds-row-top,.ds-row-bottom{display:flex;justify-content:space-between;align-items:center;gap:7px;font:9px/1.5 var(--ui,Arial,Helvetica,sans-serif);color:var(--muted,#675c5f)}.ds-row-top>span:first-child{color:var(--wine-soft,#732f3b);font-weight:700}.ds-procedure>strong{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font:700 18px/1.25 var(--serif,\"Tinos\",\"Times New Roman\",serif);margin:10px 0 12px}.ds-row-bottom svg{color:var(--wine,#73030d)}@media(max-width:800px){.ds-procedure>strong{font-size:20px}.ds-row-top,.ds-row-bottom{font-size:10px}}"
-    },
-    {
-      "name": "Territory row",
-      "kind": "custom",
-      "refersTo": "row-territory",
-      "description": "Keyboard-accessible equivalent of selecting a municipality on the map.",
-      "html": "<button class=\"ds-territory\"><span>Pimenteiras<small>Região geográfica imediata</small></span><span>1 <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></span></button>",
-      "css": ".ds-territory{font:13px/1.5 var(--ui,Arial,Helvetica,sans-serif);display:flex;width:100%;align-items:center;justify-content:space-between;gap:12px;text-align:left;padding:13px 0;border:0;border-bottom:1px solid var(--line,#dcd3d5);background:none;color:var(--ink,#0d0d0d);cursor:pointer}.ds-territory small{display:block;font-size:9px;color:var(--muted,#675c5f);margin-top:2px}.ds-territory>span:last-child{display:flex;align-items:center;gap:12px;font-size:11px}.ds-territory:hover{color:var(--wine,#73030d);background:var(--tint,#f6f0f1)}.ds-territory:focus-visible{outline:2px solid var(--wine,#73030d);outline-offset:4px}"
-    },
-    {
-      "name": "Insufficient-data inset",
+      "name": "Selected-record container",
       "kind": "card",
-      "refersTo": "card-sample",
-      "description": "Flat contextual container explaining sample limitations without inventing an alert.",
-      "html": "<div class=\"ds-sample\"><span>Dados insuficientes para alerta</span><p>0 observações de referência · 0 compradores · 0 fornecedores</p><p>O mínimo é 5 referências, de 3 compradores e 2 fornecedores. A comparação abaixo é descritiva.</p></div>",
-      "css": ".ds-sample{margin:18px 0 14px;padding:13px;background:#f5f1f2;border-radius:3px;font-family:var(--ui,Arial,Helvetica,sans-serif)}.ds-sample>span{font-size:11px;line-height:1.5;font-weight:700;color:#60414b}.ds-sample p{font-size:10px;line-height:1.5;margin:5px 0 0;color:#65515a}"
+      "refersTo": "card-record",
+      "description": "A flat white reading surface, divided by fine source and financial-stage rules.",
+      "html": "<aside class=\"ds-record\" aria-label=\"Registro selecionado\"><span class=\"ds-place\">Pimenteiras</span><h2>Registro selecionado</h2><p>Veja os valores publicados e confira a fonte oficial.</p><a href=\"#fonte\">Abrir fonte oficial</a></aside>",
+      "css": ".ds-record{background:var(--surface,#fff);color:var(--ink,#163247);border:1px solid #bfd0cb;border-radius:12px;padding:23px;min-width:0;font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif)}.ds-place{color:var(--teal-dark,#065e59);font-size:14px;font-weight:600}.ds-record h2{font-size:22px;font-weight:600;line-height:1.35;overflow-wrap:anywhere;margin:10px 0}.ds-record p{margin:16px 0}.ds-record a{color:var(--teal-dark,#065e59);text-underline-offset:3px}.ds-record a:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}@media(max-width:600px){.ds-record{padding:19px 16px;border-radius:10px}.ds-record h2{font-size:21px;line-height:1.4}}"
     },
     {
-      "name": "Map legend",
+      "name": "Flat purchase row",
       "kind": "custom",
-      "refersTo": "map-legend",
-      "description": "Three explicit coverage/selection keys on translucent white.",
-      "html": "<div class=\"ds-legend\"><span><i class=\"ds-data\"></i>Com procedimentos no recorte</span><span><i class=\"ds-empty\"></i>Sem registros nesta carga</span><span><i class=\"ds-selected\"></i>Selecionado</span></div>",
-      "css": ".ds-legend{display:inline-flex;flex-direction:column;gap:7px;padding:12px 14px;border-radius:3px;background:#ffffffeb;font:10px/1.5 var(--ui,Arial,Helvetica,sans-serif);color:#503e44}.ds-legend span{display:flex;align-items:center;gap:8px}.ds-legend i{width:10px;height:10px;border:1px solid #98717a;border-radius:2px}.ds-data{background:#ac727d}.ds-empty{background:#ded7d8}.ds-selected{background:var(--wine,#73030d)}@media(max-width:800px){.ds-legend{font-size:9px;padding:9px 11px;gap:5px}}"
+      "refersTo": "row-record",
+      "description": "A whole-row button with object, buyer and a stage-named value. Sample content is drawn from the captured catalog.",
+      "html": "<button class=\"ds-row\"><span class=\"ds-row-meta\">Teresina <span>Serviços · 2025</span></span><h3>Locação de imóvel não residencial, tipo prédio comercial.</h3><span class=\"ds-row-agency\">MUNICIPIO DE TERESINA</span><span class=\"ds-row-bottom\">Valor previsto <strong>R$ 120.000,00</strong><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></span></button>",
+      "css": ".ds-row{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;display:block;width:100%;border:0;border-bottom:1px solid var(--line,#d5dfde);padding:21px 4px;background:transparent;color:var(--ink,#163247);transition:background-color .12s}.ds-row:hover{background:#eaf1ed}.ds-row:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}.ds-row.is-selected{background:#e1efea;box-shadow:inset 0 0 0 1px #a7c6bc}.ds-row-meta{display:flex;justify-content:space-between;gap:10px;color:var(--teal-dark,#065e59);font-size:14px;font-weight:600;margin-bottom:9px}.ds-row-meta>span{color:var(--muted,#526775);font-weight:400}.ds-row h3{margin:0;font-size:20px;line-height:1.35;font-weight:600;overflow-wrap:anywhere;max-width:70ch;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.ds-row-agency{display:block;font-size:14px;color:var(--muted,#526775);margin-top:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-row-bottom{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:14px;color:var(--muted,#526775)}.ds-row-bottom strong{font-size:17px;font-variant-numeric:tabular-nums;color:var(--ink,#163247);white-space:nowrap}.ds-row-bottom svg{margin-left:auto;color:var(--teal,#087a72)}@media(prefers-reduced-motion:reduce){.ds-row{transition:none}}"
+    },
+    {
+      "name": "Documentary network node",
+      "kind": "custom",
+      "refersTo": "node-evidence",
+      "description": "A record button, with the selected node in deep teal; layout positioning belongs to the graph canvas.",
+      "html": "<button class=\"ds-node\" aria-label=\"Seguir ligações de Órgão comprador: Órgão comprador\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z\"/><path d=\"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2\"/><path d=\"M10 6h4m-4 4h4m-4 4h4m-4 4h4\"/></svg><span><small>Órgão comprador</small><strong>Registro documentado</strong></span></button>",
+      "css": ".ds-node{font:400 16px/1.5 var(--font,'Source Sans 3',Arial,sans-serif);cursor:pointer;text-align:left;width:170px;min-height:65px;padding:10px 12px;background:var(--surface,#fff);color:var(--ink,#163247);border:1px solid #a8bfba;border-radius:9px;display:flex;align-items:center;gap:8px}.ds-node>span{min-width:0}.ds-node small{font-size:11px;color:var(--muted,#526775);display:block;margin-bottom:3px}.ds-node strong{font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:600}.ds-node.is-center{background:var(--teal-dark,#065e59);color:#fff;border-color:var(--teal-dark,#065e59)}.ds-node.is-center small{color:#c5e6dd}.ds-node:hover{outline:2px solid #93b8ae;outline-offset:2px}.ds-node:focus-visible{outline:3px solid var(--focus,#c27619);outline-offset:3px}"
     }
   ],
   "narrative": {
-    "northStar": "A precise geographic investigation workspace",
-    "overview": "The implemented world follows the user-pinned direction: a wine masthead, paper-light workspace, Times-like titles and a map that opens directly into public records. Territory selection connects the geographic view to the contextual evidence panel. Portuguese labels, source links and coverage statements are part of the working interface.\n\nThe character is compact, restrained and documentary. Tinos gives names, headings and figures an editorial voice; Arial carries controls and dense supporting text. Thin separators and pale tonal surfaces organize information with little visual elevation. Red marks selection and action, never guilt.",
+    "northStar": "Public library wayfinding",
+    "overview": "PIAUIGRAPH is an approachable reading and finding tool for public procurement. Deep blue ink, teal signs and warm reading surfaces make the catalog recognizable without asking people to learn an auditing interface. Ordinary Portuguese, clear financial labels and visible official sources support readers across literacy levels.\n\nSearch and flat results lead the implemented civic explorer. Geographic context, paired value bars and documentary relationships support a chosen record. The user explicitly replaced the former burgundy, serif and map-first direction; those decisions are superseded. This is a record of shipped code, not a composition proposal.",
     "keyCharacteristics": [
-      "Map-first navigation with a contextual evidence panel.",
-      "Wine accents on paper and white surfaces.",
-      "Tinos headings and figures paired with Arial controls and supporting text.",
-      "Compact controls, thin rules and small corner radii.",
-      "Visible coverage, limitations and official evidence."
+      "Blue ink and teal wayfinding on warm paper and white surfaces.",
+      "One self-hosted sans-serif family for headings, reading, controls and figures.",
+      "Flat record rows, familiar filters and modest rounded controls.",
+      "Named financial stages and factual visuals with visible source access.",
+      "Responsive reading order, wrapping mobile tabs and alternative list access."
     ],
     "rules": [
       {
-        "name": "The Selection Rule",
-        "body": "Wine denotes selected scope and available actions; it never asserts fraud or irregularity.",
+        "name": "The Evidence Color Rule",
+        "body": "Color identifies an action, selection, published stage or coverage state. It never establishes wrongdoing.",
         "section": "colors"
       },
       {
-        "name": "The Reading Hierarchy Rule",
-        "body": "Use Tinos for headings, record titles and prominent figures; keep dense controls and supporting text in the implemented sans-serif stack.",
+        "name": "The One Reading Voice Rule",
+        "body": "Use Source Sans 3 across the interface; establish hierarchy through size, weight and spacing.",
         "section": "typography"
       },
       {
-        "name": "The Flat Workspace Rule",
-        "body": "Keep permanent map and evidence surfaces flat; use the existing shadow to distinguish the floating search results.",
+        "name": "The Reading Surface Rule",
+        "body": "Use borders and tonal changes for reading structure; reserve the recorded drop shadows for overlays.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do open directly into the geographic workspace and retain equivalent list access.",
-      "Do use the implemented wine, paper and white roles, with Tinos headings and visible focus.",
-      "Do keep coverage, insufficient data and official-source actions in the evidence flow.",
-      "Do preserve complete period labels and the mobile panel's normal document flow.",
-      "Do respect reduced motion when moving the map or scrolling to a record."
+      "**Do** keep search and flat, readable results ahead of supporting geographic context.",
+      "**Do** use the blue/teal palette and one self-hosted Source Sans 3 reading voice.",
+      "**Do** print financial-stage labels, values, sources and coverage limitations beside the relevant visual.",
+      "**Do** retain visible focus, native filters, wrapping mobile tabs and map/network list alternatives.",
+      "**Do** disclose graph scope and drawing limits while keeping the full returned node list available."
     ],
     "donts": [
-      "Don't use red selection or graph relationships as visual accusations.",
-      "Don't replace thin evidence rows with elevated card grids.",
-      "Don't treat a municipality without records in this load as proof of zero procurement.",
-      "Don't assume the entire user-requested palette or a serif body has been implemented.",
-      "Don't reproduce the smallest provenance text as a default size for new interface content."
+      "**Don't** restore the superseded burgundy/serif visual world.",
+      "**Don't** use color, network proximity or a comparison difference to imply fraud.",
+      "**Don't** substitute decorative charts or invented edges for documented data.",
+      "**Don't** call an estimate, approved result or published contract value a payment.",
+      "**Don't** turn the graph's internal scrolling canvas into horizontal page overflow."
     ]
   }
 }

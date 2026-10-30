@@ -1,4 +1,5 @@
 import type { Dataset, Graph, GraphEdge, GraphNode } from "./model";
+import { readableObject } from "./text";
 
 export function graphInput(data: Dataset): Graph {
   const nodes = new Map<string, GraphNode>();
@@ -129,7 +130,7 @@ export function graphInput(data: Dataset): Graph {
     node({
       id: `contract:${c.id}`,
       type: "contract",
-      label: `${c.kind} · ${c.municipality} · ${c.year}`,
+      label: `${c.municipality} · ${readableObject(c.object).slice(0, 160)}`,
       municipalityId: c.municipalityId,
       year: c.year,
       evidence: c.officialUrl,

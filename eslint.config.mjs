@@ -15,5 +15,7 @@ export default defineConfig([
     "public/data/**",
     "data/**",
     ".impeccable/**",
+    "playwright-report/**",
+    "test-results/**",
   ]),
 ]);

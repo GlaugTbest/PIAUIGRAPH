@@ -1,250 +1,293 @@
 ---
 name: PIAUIGRAPH
-description: A geographic workspace for examining public procurement evidence in Piauí.
+description: A plain-language public catalog for finding purchases and following official evidence in Piauí.
 colors:
-  wine: "#73030D"
-  wine-soft: "#732F3B"
-  paper: "#F2F2F2"
-  ink: "#0D0D0D"
-  muted: "#675C5F"
-  line: "#DCD3D5"
-  surface: "#FFFFFF"
-  tint: "#F6F0F1"
-  map-canvas: "#F0EDED"
-  map-data: "#AC727D"
-  map-empty: "#DED7D8"
-  map-region: "#D0AEB4"
-  graph-edge: "#C3A7AD"
-  graph-context: "#A87D85"
+  navy: "#102e42"
+  ink: "#163247"
+  muted: "#526775"
+  teal: "#087a72"
+  teal-dark: "#065e59"
+  teal-light: "#e3f2ed"
+  paper: "#f4f5f1"
+  surface: "#ffffff"
+  line: "#d5dfde"
+  amber: "#84500e"
+  amber-light: "#fff3d9"
+  focus: "#c27619"
+  map-canvas: "#e8eeea"
+  map-data: "#6baba0"
+  map-empty: "#d6e2da"
+  map-region: "#b8d8d0"
+  graph-edge: "#8caeaa"
+  diagram-surface: "#edf3ef"
+  estimate-bar: "#264b62"
 typography:
   display:
-    fontFamily: '"Tinos", "Times New Roman", serif'
-    fontSize: "46px"
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "40px"
     fontWeight: 700
-    lineHeight: 1.12
+    lineHeight: 1.2
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: '"Tinos", "Times New Roman", serif'
-    fontSize: "34px"
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "32px"
     fontWeight: 700
-    lineHeight: 1.12
+    lineHeight: 1.2
     letterSpacing: "-0.025em"
   title:
-    fontFamily: '"Tinos", "Times New Roman", serif'
-    fontSize: "24px"
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "25px"
     fontWeight: 700
-    lineHeight: 1.12
+    lineHeight: 1.2
     letterSpacing: "-0.015em"
+  record-title:
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "20px"
+    fontWeight: 600
+    lineHeight: 1.35
   body:
-    fontFamily: "Arial, Helvetica, sans-serif"
-    fontSize: "14px"
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.5
   label:
-    fontFamily: "Arial, Helvetica, sans-serif"
-    fontSize: "11px"
-    fontWeight: 700
+    fontFamily: '"Source Sans 3", Arial, sans-serif'
+    fontSize: "14px"
+    fontWeight: 600
     lineHeight: 1.5
-  figure:
-    fontFamily: '"Tinos", "Times New Roman", serif'
-    fontSize: "30px"
-    fontWeight: 400
-    lineHeight: 1.1
 rounded:
-  compact: "3px"
-  control: "4px"
-  workspace: "5px"
+  bar: "3px"
+  tag: "5px"
+  icon: "6px"
+  control: "7px"
+  callout: "8px"
+  search: "9px"
+  inset-map: "11px"
+  panel: "12px"
 spacing:
-  inline: "8px"
-  control: "12px"
-  section: "18px"
-  panel-end: "20px"
-  frame: "24px"
-  panel-inline: "25px"
-  page-inline: "32px"
+  tight: "8px"
+  inline: "12px"
+  mobile-gutter: "16px"
+  disclosure: "20px"
+  section: "24px"
+  column-gap: "28px"
+  page-top: "32px"
 components:
   button-primary:
-    backgroundColor: "{colors.wine}"
+    backgroundColor: "{colors.teal}"
     textColor: "{colors.surface}"
-    rounded: "{rounded.compact}"
-    padding: "9px 12px"
-  button-export:
-    textColor: "{colors.wine}"
     rounded: "{rounded.control}"
-    padding: "12px 13px"
-  button-export-hover:
-    backgroundColor: "{colors.tint}"
-  button-icon:
-    textColor: "{colors.wine-soft}"
+    padding: "10px 16px"
+  button-primary-hover:
+    backgroundColor: "{colors.teal-dark}"
+  button-outline:
+    backgroundColor: "{colors.surface}"
+    textColor: "{colors.teal-dark}"
     rounded: "{rounded.control}"
-    height: "35px"
-    width: "35px"
-  button-icon-hover:
-    backgroundColor: "{colors.tint}"
+    padding: "10px 16px"
+  button-outline-hover:
+    backgroundColor: "{colors.teal-light}"
+  button-text:
+    textColor: "{colors.teal-dark}"
+    padding: "7px 0"
   input-search:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.control}"
-    padding: "0 13px"
-    height: "48px"
-  nav-panel:
+    rounded: "{rounded.search}"
+    padding: "7px 8px 7px 17px"
+  input-select:
     backgroundColor: "{colors.surface}"
-    typography: "{typography.label}"
-    padding: "13px 0"
-  chip-count:
-    backgroundColor: "{colors.tint}"
-    textColor: "{colors.wine}"
-    rounded: "{rounded.compact}"
-    padding: "0 7px"
-  row-procedure:
-    padding: "19px 0"
-  row-territory:
-    padding: "13px 0"
-  card-sample:
-    backgroundColor: "#f5f1f2"
-    rounded: "{rounded.compact}"
-    padding: "13px"
-  map-legend:
-    backgroundColor: "#ffffffeb"
-    rounded: "{rounded.compact}"
-    padding: "12px 14px"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.control}"
+    padding: "8px 28px 8px 11px"
+  nav-workspace:
+    textColor: "{colors.muted}"
+    padding: "10px 0 13px"
+  nav-workspace-selected:
+    textColor: "{colors.teal-dark}"
+  chip-check:
+    backgroundColor: "{colors.amber-light}"
+    textColor: "{colors.amber}"
+    rounded: "{rounded.tag}"
+    padding: "3px 8px"
+  row-record:
+    textColor: "{colors.ink}"
+    padding: "21px 4px 21px"
+  card-record:
+    backgroundColor: "{colors.surface}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.panel}"
+    padding: "23px"
+  node-evidence:
+    backgroundColor: "{colors.surface}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.search}"
+    padding: "10px 12px"
+    width: "170px"
+  node-evidence-selected:
+    backgroundColor: "{colors.teal-dark}"
+    textColor: "{colors.surface}"
 ---
 
 # Design System: PIAUIGRAPH
 
 ## Overview
 
-**Creative North Star: "A precise geographic investigation workspace"**
+**Creative North Star: "Public library wayfinding"**
 
-The implemented world follows the user-pinned direction: a wine masthead, paper-light workspace, Times-like titles and a map that opens directly into public records. Territory selection connects the geographic view to the contextual evidence panel. Portuguese labels, source links and coverage statements are part of the working interface.
+PIAUIGRAPH is an approachable reading and finding tool for public procurement. Deep blue ink, teal signs and warm reading surfaces make the catalog recognizable without asking people to learn an auditing interface. Ordinary Portuguese, clear financial labels and visible official sources support readers across literacy levels.
 
-The character is compact, restrained and documentary. Tinos gives names, headings and figures an editorial voice; Arial carries controls and dense supporting text. Thin separators and pale tonal surfaces organize information with little visual elevation. Red marks selection and action, never guilt.
+Search and flat results lead the implemented civic explorer. Geographic context, paired value bars and documentary relationships support a chosen record. The user explicitly replaced the former burgundy, serif and map-first direction; those decisions are superseded. This is a record of shipped code, not a composition proposal.
 
 **Key Characteristics:**
 
-- Map-first navigation with a contextual evidence panel.
-- Wine accents on paper and white surfaces.
-- Tinos headings and figures paired with Arial controls and supporting text.
-- Compact controls, thin rules and small corner radii.
-- Visible coverage, limitations and official evidence.
+- Blue ink and teal wayfinding on warm paper and white surfaces.
+- One self-hosted sans-serif family for headings, reading, controls and figures.
+- Flat record rows, familiar filters and modest rounded controls.
+- Named financial stages and factual visuals with visible source access.
+- Responsive reading order, wrapping mobile tabs and alternative list access.
 
 ## Colors
 
-Wine and dusty rose establish the identity; warm gray and mauve-derived neutrals keep territory and evidence readable. Frontmatter records the implemented values. CSS custom properties in `src/app/globals.css` remain the implementation source.
+The palette is calm and readable: navy anchors the identity, teal marks action and selection, and amber asks for checking. Frontmatter owns the durable values; `src/app/civic.css` and the map/network component sources are the implementation truth.
 
 ### Primary
 
-- **Wine:** masthead, selected territory, primary evidence action, active tabs, links and monetary emphasis.
-- **Soft Wine:** secondary iconography, supplier/procedure distinctions and supporting territorial accents.
+- **Navy:** masthead, document header, browser theme color and geographic labels.
+- **Teal:** primary actions, active tab rule, selected municipality and approved-result bars.
+- **Deep Teal:** links, secondary actions, primary hover and the selected graph node.
+- **Pale Teal:** secondary-action and icon-button hover surfaces.
+
+### Secondary
+
+- **Amber / Pale Amber:** a specific value or comparison that needs checking. These describe a question, not a finding of fraud.
+- **Focus Amber:** a visible keyboard outline, distinct from informational amber fills.
 
 ### Neutral
 
-- **Paper:** application background beyond the workspace.
-- **Ink:** primary text, selected municipal outline and product nodes.
-- **Muted:** supporting labels and explanatory text.
-- **Line:** panel divisions, rows, controls and tables.
-- **Surface:** toolbar, evidence panel and controls.
-- **Tint:** restrained hover and count-badge surfaces.
-- **Map Canvas / Map Empty:** quiet geographic field and municipalities without records in the current load.
-- **Map Data / Map Region:** recorded coverage and selected regional scope.
-- **Graph Edge / Graph Context:** documented relationships and contextual nodes.
+- **Ink / Muted:** primary content versus supporting metadata and explanations.
+- **Paper / Surface / Line:** page background, reading panels and thin separating rules.
+- **Map Canvas / Map Empty / Map Data / Map Region:** geographic field, absence of records in the current selection, presence of records and regional context. Selection reuses Teal.
+- **Diagram Surface / Graph Edge:** the quiet network viewport and documented connecting paths.
+- **Estimate Bar:** the blue comparison series paired with Teal approved-result bars.
 
-**The Selection Rule.** Wine denotes selected scope and available actions; it never asserts fraud or irregularity.
-
-The user-provided neutral gray (`#8C8C8C`) is not currently used in the inspected sources. The build uses the muted and line colors recorded above; this documentation does not silently substitute the requested gray or authorize a palette expansion.
+**The Evidence Color Rule.** Color identifies an action, selection, published stage or coverage state. It never establishes wrongdoing.
 
 ## Typography
 
-**Display Font:** Tinos with Times New Roman and serif fallbacks.
-**Body Font:** Arial with Helvetica and sans-serif fallbacks.
+**Display Font:** Source Sans 3 with Arial and sans-serif fallbacks.
+**Body Font:** Source Sans 3 with the same fallbacks.
+**Label/Mono Font:** the same family; identifiers wrap and monetary figures use tabular numerals where aligned.
 
-The serif provides identity and a clear reading hierarchy. Its contrast with plain interface text lets figures and record titles stand out without decorative type treatments. Tinos regular and bold Latin faces are bundled through Fontsource.
+**Character:** direct, familiar and readable. The shipped stylesheet imports local Fontsource Latin faces at weights 400, 600 and 700; no remote font request or serif display pairing is part of this system.
 
 ### Hierarchy
 
-- **Display:** document-page titles use the display role; the mobile override is (37px).
-- **Headline:** current territory heading uses the headline role; the mobile override is (32px).
-- **Title:** section headings use the title role, with observed local variants from (19px) to (29px). Procedure-row titles are bold serif (18px/1.25), rising to (20px) on mobile, and clamp to three lines.
-- **Body:** the global body role serves interface text. Reading pages use (14px/1.8), bounded to (75ch); mobile reading text is (13px).
-- **Label:** tabs use the label role. Controls use regular sans serif (13px), falling to (11px) on mobile. Smaller provenance text exists locally and is not a general text-size target for future surfaces.
-- **Figure:** summary figures use the figure role with tabular numerals, rising to (31px) on mobile. Monetary emphasis uses regular serif (26px/1.4), or (29px/1.25) for item unit prices.
+- **Display:** document-page title, with a maximum line length of 22ch. Mobile reduces it to 32px and 19ch.
+- **Headline:** the explorer's task heading. At 600px and below it becomes 27px/1.16 with a 20ch maximum.
+- **Title:** section headings; mobile sections use 23px. Supporting third- and fourth-level headings use 21px and 18px.
+- **Record title:** result rows use the frontmatter role with a three-line clamp and a 70ch maximum. Detail titles use 22px/1.35, then 21px/1.4 on mobile; these are read in full with long words allowed to wrap.
+- **Body:** normal reading, with paragraphs capped at 75ch. Document paragraphs use 1.7 line height; document introductions use 20px, reducing to 18px on mobile.
+- **Label:** filter labels and metadata. Supporting text ranges from 12px to 15px; graph-node type labels and small map legends reach 11px. These compact roles are not the default body size.
 
-**The Reading Hierarchy Rule.** Use Tinos for headings, record titles and prominent figures; keep dense controls and supporting text in the implemented sans-serif stack.
-
-The built typography is a serif/sans pairing. The product's broader Times-like typography commitment has not resulted in a serif body stack; this is recorded as existing implementation drift, without changing the interface.
+**The One Reading Voice Rule.** Use Source Sans 3 across the interface; establish hierarchy through size, weight and spacing.
 
 ## Layout
 
-Desktop uses a viewport-height flex shell (100dvh, minimum 740px). A wine masthead (76px), white toolbar (minimum 90px), compact context line and footer frame the main workspace. The workspace has (24px) side margins and a two-column grid: flexible map plus contextual panel (448px). The panel body scrolls independently, while its tabs stay at the top of that scrolling area. Default panel inset is (25px).
+The explorer uses a centered frame with a maximum outer width of 1496px, 28px side gutters and 32px top padding. The normal workspace divides into `minmax(0, 1.8fr) minmax(330px, 1fr)` with a 28px gap. Results remain a continuous list of 20 records per page, separated by fine rules; they are not a card grid. Search, filters, coverage context and workspace tabs precede this reading workspace.
 
-At widths at or above (1600px), the panel grows to (490px), its inset becomes (30px), and the masthead becomes (82px). At widths at or below (1150px), the panel narrows to (405px), its inset becomes (22px), the brand description disappears, and some utility actions show their icons alone.
+At 1500px and wider, top padding becomes 38px and the workspace uses a 38px gap with a 1.85fr main column. At 1100px and below, the gap becomes 22px and the sidebar minimum is 320px. At 999px and below, the layout becomes one column, the optional context map hides, gutters become 22px and detail panels stop sticking. A selected record replaces its result list. Network mode keeps the diagram first and places its selected-record panel afterward, capped at 430px with internal scrolling.
 
-At widths at or below (800px), the shell becomes document-flow height. The masthead becomes (67px); search occupies the full toolbar width above three filters. The final cascading filter widths are region (30%), period (33%) and medicine (37%), preserving the complete period value. The workspace stacks inside (12px) margins; the map region is (400px) high with a minimum map shell of (350px). The panel follows below with a collapse toggle and (20px) horizontal inset. Its content scrolls with the page. This is an in-flow bottom panel, not a fixed overlay or draggable sheet.
+At 600px and below, gutters become 16px, the header becomes more compact and the first secondary header link hides. Filters open behind the labelled Filtrar control and use two columns. Region filtering becomes inline. Workspace tabs wrap into visible rows, including Ligações; they must remain reachable without horizontal tab-strip scrolling. Result titles remain three lines, metadata wraps where specified and detail actions stack vertically.
 
-Spacing is dense and component-led rather than a uniform mathematical grid. Preserve the distinction between compact inline gaps, control padding, section separation and the wider desktop page frame.
+The network deliberately scrolls inside its own bounded viewport: maximum height 650px, reducing to 510px on mobile. Its canvas is 1035px wide; that is an internal diagram dimension, not a page-width requirement. The full map is 620px high, then 560px below 999px and 480px on mobile. A municipality list accompanies the map. Document pages use a separate 1040px reading frame and 28px gutters, reducing to 19px on mobile; tables use fixed layout and wrap long identifiers there.
+
+Spacing follows repeated small gaps, readable control padding and larger section separations, rather than a rigid universal grid. The frontmatter lists repeated steps; component-specific values remain in the implementation.
 
 ## Elevation & Depth
 
-Most surfaces are flat. One-pixel dividers, pale tints and containment supply depth. The reusable shadow is reserved for the search-results overlay (`0 8px 24px rgb(47 12 21 / 10%)`). The map legend uses translucent white, with no decorative shadow. Do not apply the search-overlay shadow to ordinary evidence rows or the workspace.
+The system is flat at rest: paper, white panels, thin borders and pale selected states carry structure. Actual shadows are limited to the region-filter popover, map-control cluster and an inset selected-row stroke. Record panels do not float on a large drop shadow.
 
-**The Flat Workspace Rule.** Keep permanent map and evidence surfaces flat; use the existing shadow to distinguish the floating search results.
+### Shadow Vocabulary
+
+- **Filter popover:** `0 8px 25px #16324720`; the desktop region-filter disclosure. Mobile removes the shadow and positions its contents inline.
+- **Map controls:** `0 2px 8px #102e4212`; enough separation for controls placed over geography.
+- **Selected row:** `inset 0 0 0 1px #a7c6bc`; a selection boundary paired with pale green fill.
+
+**The Reading Surface Rule.** Use borders and tonal changes for reading structure; reserve the recorded drop shadows for overlays.
 
 ## Shapes
 
-The form language is almost square: compact (3px), control (4px) and workspace (5px) radii. The mobile workspace uses the control radius. Fine borders define sections instead of a repeated card grid. Small circles are reserved for status/coverage marks and graph entities. Graph procedures are compact rounded squares; supplier and product nodes are circles. The municipal boundary is the signature irregular silhouette.
+Controls have gently rounded corners, with slightly softer search fields and evidence nodes. Detail panels and full map/network viewports share the largest panel radius. Flat record rows and workspace-tab rules remain square. Tags use compact rounded rectangles, not pills. Map legends use small square swatches; node-and-line geometry describes actual records and edges.
+
+Borders are thin (1px) except selected tab underlines (3px), selected municipal outlines (2px) and the keyboard focus ring (3px, offset 3px). The search field has its own group focus treatment: a teal border and a 2px pale teal outline, offset 1px.
 
 ## Components
 
 ### Buttons
 
-Primary official-source links use wine fill, white text, a compact radius and (9px 12px) padding. They do not have a separate implemented hover fill. Secondary text actions remain wine without a filled container. Export actions use an outline, a control radius, (12px 13px) padding and a tint on hover. Icon actions are bordered squares (35px). Disabled buttons reduce opacity to (0.45).
+Familiar, plainly labelled actions. Primary and outline buttons share inline-flex alignment, a 9px icon gap, weight 600, line height 1.2 and a 44px minimum height. Primary hover deepens teal; outline hover gains Pale Teal. Text buttons have no enclosing fill and underline on hover. Icon buttons gain Pale Teal on hover. Disabled buttons reduce opacity to 0.45 and use the unavailable cursor.
 
-Interactive elements receive a wine focus outline (2px) offset by (4px); masthead links use white. Primary source links use a (3px) focus offset. Icons are vector strokes, not text glyphs.
+Keyboard focus uses the recorded amber ring on buttons, links, selects, inputs, summaries and focusable elements. The search input instead highlights its enclosing field. The global 44px control floor has observed compact exceptions: map controls are 38px, mobile search submission is 45px wide by 42px tall, and some secondary/mobile controls are 35–39px high. These exceptions describe the shipped interface rather than a new universal target.
 
 ### Inputs / Fields
 
-Search is a white bordered control with a control radius and icon, desktop height (48px), mobile height (45px). Focus belongs to the outer search wrapper: wine outline (2px), offset (2px). The input itself has no duplicate outline. Suggestions float below in a bordered, shadowed container with a bounded scrolling height; groups and hovered rows use tint.
-
-Toolbar selects are compact, transparent, labelled fields divided by vertical rules. Medicine and region values may truncate in constrained space; retain the complete period value. Native selects retain their actual options and labelled purpose.
+A broad white search field leads the explorer, with a teal search icon and adjacent primary action. The desktop input is 18px and 43px high within the enclosing field; mobile is 16px and 39px high. The mobile submit button shows an arrow while its button text remains in the accessible name. Selects retain native behavior, a thin muted border and ordinary-language labels. Municipality, subject, year and contracting method remain independently visible on desktop; the region disclosure adds another familiar select.
 
 ### Navigation
 
-The masthead navigation uses pale text and a white bottom rule for the current surface. Hover brightens text and exposes a pale wine rule. On mobile, the current Explore label and public-data tag are hidden, leaving methodology and sources accessible.
+The navy masthead pairs a compact geometric network mark with the product name and a short descriptor. Workspace tabs use weight 600, muted inactive labels, a teal selected label and bottom rule, plus small rectangular count badges. Selected state is also exposed through `aria-selected`. On mobile the tabs wrap; the selected Ligações tab remains visible. Navigation uses real text and inline SVG icons.
 
-Panel tabs are sticky on white, with wine text and a (2px) wine bottom border for the selected tab. They change the evidence view within the current scope. Network is available for a defined center; clearing the center returns navigation to purchases, while a directly opened centerless network view explains how to choose a center.
+### Chips / Signals
 
-### Chips / Counts
+The compact amber check tag reads Valor para conferir. Larger amber callouts state the reason and limitations of a comparison. Count badges are quiet metadata, not alerts. Amber signals are never rendered as unexplained risk scores.
 
-Small count badges use wine text on tint with compact corners. They annotate list headings; they are not selectable filter chips.
+### Cards / Containers
 
-### Evidence Rows / Containers
+The selected-record panel is white, bordered, rounded and internally padded. On desktop it sticks 13px from the viewport top and scrolls within `calc(100vh - 26px)`; smaller screens restore ordinary document flow, with the network exception recorded in Layout. Loading, empty and failed states use plain text with a useful next action. Source and coverage disclosures remain part of the reading interface.
 
-Procedure and territory records are full-width rows divided by a fine bottom border. Procedure rows use serif titles, supporting metadata and a source/action arrow. Hover adds a very pale wine wash; the selected procedure uses a pale wine surface. Comparison rows align identity at left with price at right. Avoid recasting these lists as large elevated cards.
+### Record Rows
 
-Insufficient-data explanations use a pale, compact inset container. Error messages use a pale red surface and a labelled retry action. Empty states use a plain icon, serif heading and short explanation; they preserve the ability to continue using search and territory lists.
+Each row is one full-width button. Municipality and subject/year appear above the object, agency or supplier beneath it, then a stage-named amount and a directional arrow. Hover adds a pale green wash; selection adds a second pale tone and inset outline. The detail view supplies complete text when a row title or agency has been truncated.
 
-### Municipal Map / Network
+### Financial Comparisons
 
-The map uses official municipal shapes on a quiet canvas, fine light boundaries and a dark outline around wine-filled selection. Controls sit at top right; the legend sits at lower left and identifies recorded coverage, no records in this load and selection. Coverage color does not imply comprehensive geographic coverage. Attribution and the territorial limitation remain visible.
+Two horizontal bars share the same scale: Previsto uses Estimate Bar and Resultado aprovado uses Teal. Tracks are 11px high with compact corners. Both values are printed beside their labels; absent values receive no bar. Contract detail uses a separately named global published value with an explicit payment limitation. Never relabel an estimate, approved result or published contract amount as paid spending.
 
-The network uses a (600 × 400) SVG viewBox with a central node and two positional rings. Fine edges, circle/square node types, short labels and a pale container support compact reading. A disclosure exposes named nodes for recentering; relationship evidence remains linked below. It is a bounded projection, with truncation disclosed when present.
+### Municipal Map
 
-Map selection fits the selected boundary over (450ms), becoming immediate for reduced motion. State changes otherwise remain direct. The reduced-motion stylesheet shortens CSS animation and transition durations to (0.01ms) and disables smooth scrolling.
+Real IBGE municipal boundaries carry categorical coverage states. The selected municipality receives Teal and an Ink outline; the legend explains selected, with-record and without-record states. Zoom and reset buttons have accessible names. The municipality list and native filter provide keyboard selection without requiring the canvas. If the map fails, the copy explicitly keeps search and list access available.
+
+### Documentary Network
+
+The selected record is named before the drawing, followed by counts, scope limits and the Ver os registros em lista disclosure. The list appears before the canvas in reading order and contains every returned node. Visible navigation buttons move left, return to the selected node or move right; no hidden gesture is required to discover the graph.
+
+The drawing orders nodes by selected node, direct neighbors and label, then caps rendered nodes at 28. It uses five factual type columns, 208px apart, on a fixed-width canvas. Node buttons are 170px wide and at least 65px high; contract identifiers appear above the node title. Only edges whose endpoints are drawn appear in the canvas. Captions disclose any drawing limit and returned-graph truncation. Lists cover returned records, not an assertion of every database record. Edge evidence remains available through a separate official-source disclosure. Direct and one-more-step scope options use ordinary Portuguese.
+
+### Motion / Access
+
+A result-row hover changes background over 0.12s; the loading dot breathes over 1.1s. Default document scrolling is smooth and selected-map fitting lasts 450ms. With reduced motion requested, CSS transitions and animations are disabled, document scrolling becomes immediate and selected-map fitting uses zero duration. Explicit graph-navigation and result-page movements are immediate. The shipped sources do not establish an exhaustive reduced-motion guarantee for every MapLibre interaction.
+
+The page declares Brazilian Portuguese and includes a focus-revealed skip link. Programmatic record/result headings deliberately omit an outline; normal interactive focus remains visible. Accessible names, textual counts, source lists and map/graph alternatives are part of the component contract.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** open directly into the geographic workspace and retain equivalent list access.
-- **Do** use the implemented wine, paper and white roles, with Tinos headings and visible focus.
-- **Do** keep coverage, insufficient data and official-source actions in the evidence flow.
-- **Do** preserve complete period labels and the mobile panel's normal document flow.
-- **Do** respect reduced motion when moving the map or scrolling to a record.
+- **Do** keep search and flat, readable results ahead of supporting geographic context.
+- **Do** use the blue/teal palette and one self-hosted Source Sans 3 reading voice.
+- **Do** print financial-stage labels, values, sources and coverage limitations beside the relevant visual.
+- **Do** retain visible focus, native filters, wrapping mobile tabs and map/network list alternatives.
+- **Do** disclose graph scope and drawing limits while keeping the full returned node list available.
 
 ### Don't:
 
-- **Don't** use red selection or graph relationships as visual accusations.
-- **Don't** replace thin evidence rows with elevated card grids.
-- **Don't** treat a municipality without records in this load as proof of zero procurement.
-- **Don't** assume the entire user-requested palette or a serif body has been implemented.
-- **Don't** reproduce the smallest provenance text as a default size for new interface content.
+- **Don't** restore the superseded burgundy/serif visual world.
+- **Don't** use color, network proximity or a comparison difference to imply fraud.
+- **Don't** substitute decorative charts or invented edges for documented data.
+- **Don't** call an estimate, approved result or published contract value a payment.
+- **Don't** turn the graph's internal scrolling canvas into horizontal page overflow.
+
+Not canonized: source-record capitalization, compact secondary-control exceptions and tiny map/node metadata are observed constraints, not new defaults for future surfaces. No craft-floor refusal is promoted to a reusable rule. The unused legacy stylesheet and Tinos package are not evidence of the current visual system.
+
+Recorded from `src/app/civic.css`, `src/app/layout.tsx`, `src/components/civic-explorer.tsx`, `src/components/evidence-network.tsx`, `src/components/municipal-map.tsx` and `src/components/document-shell.tsx`. Final capture evidence in `.impeccable/review/civic/evidence.json` covers ten desktop/mobile states with no reported page overflow or browser errors. This documentation pass did not rerun the detector.

@@ -28,7 +28,7 @@ O índice pode mudar de esquema; a coleta interrompe em caso de contagem diverge
 
 ## Resultado da publicação
 
-Versão `20261029T233211-catalog-eb566d63`, preparada em 29/10/2026, conferida no Neo4j em 30/10/2026 00:05 UTC (29/10, 21:05 em Brasília).
+Versão `20261030T001240-catalog-b5347462`, com a revisão de legibilidade da rede, preparada com capturas de 29/10/2026 e conferida novamente no Neo4j em 30/10/2026 00:12 UTC (29/10, 21:12 em Brasília). A primeira publicação geral, `20261029T233211-catalog-eb566d63`, permanece no histórico.
 
 | Verificação | Resultado |
 |---|---:|
@@ -53,3 +53,7 @@ As 273 respostas de instrumentos fora do ano/município válido permanecem fora 
 Os testes de navegador usam registros reais dos três municípios do piloto, busca de pavimentação, serviços e combustíveis, instrumentos/empresas, fonte, CSV, gráfico, mapa/lista, filtros, paginação, link direto, recarga e recuperação de erro. A recuperação de itens usa uma resposta real previamente capturada, isolada como fixture; nenhum dado sintético vai à produção. Axe verifica critérios WCAG A/AA nos estados inicial e de detalhe; isso não substitui uma avaliação humana completa.
 
 As dez capturas locais (desktop 1440×1000, celular 390×844 e estados de detalhe, instrumentos, mapa, análise e ligações) não registraram erro de JavaScript nem transbordamento horizontal. O carregamento observado no laboratório local variou por estado; não é garantia de velocidade na internet. Na abertura móvel, mapa oculto não é baixado.
+
+Consultas reais de itens na API oficial retornaram HTTP 200 para pavimentação (`09034960000147-1-000072/2025`, 1 item), serviços (`10806496000149-1-000171/2025`, 1 item) e combustíveis (`01612565000192-1-000030/2025`, 3 itens), conferidas em 30/10/2026 00:10 UTC. Na busca do catálogo, os termos retornaram respectivamente 1.086, 8.912 e 417 procedimentos; contagens são deste conjunto, não estimativas estaduais de despesa.
+
+Medição local reproduzível por `node scripts/measure-catalog.mjs`: seis GETs sequenciais por endpoint, cinco após a primeira para a mediana, sem limitação artificial de rede. Medianas observadas: catálogo geral 51 ms, busca de serviços 37 ms, instrumentos 15 ms, vizinhança de fornecedor 21 ms. Respostas entre 32 e 44 KB, com limites de paginação/rede. A primeira requisição não necessariamente corresponde a uma função fria.

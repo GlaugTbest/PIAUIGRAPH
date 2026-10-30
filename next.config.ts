@@ -1,8 +1,19 @@
 import type { NextConfig } from "next";
+import { readFileSync, readdirSync } from "node:fs";
+const activeRelease = JSON.parse(readFileSync("data/active.json", "utf8"))
+  .version as string;
+if (!/^[a-zA-Z0-9-]+$/.test(activeRelease))
+  throw Error("Invalid active release");
+const historicalReleases = readdirSync("data/releases").filter(
+  (v) => v !== activeRelease && /^[a-zA-Z0-9-]+$/.test(v),
+);
 const config: NextConfig = {
   poweredByHeader: false,
   outputFileTracingIncludes: {
-    "/*": ["./data/active.json", "./data/releases/**/*"],
+    "/*": ["./data/active.json", `./data/releases/${activeRelease}/**/*`],
+  },
+  outputFileTracingExcludes: {
+    "/*": historicalReleases.map((v) => `./data/releases/${v}/**/*`),
   },
   async headers() {
     return [

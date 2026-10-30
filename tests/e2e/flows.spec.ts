@@ -117,6 +117,41 @@ test("all subjects, official contracts and financial questions are navigable", a
     if (first.supplierId) {
       await page.locator(".record-facts .entity-link").click();
       await expect(page.locator(".network-node.is-center")).toBeVisible();
+      await expect(
+        page.locator(".network-node .network-reference").first(),
+      ).toHaveText(/^\d{14}-2-\d{6}\/202[45]$/);
+      const listBeforeDiagram = await page
+        .locator(".network-list-access")
+        .evaluate(
+          (el) =>
+            !!(
+              el.compareDocumentPosition(
+                document.querySelector(".network-visual")!,
+              ) & Node.DOCUMENT_POSITION_FOLLOWING
+            ),
+        );
+      expect(listBeforeDiagram).toBeTruthy();
+      await page
+        .getByRole("tab", { name: "Ligações", exact: true })
+        .scrollIntoViewIfNeeded();
+      await expect(
+        page.getByRole("tab", { name: "Ligações", exact: true }),
+      ).toBeInViewport({ ratio: 0.95 });
+      // The active underline extends 1px below its strip; horizontal bounds
+      // independently verify that no destination depends on sideways scrolling.
+      const tabBounds = (await page
+        .getByRole("tab", { name: "Ligações", exact: true })
+        .boundingBox())!;
+      expect(tabBounds.x).toBeGreaterThanOrEqual(0);
+      expect(tabBounds.x + tabBounds.width).toBeLessThanOrEqual(
+        page.viewportSize()!.width + 1,
+      );
+      await expect(
+        page.getByRole("button", { name: "Ver à esquerda", exact: true }),
+      ).toBeVisible();
+      await expect(
+        page.getByRole("button", { name: "Ver selecionado", exact: true }),
+      ).toBeVisible();
       const company = await (
         await page.request.get(`/api/company?id=${first.supplierId}`)
       ).json();

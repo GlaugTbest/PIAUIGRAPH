@@ -7,6 +7,9 @@ import {
   Package,
   UserRound,
   ArrowUpRight,
+  ArrowLeft,
+  ArrowRight,
+  LocateFixed,
 } from "lucide-react";
 import type { Graph, GraphNode } from "@/lib/model";
 const labels: Record<GraphNode["type"], string> = {
@@ -77,7 +80,7 @@ export default function EvidenceNetwork({
     const groups = Map.groupBy(nodes, (n) => column[n.type]);
     const height = Math.max(
       310,
-      ...[...groups.values()].map((g) => g.length * 94 + 55),
+      ...[...groups.values()].map((g) => g.length * 140 + 55),
     );
     const positions = new Map<string, { x: number; y: number }>();
     for (const [col, rows] of groups)
@@ -114,6 +117,72 @@ export default function EvidenceNetwork({
     );
   return (
     <>
+      <p className="network-orientation">
+        <strong>Registro selecionado:</strong> {names.get(center)}. Cada caixa é
+        um registro; cada linha é uma ligação publicada. Uma ligação não
+        comprova irregularidade.
+      </p>
+      <p className="network-caption">
+        {graph.nodes.length} registros e {graph.edges.length} ligações neste
+        recorte, preparados no Neo4j.
+        {layout.nodes.length < graph.nodes.length
+          ? ` O desenho mostra ${layout.nodes.length}; a lista contém todos os registros retornados.`
+          : ""}
+        {graph.truncated
+          ? " Há mais ligações: siga um registro para continuar."
+          : ""}
+      </p>
+      <details className="network-list-access">
+        <summary>Ver os registros em lista</summary>
+        <ul className="node-list">
+          {graph.nodes.map((n) => (
+            <li key={n.id}>
+              <span>{labels[n.type]}</span>
+              <button onClick={() => onCenter(n.id)}>
+                {n.type === "contract" && (
+                  <small className="network-reference">{n.id.slice(9)}</small>
+                )}
+                {n.label}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </details>
+      <div className="network-navigation" aria-label="Mover pelo diagrama">
+        <button
+          className="outline-button"
+          onClick={() =>
+            viewport.current?.scrollBy({ left: -240, behavior: "instant" })
+          }
+        >
+          <ArrowLeft size={16} />
+          Ver à esquerda
+        </button>
+        <button
+          className="outline-button"
+          onClick={() => {
+            const host = viewport.current,
+              p = layout.positions.get(center);
+            if (host && p)
+              host.scrollTo({
+                left: Math.max(0, p.x - host.clientWidth / 2),
+                top: Math.max(0, p.y - host.clientHeight / 2),
+              });
+          }}
+        >
+          <LocateFixed size={16} />
+          Ver selecionado
+        </button>
+        <button
+          className="outline-button"
+          onClick={() =>
+            viewport.current?.scrollBy({ left: 240, behavior: "instant" })
+          }
+        >
+          Ver à direita
+          <ArrowRight size={16} />
+        </button>
+      </div>
       <div
         ref={viewport}
         className="network-visual"
@@ -155,6 +224,9 @@ export default function EvidenceNetwork({
                 <NodeIcon type={n.type} />
                 <span>
                   <small>{labels[n.type]}</small>
+                  {n.type === "contract" && (
+                    <span className="network-reference">{n.id.slice(9)}</span>
+                  )}
                   <strong>{n.label}</strong>
                 </span>
               </button>
@@ -162,32 +234,6 @@ export default function EvidenceNetwork({
           })}
         </div>
       </div>
-      <p className="network-help">
-        As linhas mostram apenas relações publicadas. Uma ligação não é
-        evidência de irregularidade. No celular, arraste a área do diagrama ou
-        use a lista abaixo.
-      </p>
-      <p className="network-caption">
-        Rede preparada e verificada no Neo4j. {graph.nodes.length} registros e{" "}
-        {graph.edges.length} ligações neste recorte.
-        {layout.nodes.length < graph.nodes.length
-          ? ` O desenho mostra ${layout.nodes.length}; a lista contém todos os registros retornados.`
-          : ""}
-        {graph.truncated
-          ? " Há mais ligações: siga um registro para explorar sem sobrecarregar a tela."
-          : ""}
-      </p>
-      <details>
-        <summary>Ver os registros em lista</summary>
-        <ul className="node-list">
-          {graph.nodes.map((n) => (
-            <li key={n.id}>
-              <span>{labels[n.type]}</span>
-              <button onClick={() => onCenter(n.id)}>{n.label}</button>
-            </li>
-          ))}
-        </ul>
-      </details>
       <details className="edge-evidence">
         <summary>Conferir a fonte de cada ligação</summary>
         {graph.edges.map((e) => (
