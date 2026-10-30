@@ -108,11 +108,23 @@ test("all subjects, official contracts and financial questions are navigable", a
   if (contracts.total) {
     await page.locator(".purchase-row").first().click();
     await expect(page.locator(".contract-values")).toContainText(
-      "Valor inicial publicado",
+      "Valor global publicado",
     );
     await expect(
       page.getByRole("link", { name: "Abrir fonte oficial" }),
     ).toHaveAttribute("href", /^https:\/\/pncp.gov.br\/app\/contratos\//);
+    const first = contracts.rows[0];
+    if (first.supplierId) {
+      await page.locator(".record-facts .entity-link").click();
+      await expect(page.locator(".network-node.is-center")).toBeVisible();
+      const company = await (
+        await page.request.get(`/api/company?id=${first.supplierId}`)
+      ).json();
+      expect(company.totalContracts).toBeGreaterThan(0);
+      expect(
+        company.contracts.some((c: { id: string }) => c.id === first.id),
+      ).toBeTruthy();
+    }
   } else
     await expect(
       page.getByRole("heading", { name: "Nenhum registro com estes filtros." }),
@@ -169,7 +181,9 @@ test("official item loading recovers from source failure; success fixture is a c
   await page
     .getByRole("button", { name: "Itens e preços desta compra" })
     .click();
-  await expect(page.locator(".items-content").getByRole("alert")).toContainText("PNCP não respondeu");
+  await expect(page.locator(".items-content").getByRole("alert")).toContainText(
+    "PNCP não respondeu",
+  );
   fail = false;
   await page.getByRole("button", { name: "Tentar novamente" }).click();
   await expect(page.locator(".official-item").first()).toContainText(
@@ -184,11 +198,11 @@ test("reading guidance, keyboard and accessibility stay clear on search and deta
   page,
 }) => {
   await page.goto("/");
+  await expect(page.locator(".purchase-row").first()).toBeVisible();
   await page.keyboard.press("Tab");
   await expect(
     page.getByRole("link", { name: "Ir para os resultados" }),
   ).toBeFocused();
-  await expect(page.locator(".purchase-row").first()).toBeVisible();
   for (const url of ["/", "/?case=06554893000101-1-000001%2F2025"]) {
     await page.goto(url);
     if (url !== "/") await expect(page.locator(".record-title")).toBeVisible();

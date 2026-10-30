@@ -39,12 +39,12 @@ jobs:
           path: .cache/official
           key: official-${{ github.run_id }}
           restore-keys: official-
+      - run: npx playwright install --with-deps chromium
       - run: npm run data:update -- --catalog
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - name: Publish verified source snapshot
         run: |

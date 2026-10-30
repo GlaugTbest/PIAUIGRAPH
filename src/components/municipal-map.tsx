@@ -283,11 +283,11 @@ export default function MunicipalMap({
       <div className="map-legend">
         <span>
           <i className="legend-data" />
-          Com procedimentos no recorte
+          Com registros neste recorte
         </span>
         <span>
           <i className="legend-empty" />
-          Sem registros nesta carga
+          Sem registros neste recorte
         </span>
         <span>
           <i className="legend-selected" />

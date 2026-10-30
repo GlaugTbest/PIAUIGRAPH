@@ -69,6 +69,14 @@ for (const e of g.edges) {
 }
 if (scope === "catalog") {
   assert.equal(d.manifest.catalogCoverage?.length, 19 * 24);
+  assert.equal(
+    new Set(
+      d.manifest.catalogCoverage?.map(
+        (w) => `${w.modality}:${w.year}:${w.month}`,
+      ),
+    ).size,
+    19 * 24,
+  );
   const windows = d.manifest.contractIndexCoverage ?? [];
   assert.equal(windows.length, 24);
   assert.equal(new Set(windows.map((w) => `${w.year}-${w.month}`)).size, 24);
@@ -91,6 +99,15 @@ if (scope === "catalog") {
   );
   const ids = new Set(d.procedures.map((p) => p.id));
   for (const c of d.contracts ?? []) {
+    assert.match(c.id, new RegExp(`^${c.cnpj}-2-\\d{6}/${c.year}$`));
+    assert.ok([2024, 2025].includes(c.year));
+    assert.ok(c.source.url.startsWith("https://pncp.gov.br/api/search/"));
+    assert.equal(c.source.sha256.length, 64);
+    assert.ok(Number.isFinite(Date.parse(c.source.capturedAt)));
+    assert.ok(
+      c.globalValue === null ||
+        (Number.isFinite(c.globalValue) && c.globalValue >= 0),
+    );
     assert.ok(!c.supplierId || /^\d{14}$/.test(c.supplierId));
     assert.ok(!c.procedureId || ids.has(c.procedureId));
     assert.ok(d.municipalities.some((m) => m.id === c.municipalityId));

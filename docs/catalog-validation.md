@@ -28,4 +28,28 @@ O índice pode mudar de esquema; a coleta interrompe em caso de contagem diverge
 
 ## Resultado da publicação
 
-As contagens, versão, testes e medições finais serão registradas após preparar e testar a carga completa.
+Versão `20261029T233211-catalog-eb566d63`, preparada em 29/10/2026, conferida no Neo4j em 30/10/2026 00:05 UTC (29/10, 21:05 em Brasília).
+
+| Verificação | Resultado |
+|---|---:|
+| Procedimentos de todas as áreas | 25.770 |
+| Municípios com procedimentos | 220 de 224 |
+| Janelas modalidade/mês conferidas | 456 |
+| Respostas de contratos nos 24 meses | 15.862 |
+| Instrumentos incluídos no recorte | 15.589 |
+| Municípios com instrumentos incluídos | 94 |
+| Instrumentos ligados por chave exata a compra no catálogo | 13.575 |
+| CNPJs nos instrumentos e resultados | 4.870 |
+| Resultados unitários padronizados no subconjunto | 58 |
+| Compras com previsão e homologação positivas e situação normal | 14.653 |
+| Dessas, resultado acima da previsão em mais de R$ 0,01 | 122 |
+| Registros exportados e conferidos no Neo4j 5.26.32 | 47.265 |
+| Relações exportadas e conferidas | 70.404 |
+| Testes de unidade e integridade da aplicação | 16 aprovados |
+| Fluxos de navegador em desktop e celular | 14 aprovados |
+
+As 273 respostas de instrumentos fora do ano/município válido permanecem fora da carga publicada. Ausência no catálogo não comprova ausência de contratação ou irregularidade.
+
+Os testes de navegador usam registros reais dos três municípios do piloto, busca de pavimentação, serviços e combustíveis, instrumentos/empresas, fonte, CSV, gráfico, mapa/lista, filtros, paginação, link direto, recarga e recuperação de erro. A recuperação de itens usa uma resposta real previamente capturada, isolada como fixture; nenhum dado sintético vai à produção. Axe verifica critérios WCAG A/AA nos estados inicial e de detalhe; isso não substitui uma avaliação humana completa.
+
+As dez capturas locais (desktop 1440×1000, celular 390×844 e estados de detalhe, instrumentos, mapa, análise e ligações) não registraram erro de JavaScript nem transbordamento horizontal. O carregamento observado no laboratório local variou por estado; não é garantia de velocidade na internet. Na abertura móvel, mapa oculto não é baixado.

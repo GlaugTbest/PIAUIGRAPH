@@ -140,10 +140,16 @@ try {
 }
 function hashStable(rows: unknown[]) {
   return JSON.stringify(
-    rows.map((r) =>
-      Object.fromEntries(
-        Object.entries(r as object).sort(([a], [b]) => a.localeCompare(b)),
+    rows
+      .toSorted((a, b) =>
+        String((a as { id: string }).id).localeCompare(
+          String((b as { id: string }).id),
+        ),
+      )
+      .map((r) =>
+        Object.fromEntries(
+          Object.entries(r as object).sort(([a], [b]) => a.localeCompare(b)),
+        ),
       ),
-    ),
   );
 }

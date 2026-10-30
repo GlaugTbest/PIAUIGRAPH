@@ -39,32 +39,31 @@ export async function GET(req: NextRequest) {
       (x) => x && typeof x === "object" && !Array.isArray(x),
     );
     const rows = item
-      ? raw
-          .slice(0, 500)
-          .map((x) => ({
-            id: numeric(x.sequencialResultado),
-            date: string(x.dataResultado),
-            quantity: numeric(x.quantidadeHomologada),
-            unitPrice: numeric(x.valorUnitarioHomologado),
-            total: numeric(x.valorTotalHomologado),
-            supplier:
-              x.tipoPessoa === "PJ"
-                ? publicText(string(x.nomeRazaoSocialFornecedor) ?? "Nome não informado")
-                : "Pessoa física ou fornecedor sem CNPJ publicado",
-            supplierId:
-              x.tipoPessoa === "PJ" &&
-              /^\d{14}$/.test(String(x.niFornecedor ?? "").replace(/\D/g, ""))
-                ? String(x.niFornecedor).replace(/\D/g, "")
-                : null,
-            cancelled:
-              !!x.dataCancelamento || x.situacaoCompraItemResultadoId === 2,
-          }))
+      ? raw.slice(0, 500).map((x) => ({
+          id: numeric(x.sequencialResultado),
+          date: string(x.dataResultado),
+          quantity: numeric(x.quantidadeHomologada),
+          unitPrice: numeric(x.valorUnitarioHomologado),
+          total: numeric(x.valorTotalHomologado),
+          supplier:
+            x.tipoPessoa === "PJ"
+              ? publicText(
+                  string(x.nomeRazaoSocialFornecedor) ?? "Nome não informado",
+                )
+              : "Pessoa física ou fornecedor sem CNPJ publicado",
+          supplierId:
+            x.tipoPessoa === "PJ" &&
+            /^\d{14}$/.test(String(x.niFornecedor ?? "").replace(/\D/g, ""))
+              ? String(x.niFornecedor).replace(/\D/g, "")
+              : null,
+          cancelled:
+            !!x.dataCancelamento || x.situacaoCompraItemResultadoId === 2,
+        }))
       : raw.map((x) => ({
           id: numeric(x.numeroItem),
-          description: publicText(String(x.descricao ?? "Descrição não informada").slice(
-            0,
-            3000,
-          )),
+          description: publicText(
+            String(x.descricao ?? "Descrição não informada").slice(0, 3000),
+          ),
           unit: string(x.unidadeMedida),
           quantity: numeric(x.quantidade),
           unitPrice: numeric(x.valorUnitarioEstimado),

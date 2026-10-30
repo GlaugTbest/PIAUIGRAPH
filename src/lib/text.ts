@@ -10,6 +10,7 @@ export function readableObject(text: string) {
   const clean = text
     .replace(/^\[(?:LICITANET|Portal de Compras P[uú]blicas)\]\s*-\s*/i, "")
     .trim();
+  if (!clean) return "Objeto não informado na fonte";
   if (!/[A-ZÀ-Ý]/.test(clean) || clean !== clean.toUpperCase()) return clean;
   const lower = clean.toLocaleLowerCase("pt-BR");
   return (lower.charAt(0).toLocaleUpperCase("pt-BR") + lower.slice(1)).replace(

@@ -1,0 +1,17 @@
+{
+  "scope": "catalog",
+  "version": "20261029T233211-catalog-eb566d63",
+  "passed": true,
+  "checkedAt": "2026-10-30T00:05:43.191Z",
+  "municipalities": 224,
+  "procedures": 25770,
+  "observations": 58,
+  "comparableProducts": 4,
+  "neo4j": {
+    "verified": true,
+    "version": "5.26.32",
+    "nodes": 47265,
+    "edges": 70404,
+    "verifiedAt": "2026-10-30T00:05:42.081Z"
+  }
+}

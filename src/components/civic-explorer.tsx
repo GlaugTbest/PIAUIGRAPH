@@ -259,10 +259,23 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
     }
   }, [id, detail.data]);
   function chooseRecord(record: Procedure | PublicContract) {
-    update({ case: record.id, supplier: null, center: null, tab: "purchases" });
+    update({
+      case: record.id,
+      supplier: null,
+      center: null,
+      tab: record.id.includes("-2-") ? "contracts" : "purchases",
+    });
   }
   function chooseCompany(id: string) {
     update({ supplier: id, case: null, center: null, tab: "network" });
+  }
+  function showNetwork() {
+    update({ tab: "network", center: null });
+    requestAnimationFrame(() =>
+      document
+        .getElementById("results")
+        ?.scrollIntoView({ block: "start", behavior: "instant" }),
+    );
   }
   async function share() {
     try {
@@ -800,7 +813,7 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
                       case: null,
                       supplier: null,
                       center: null,
-                      tab: "purchases",
+                      tab: id.includes("-2-") ? "contracts" : "purchases",
                     })
                   }
                 >
@@ -820,9 +833,7 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
                       <CompanyPanel
                         company={company.data}
                         onRecord={chooseRecord}
-                        onNetwork={() =>
-                          update({ tab: "network", center: null })
-                        }
+                        onNetwork={showNetwork}
                       />
                     )}
                   </>
@@ -836,7 +847,7 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
                     headingRef={detailHeading}
                     onCompany={chooseCompany}
                     onRecord={chooseRecord}
-                    onNetwork={() => update({ tab: "network", center: null })}
+                    onNetwork={showNetwork}
                   />
                 )}
               </aside>
@@ -857,7 +868,11 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
                       municipalities={bootstrap.municipalities}
                       selected={m}
                       regionIds={regionIds}
-                      counts={shown.territory}
+                      counts={
+                        tab === "contracts"
+                          ? (contracts.data?.territory ?? [])
+                          : shown.territory
+                      }
                       onSelect={(selected) =>
                         update({ m: selected, r: null }, true)
                       }
@@ -865,8 +880,14 @@ export default function CivicExplorer({ bootstrap }: { bootstrap: Bootstrap }) {
                   )}
                 </div>
                 <p className="map-explanation">
-                  {num(shown.summary.municipalities)} municípios com compras
-                  encontradas. Cor significa presença de registros.
+                  {num(
+                    tab === "contracts"
+                      ? (contracts.data?.municipalities ?? 0)
+                      : shown.summary.municipalities,
+                  )}{" "}
+                  municípios com{" "}
+                  {tab === "contracts" ? "instrumentos" : "compras"}{" "}
+                  encontrados. Cor significa presença de registros.
                 </p>
                 <div className="context-guide">
                   <h2>O que cada valor quer dizer?</h2>

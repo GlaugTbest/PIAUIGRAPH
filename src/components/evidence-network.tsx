@@ -1,5 +1,5 @@
 "use client";
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import {
   Building2,
   FileText,
@@ -59,6 +59,7 @@ export default function EvidenceNetwork({
   center: string;
   onCenter: (id: string) => void;
 }) {
+  const viewport = useRef<HTMLDivElement>(null);
   const layout = useMemo(() => {
     const direct = new Set(
       graph.edges
@@ -88,6 +89,15 @@ export default function EvidenceNetwork({
       );
     return { nodes, positions, height, width: 1035 };
   }, [graph, center]);
+  useEffect(() => {
+    const host = viewport.current,
+      selected = layout.positions.get(center);
+    if (host && selected)
+      host.scrollTo({
+        left: Math.max(0, selected.x - host.clientWidth / 2),
+        top: Math.max(0, selected.y - host.clientHeight / 2),
+      });
+  }, [layout, center]);
   const names = useMemo(
     () => new Map(graph.nodes.map((n) => [n.id, n.label])),
     [graph.nodes],
@@ -105,6 +115,7 @@ export default function EvidenceNetwork({
   return (
     <>
       <div
+        ref={viewport}
         className="network-visual"
         role="region"
         aria-label="Diagrama de ligações documentadas"

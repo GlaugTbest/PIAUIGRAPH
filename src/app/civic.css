@@ -291,6 +291,7 @@ a svg {
   align-items: center;
 }
 .site-header nav a {
+  min-height: 44px;
   color: #e2eeec;
   text-decoration: none;
   display: flex;
@@ -557,6 +558,7 @@ a svg {
   font-weight: 600;
 }
 .purchase-row h3 {
+  overflow-wrap: anywhere;
   font-size: 20px;
   line-height: 1.35;
   font-weight: 600;
@@ -1357,8 +1359,18 @@ a svg {
   margin-top: 10px;
   margin-bottom: 18px;
 }
-.chart-control { display:block;max-width:280px;margin:18px 0;font-size:14px;color:var(--muted); }
-.chart-control select { margin-top:5px;font-size:15px;color:var(--ink); }
+.chart-control {
+  display: block;
+  max-width: 280px;
+  margin: 18px 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.chart-control select {
+  margin-top: 5px;
+  font-size: 15px;
+  color: var(--ink);
+}
 .topics-chart > button {
   display: block;
   width: 100%;

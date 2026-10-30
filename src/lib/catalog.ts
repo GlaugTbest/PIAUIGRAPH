@@ -268,11 +268,19 @@ export function contractExplore(data: Dataset, f: CatalogFilters) {
   );
   const pages = Math.max(1, Math.ceil(rows.length / 20));
   const page = Math.min(f.page, pages);
+  const counts = new Map<string, number>();
+  for (const c of rows)
+    counts.set(c.municipalityId, (counts.get(c.municipalityId) ?? 0) + 1);
   return {
     version: data.manifest.version,
     rows: rows.slice((page - 1) * 20, page * 20),
     total: rows.length,
     pages,
     page,
+    municipalities: counts.size,
+    territory: data.municipalities.map((m) => ({
+      id: m.id,
+      count: counts.get(m.id) ?? 0,
+    })),
   };
 }
